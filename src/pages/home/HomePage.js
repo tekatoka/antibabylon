@@ -10,19 +10,21 @@ import PersonalPortfolioCareer from '../../container/career';
 import Contact from "../../container/contact";
 import Footer from "../../components/footer/FooterThree";
 
-const HomePersonalPortfolio = () => {
+const HomePage = () => {
     return (
-        <div className={'main-wrapper p-0'}>
-            <Header classes={'position-static'} />
-            <SideHeader mobile={true} />
-            <BannerPersonalPortfolio />
-            <PersonalPortfolio />
-            <PersonalPortfolioService />
-            <PersonalPortfolioCareer />
-            <Contact />
-            <Footer position={'static'} />
+        <div className={'main-wrapper p-4'}>
+            <div class='inner-wrapper'>
+                <Header classes={'position-static'} />
+                <SideHeader mobile={true} />
+                <BannerPersonalPortfolio />
+                <PersonalPortfolio />
+                <PersonalPortfolioService />
+                <PersonalPortfolioCareer />
+                <Contact />
+                <Footer position={'static'} />
+            </div>
         </div>
     );
 };
 
-export default HomePersonalPortfolio;
+export default HomePage;

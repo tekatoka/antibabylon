@@ -1,17 +1,17 @@
 [
   {
     "id": 1,
-    "media": "linkedin",
-    "url": "https://www.linkedin.com/in/bogdana-bondarenko-56450b31/"
+    "media": "facebook",
+    "url": "https://www.facebook.com/AntiBabylon2022"
   },
   {
     "id": 2,
-    "media": "xing",
-    "url": "https://www.xing.com/profile/Bogdana_Bondarenko2/"
+    "media": "instagram",
+    "url": "https://www.instagram.com/antibabylon"
   },
     {
     "id": 3,
-    "media": "github",
-    "url": "https://github.com/tekatoka"
+    "media": "youtube",
+    "url": "https://youtube.com"
   }
 ]

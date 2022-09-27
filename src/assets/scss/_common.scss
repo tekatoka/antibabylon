@@ -208,11 +208,15 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     - Main Wrapper
 ------------------------------------------*/
 .main-wrapper {
-  padding-top: 110px;
-  padding-bottom: 90px;
+  background-color: $primary;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+
+  > .inner-wrapper {
+    background-color: $white;
+    float: left;
+  }
 
   // Responsive
   @media #{$tablet-device}{

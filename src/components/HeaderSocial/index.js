@@ -1,5 +1,6 @@
 import React from 'react';
-import socialIcons from '../../data/social-networks'
+import socialIcons from '../../data/social-networks';
+import { SocialIcon } from 'react-social-icons';
 
 const HeaderSocial = () => {
     const openSideMenu = () => {
@@ -10,20 +11,20 @@ const HeaderSocial = () => {
     };
 
     return (
-        <div className="header-social d-flex align-items-center justify-content-end col-lg-2 col-6">
+        <div className="header-social d-flex align-items-top justify-content-end mt-40 col-lg-3 col-6">
             <button
                 className="side-header-toggle d-block d-lg-none order-12 ml-20"
                 onClick={openSideMenu}
             >
-                <span/>
+                <span />
             </button>
             {socialIcons.map(social => (
                 <a key={social?.id}
-                   href={social?.url}
-                   target="_blank"
-                   rel="noopener noreferrer"
+                    href={social?.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
                 >
-                    <i className={`fa fa-${social?.media}`}/>
+                    <SocialIcon url={`${social?.url}`} bgColor="#333333" />
                 </a>
             ))}
         </div>

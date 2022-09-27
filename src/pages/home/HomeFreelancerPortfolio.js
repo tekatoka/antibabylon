@@ -11,20 +11,20 @@ import PersonalPortfolioTeam from "../../container/team";
 import Contact from "../../container/contact";
 import Footer from "../../components/footer/FooterThree";
 
-const HomeFreelancerPortfolio = () => {
+const HomePage = () => {
     return (
         <div className={'main-wrapper p-0'}>
-            <Header classes={'position-static'}/>
-            <SideHeader mobile={true}/>
-            <BannerFreelancerPortfolio/>
-            <AboutMe/>
-            <PersonalPortfolio/>
-            <PersonalPortfolioService/>
-            <PersonalPortfolioTeam/>
-            <Contact/>
-            <Footer position={'static'}/>
+            <Header classes={'position-static'} />
+            <SideHeader mobile={true} />
+            <BannerFreelancerPortfolio />
+            <AboutMe />
+            <PersonalPortfolio />
+            <PersonalPortfolioService />
+            <PersonalPortfolioTeam />
+            <Contact />
+            <Footer position={'static'} />
         </div>
     );
 };
 
-export default HomeFreelancerPortfolio;
+export default HomePage;
