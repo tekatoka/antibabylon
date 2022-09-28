@@ -1,4 +1,4 @@
-import React, {Fragment, useState} from 'react';
+import React, { Fragment, useState } from 'react';
 import Header from "../../../components/header/HeaderOne";
 import SideHeader from "../../../components/SideHeader";
 import PortfolioGridThreeColumn from "../../../templates/portfolio/grid/three-column";
@@ -23,10 +23,10 @@ const PortfolioGridThreeColumnFullWidthPage = () => {
 
     return (
         <Fragment>
-            <Header classes={'position-static'}/>
-            <SideHeader mobile={true}/>
-            <PortfolioGridThreeColumn portfolios={portfolios} loading={loading} fullWidth={true}/>
-            <FooterTwo allItems={allItems} loadHandler={loadMore}/>
+            <Header classes={'position-static'} />
+            <SideHeader mobile={true} />
+            <PortfolioGridThreeColumn portfolios={portfolios} loading={loading} fullWidth={true} />
+            <FooterTwo allItems={allItems} loadHandler={loadMore} />
         </Fragment>
     );
 };

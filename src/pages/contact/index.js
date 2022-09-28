@@ -6,14 +6,12 @@ import FooterThree from "../../components/footer/FooterThree";
 
 const ContactPage = () => {
     return (
-        <div className={`main-wrapper p-4`}>
-            <div class='inner-wrapper'>
-                <Header classes={'position-static'} />
-                <SideHeader mobile={true} />
-                <Contact />
-                <FooterThree position={'static'} />
-            </div>
-        </div>
+        <Fragment>
+            <Header classes={'position-static'} />
+            <SideHeader mobile={true} />
+            <Contact />
+            <FooterThree position={'static'} />
+        </Fragment>
     );
 };
 

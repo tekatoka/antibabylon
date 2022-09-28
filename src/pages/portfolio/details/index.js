@@ -18,14 +18,12 @@ const PortfolioDetailsPage = () => {
     const portfolio = portfolios?.find(portfolio => portfolio.id === parseInt(id, 10));
 
     return (
-        <div className={`main-wrapper p-4`}>
-            <div class='inner-wrapper'>
-                <Header classes={'position-static'} />
-                <SideHeader mobile={true} />
-                <TemplatePortfolioDetails portfolio={portfolio} />
-                <FooterThree position='fixed' />
-            </div>
-        </div>
+        <Fragment>
+            <Header classes={'position-static'} />
+            <SideHeader mobile={true} />
+            <TemplatePortfolioDetails portfolio={portfolio} />
+            <FooterThree position='fixed' />
+        </Fragment>
     );
 };
 

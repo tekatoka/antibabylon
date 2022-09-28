@@ -21,14 +21,12 @@ const PortfolioMasonryThreeColumnFullWidthPage = () => {
     const allItems = count >= portfolioData.length;
 
     return (
-        <div className={`main-wrapper p-4`}>
-            <div class='inner-wrapper'>
-                <Header classes={'position-static'} />
-                <SideHeader mobile={true} />
-                <PortfolioMasonryThreeColumn portfolios={portfolios} loading={loading} fullWidth={true} />
-                <FooterTwo allItems={allItems} loadHandler={loadMore} />
-            </div>
-        </div>
+        <Fragment>
+            <Header classes={'position-static'} />
+            <SideHeader mobile={true} />
+            <PortfolioMasonryThreeColumn portfolios={portfolios} loading={loading} fullWidth={true} />
+            <FooterTwo allItems={allItems} loadHandler={loadMore} />
+        </Fragment>
     );
 };
 

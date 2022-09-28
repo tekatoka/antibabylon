@@ -9,14 +9,12 @@ const PortfolioGridThreeColumnPage = () => {
     const portfolios = portfolioData;
 
     return (
-        <div className={`main-wrapper p-4`}>
-            <div class='inner-wrapper'>
-                <Header classes={'position-static'} />
-                <SideHeader mobile={true} />
-                <PortfolioGridThreeColumn portfolios={portfolios} />
-                <FooterThree position={'fixed'} />
-            </div>
-        </div>
+        <Fragment>
+            <Header classes={'position-static'} />
+            <SideHeader mobile={true} />
+            <PortfolioGridThreeColumn portfolios={portfolios} />
+            <FooterThree position={'fixed'} />
+        </Fragment>
     );
 };
 
