@@ -8,7 +8,7 @@ import Slide2 from "../../../src/assets/images/hero/slider-2.jpg";
 import Slide3 from "../../../src/assets/images/hero/slider-3.jpg";
 import Slide4 from "../../../src/assets/images/hero/slider-4.jpg";
 
-import PageTitle from "../../../src/assets/images/titles/AntiBabylon.png";
+import PageTitle from "../../../src/assets/images/titles/title.png";
 import PageSubTitle from "../../../src/assets/images/titles/subtitle.png";
 
 const Slides = [Slide1, Slide2, Slide3, Slide4];
