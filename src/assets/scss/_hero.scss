@@ -2,106 +2,18 @@
 /*  03. Hero CSS
 /*----------------------------------------*/
 
-/*-- Hero Image --*/
-.hero-image {
-    & img {
-        width: 100%;
-    }
-}
-
-/*-- Blog home Hero --*/
-.blog-home-hero {
-    height: 100vh;
-    width: 100%;
-    background-image: url(../images/bg/blog-hero.png);
-    background-size: cover;
-    background-position: center center;
-    display: flex;
-    align-items: center;
-
-    // Responsive
-    @media #{$tablet-device} {
-        height: auto;
-        padding: 150px 0;
-    }
+.slick-slider {
+    img {
+            opacity: .75;
 
     @media #{$large-mobile} {
-        height: auto;
+        opacity: .5;
     }
-
-    @media #{$small-mobile} {}
-}
-
-/*-- Blog home Content --*/
-.blog-home-hero-content {
-    padding: 50px 15px;
-
-    & h1 {
-        font-size: 72px;
-        line-height: 1;
-        font-weight: 600;
-        letter-spacing: 1px;
-        color: $heading-color;
-        text-transform: uppercase;
-        margin-bottom: 23px;
-    }
-
-    & p {
-        max-width: 720px;
-        font-size: 22px;
-        line-height: 34px;
-        font-family: $heading-font;
-        color: $heading-color;
-        letter-spacing: 1px;
-        margin: auto;
-    }
-
-    // Responsive
-    @media #{$desktop-device} {
-        & h1 {
-            font-size: 50px;
-        }
-
-        & p {
-            font-size: 18px;
-            line-height: 30px;
-            max-width: 550px;
-        }
-    }
-
-    @media #{$tablet-device} {
-        & h1 {
-            font-size: 50px;
-        }
-
-        & p {
-            font-size: 18px;
-            line-height: 30px;
-            max-width: 550px;
-        }
-    }
-
-    @media #{$large-mobile} {
-        & h1 {
-            font-size: 30px;
-        }
-
-        & p {
-            font-size: 14px;
-            line-height: 26px;
-        }
-    }
-
-    @media #{$small-mobile} {
-        & h1 {
-            font-size: 24px;
-        }
     }
 }
 
-/*----- new hero style start -----*/
-.slider-bg-1 {
-    background-image: url(../images/hero/slider-1.jpg);
+.slick-dots li button::before {
+  font-size: 12px!important;
 }
 
 /*Main Slider One*/

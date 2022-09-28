@@ -6,11 +6,11 @@ import FooterThree from "../../components/footer/FooterThree";
 
 const AboutPage = () => {
     return (
-        <div className={`main-wrapper`}>
-            <Header/>
-            <SideHeader mobile={true}/>
-            <ContentAboutPage/>
-            <FooterThree position={'fixed'}/>
+        <div className={`main-wrapper p-4`}>
+            <Header />
+            <SideHeader mobile={true} />
+            <ContentAboutPage />
+            <FooterThree position={'fixed'} />
         </div>
     );
 };

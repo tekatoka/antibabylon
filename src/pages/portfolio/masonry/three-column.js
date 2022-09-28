@@ -1,4 +1,4 @@
-import React, {Fragment, useState} from 'react';
+import React, { Fragment, useState } from 'react';
 import Header from "../../../components/header/HeaderOne";
 import SideHeader from "../../../components/SideHeader";
 import PortfolioMasonryThreeColumn from "../../../templates/portfolio/masonry/three-column";
@@ -21,12 +21,14 @@ const PortfolioMasonryThreeColumnPage = () => {
     const allItems = count >= portfolioData.length;
 
     return (
-        <Fragment>
-            <Header classes={'position-static'}/>
-            <SideHeader mobile={true}/>
-            <PortfolioMasonryThreeColumn portfolios={portfolios} loading={loading}/>
-            <FooterTwo allItems={allItems} loadHandler={loadMore} />
-        </Fragment>
+        <div className={`main-wrapper p-4`}>
+            <div class='inner-wrapper'>
+                <Header classes={'position-static'} />
+                <SideHeader mobile={true} />
+                <PortfolioMasonryThreeColumn portfolios={portfolios} loading={loading} />
+                <FooterTwo allItems={allItems} loadHandler={loadMore} />
+            </div>
+        </div>
     );
 };
 

@@ -5,6 +5,11 @@
 /*-- Google Font --*/
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,600,600i,800');
 
+@font-face {
+    font-family: 'Menlo';
+    src: url("../fonts/menlo/Menlo\ Regular\ 400.ttf") format('truetype');
+}
+
 /*-- Common Style --*/
 *, *::after, *::before {
   box-sizing: border-box;
@@ -143,6 +148,38 @@ img {
   }
 }
 
+.page-title {
+    position: absolute;
+    z-index: 10000;
+    top: 25px;
+    width: 100%;
+    text-align: center;
+
+    > img {
+      max-width: 50%;
+      margin-bottom: 10px;
+    }
+
+    > .main-info {
+      margin-top: 25px;
+      font-size: 2rem;
+      font-family: 'Menlo', sans-serif;
+
+          @media #{$tablet-device}{
+      margin-top: 10px;
+      font-size: 1rem;
+    }
+    @media #{$large-mobile}{
+         margin-top: 10px;
+      font-size: 1rem;
+    }
+        @media #{$small-mobile}{
+         margin-top: 10px;
+      font-size: 1rem;
+    }
+    }
+}
+
 /*-- 
     - Input Placeholder
 -----------------------------------------*/
@@ -215,7 +252,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 
   > .inner-wrapper {
     background-color: $white;
-    float: left;
+    display: flow-root;
   }
 
   // Responsive
