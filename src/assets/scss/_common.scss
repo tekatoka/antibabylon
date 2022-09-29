@@ -150,7 +150,7 @@ img {
 
 .page-title {
     position: absolute;
-    z-index: 10000;
+    z-index: 999;
     top: 25px;
     width: 100%;
     text-align: center;
@@ -163,19 +163,22 @@ img {
     > .main-info {
       margin-top: 25px;
       font-size: 2rem;
+      font-weight: 600;
       font-family: 'Menlo', sans-serif;
 
-          @media #{$tablet-device}{
+    @media #{$tablet-device}{
+      margin-top: 10px;
+      font-size: 1.25rem;
+    }
+
+    @media #{$large-mobile}{
       margin-top: 10px;
       font-size: 1rem;
     }
-    @media #{$large-mobile}{
-         margin-top: 10px;
-      font-size: 1rem;
-    }
-        @media #{$small-mobile}{
-         margin-top: 10px;
-      font-size: 1rem;
+
+    @media #{$small-mobile,$extra-small-mobile}{
+         margin-top: 5px;
+      font-size: .7rem;
     }
     }
 }
@@ -249,6 +252,13 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+
+  @media #{$tablet-device, $large-mobile, $small-mobile}{
+    &.p-4 {
+      padding: .75rem!important;
+    }
+  }
+  
 
   > .inner-wrapper {
     background-color: $white;

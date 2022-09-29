@@ -13,19 +13,15 @@ const HeaderSocial = () => {
     return (
         <div className="header-social d-flex align-items-top justify-content-end mt-40 col-lg-3 col-6">
             <button
-                className="side-header-toggle d-block d-lg-none order-12 ml-20"
+                className="side-header-toggle d-block d-lg-none order-12 ml-10"
                 onClick={openSideMenu}
             >
                 <span />
             </button>
             {socialIcons.map(social => (
-                <a key={social?.id}
-                    href={social?.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    <SocialIcon url={`${social?.url}`} bgColor="#333333" />
-                </a>
+
+                <SocialIcon key={social?.id} url={`${social?.url}`} bgColor="#333333" />
+
             ))}
         </div>
     );

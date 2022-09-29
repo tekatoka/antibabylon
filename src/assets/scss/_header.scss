@@ -222,7 +222,8 @@
       color: $primary;
 
       .social-svg-mask {
-        fill: $primary!important;
+        fill: black!important;
+        opacity: .5;
       }
     }
 
@@ -232,9 +233,11 @@
   }
 
   // Responsive
-  @media #{$small-mobile} {
+  @media #{$tablet-device, $large-mobile, $small-mobile} {
     & a {
-      margin-right: 10px;
+      margin-right: 5px!important;
+      width: 35px!important;
+      height: 35px!important;
     }
   }
 }
@@ -392,7 +395,7 @@
   position: fixed;
   left: 0;
   top: 0;
-  z-index: 999;
+  z-index: 1000;
   transition: all 0.3s ease 0s;
   cursor: default !important;
 
