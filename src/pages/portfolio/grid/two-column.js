@@ -5,8 +5,7 @@ import PortfolioGridTwoColumn from "../../../templates/portfolio/grid/two-column
 import portfolioData from '../../../data/portfolio'
 
 const PortfolioGridTwoColumnPage = () => {
-    const [count, setCount] = useState(8);
-    const portfolios = portfolioData.slice(0, count);
+    const portfolios = portfolioData;
 
     return (
         <Fragment>

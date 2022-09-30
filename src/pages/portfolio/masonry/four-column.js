@@ -6,8 +6,7 @@ import portfolioData from '../../../data/portfolio';
 
 const PortfolioMasonryFourColumnPage = () => {
 
-    const [count, setCount] = useState(12);
-    const portfolios = portfolioData.slice(0, count);
+    const portfolios = portfolioData;
 
     return (
         <Fragment>

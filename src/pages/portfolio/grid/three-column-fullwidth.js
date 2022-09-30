@@ -6,8 +6,7 @@ import PortfolioGridThreeColumn from "../../../templates/portfolio/grid/three-co
 import portfolioData from '../../../data/portfolio'
 
 const PortfolioGridThreeColumnFullWidthPage = () => {
-    const [count, setCount] = useState(9);
-    const portfolios = portfolioData.slice(0, count);
+    const portfolios = portfolioData;
 
     return (
         <Fragment>

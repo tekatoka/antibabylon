@@ -5,9 +5,7 @@ import PortfolioGridFiveColumn from "../../../templates/portfolio/grid/five-colu
 import portfolioData from '../../../data/portfolio'
 
 const PortfolioGridFiveColumnFullWidthPage = () => {
-    const [count, setCount] = useState(9);
-    const portfolios = portfolioData.slice(0, count);
-
+    const portfolios = portfolioData;
     return (
         <Fragment>
             <Header classes={'position-static'} />

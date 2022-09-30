@@ -5,8 +5,7 @@ import portfolioData from '../../../data/portfolio';
 import PortfolioMasonryTwoColumn from "../../../templates/portfolio/masonry/two-column";
 
 const PortfolioMasonryTwoColumnPage = () => {
-    const [count, setCount] = useState(8);
-    const portfolios = portfolioData.slice(0, count);
+    const portfolios = portfolioData;
 
     return (
         <Fragment>

@@ -7,8 +7,7 @@ import PortfolioFiveColumn from "../../container/portfolio/PortfolioFiveColumn";
 import portfolioData from '../../data/portfolio'
 
 const HomeFiveColumn = () => {
-    const [count, setCount] = useState(10);
-    const portfolios = portfolioData.slice(0, count);
+    const portfolios = portfolioData;
 
     return (
         <div className={'main-wrapper'}>

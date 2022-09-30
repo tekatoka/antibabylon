@@ -5,8 +5,7 @@ import PortfolioMasonryThreeColumn from "../../../templates/portfolio/masonry/th
 import portfolioData from '../../../data/portfolio';
 
 const PortfolioMasonryThreeColumnFullWidthPage = () => {
-    const [count, setCount] = useState(9);
-    const portfolios = portfolioData.slice(0, count);
+    const portfolios = portfolioData;
 
     return (
         <Fragment>

@@ -5,8 +5,7 @@ import PortfolioGridFourColumn from "../../../templates/portfolio/grid/four-colu
 import portfolioData from '../../../data/portfolio';
 
 const PortfolioGridFourColumnFullWidthPage = () => {
-    const [count, setCount] = useState(9);
-    const portfolios = portfolioData.slice(0, count);
+    const portfolios = portfolioData;
 
     return (
         <Fragment>

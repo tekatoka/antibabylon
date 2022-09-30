@@ -10,7 +10,7 @@ const Partners = () => {
                 <Row className='footer-social mt-20 mb-20'>
                     {partners.map(p => (
                         <Col xs={3}>
-                            <a href={p.link} target="_blank">
+                            <a href={p.link} target="_blank" rel="noopener noreferrer">
                                 <img src={require('../../../../assets/images/' + p.logo)} alt={p.title} />
                             </a>
                         </Col>

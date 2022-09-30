@@ -7,8 +7,7 @@ import PortfolioThreeColumn from "../../container/portfolio/PortfolioThreeColumn
 import portfolioData from '../../data/portfolio'
 
 const HomeThreeColumn = () => {
-    const [count, setCount] = useState(9);
-    const portfolios = portfolioData.slice(0, count);
+    const portfolios = portfolioData;
 
     return (
         <div className={'main-wrapper'}>

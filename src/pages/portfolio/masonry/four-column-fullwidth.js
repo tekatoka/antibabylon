@@ -5,8 +5,7 @@ import PortfolioMasonryFourColumn from "../../../templates/portfolio/masonry/fou
 import portfolioData from '../../../data/portfolio';
 
 const PortfolioMasonryFourColumnFullWidthPage = () => {
-    const [count, setCount] = useState(12);
-    const portfolios = portfolioData.slice(0, count);
+    const portfolios = portfolioData;
 
     return (
         <Fragment>
