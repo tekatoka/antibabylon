@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap'
+import { Row, Col } from 'react-bootstrap'
 import Contacts from './Contacts';
 import Impressum from './Impressum';
 import Partners from './Partners';

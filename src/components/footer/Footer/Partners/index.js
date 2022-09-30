@@ -1,6 +1,5 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
-import FooterBg from "../../../../assets/images/bg/footer-bg.png";
 import partners from '../../../../data/partners';
 
 const Partners = () => {

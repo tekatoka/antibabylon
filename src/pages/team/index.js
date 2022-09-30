@@ -6,8 +6,7 @@ import TemplateTeamPage from "../../templates/team";
 import teamMembers from '../../data/team';
 
 const TeamPage = () => {
-    const [teamPerPage, setTeamPerPage] = useState(3);
-    const teams = teamMembers.slice(0, teamPerPage);
+    const teams = teamMembers;
 
     return (
         <Fragment>

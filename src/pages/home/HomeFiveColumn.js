@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 // File imported
 import Header from '../../components/header/HeaderOne'
