@@ -1,11 +1,10 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 
 // File imported
 import Header from '../../components/header/HeaderOne'
 import SideHeader from "../../components/SideHeader";
 import PortfolioFourColumn from "../../container/portfolio/PortfolioFourColumn";
-import Footer from "../../components/footer/FooterTwo";
-import  portfolioData from '../../data/portfolio';
+import portfolioData from '../../data/portfolio';
 
 const HomeFourColumn = () => {
     const [count, setCount] = useState(12);
@@ -24,10 +23,9 @@ const HomeFourColumn = () => {
 
     return (
         <div className={'main-wrapper'}>
-            <Header/>
-            <SideHeader mobile={true}/>
-            <PortfolioFourColumn portfolios={portfolios} loading={loading}/>
-            <Footer loadHandler={loadMore} allItems={allItems}/>
+            <Header />
+            <SideHeader mobile={true} />
+            <PortfolioFourColumn portfolios={portfolios} loading={loading} />
         </div>
     );
 };

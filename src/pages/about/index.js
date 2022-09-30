@@ -2,7 +2,6 @@ import React from 'react';
 import Header from "../../components/header/HeaderOne";
 import SideHeader from "../../components/SideHeader";
 import ContentAboutPage from "../../templates/about-page";
-import FooterThree from "../../components/footer/FooterThree";
 
 const AboutPage = () => {
     return (
@@ -10,7 +9,6 @@ const AboutPage = () => {
             <Header />
             <SideHeader mobile={true} />
             <ContentAboutPage />
-            <FooterThree position={'fixed'} />
         </div>
     );
 };

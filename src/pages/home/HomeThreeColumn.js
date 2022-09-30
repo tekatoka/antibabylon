@@ -1,10 +1,9 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 
 // File imported
 import Header from '../../components/header/HeaderOne'
 import SideHeader from "../../components/SideHeader";
 import PortfolioThreeColumn from "../../container/portfolio/PortfolioThreeColumn";
-import Footer from "../../components/footer/FooterTwo";
 import portfolioData from '../../data/portfolio'
 
 const HomeThreeColumn = () => {
@@ -24,10 +23,9 @@ const HomeThreeColumn = () => {
 
     return (
         <div className={'main-wrapper'}>
-            <Header/>
-            <SideHeader mobile={true}/>
-            <PortfolioThreeColumn portfolios={portfolios} loading={loading}/>
-            <Footer loadHandler={loadMore} allItems={allItems}/>
+            <Header />
+            <SideHeader mobile={true} />
+            <PortfolioThreeColumn portfolios={portfolios} loading={loading} />
         </div>
     );
 };

@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "citizen +",
+    "logo": "partners/citizen-plus.png",
+    "link": "https://"
+  },
+    {
+    "id": 2,
+    "title": "Auswärtiges Amt - German Foreign Office",
+    "logo": "partners/aa.svg",
+    "link": "https://www.auswaertiges-amt.de/"
+  },
+    {
+    "id": 3,
+    "title": "Panda Platforma",
+    "logo": "partners/panda.svg",
+    "link": "https://panda-platforma.berlin"
+  },
+    {
+    "id": 4,
+    "title": "need",
+    "logo": "partners/need.png",
+    "link": "https://"
+  }
+]

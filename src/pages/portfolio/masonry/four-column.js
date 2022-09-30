@@ -1,8 +1,7 @@
-import React, {Fragment, useState} from 'react';
+import React, { Fragment, useState } from 'react';
 import Header from "../../../components/header/HeaderOne";
 import SideHeader from "../../../components/SideHeader";
 import PortfolioMasonryFourColumn from "../../../templates/portfolio/masonry/four-column";
-import FooterTwo from "../../../components/footer/FooterTwo";
 import portfolioData from '../../../data/portfolio';
 
 const PortfolioMasonryFourColumnPage = () => {
@@ -23,10 +22,9 @@ const PortfolioMasonryFourColumnPage = () => {
 
     return (
         <Fragment>
-            <Header classes={'position-static'}/>
-            <SideHeader mobile={true}/>
-            <PortfolioMasonryFourColumn portfolios={portfolios} loading={loading} fullWidth={false}/>
-            <FooterTwo allItems={allItems} loadHandler={loadMore} />
+            <Header classes={'position-static'} />
+            <SideHeader mobile={true} />
+            <PortfolioMasonryFourColumn portfolios={portfolios} loading={loading} fullWidth={false} />
         </Fragment>
     );
 };

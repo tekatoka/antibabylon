@@ -1,8 +1,7 @@
-import React, {Fragment, useState} from 'react';
+import React, { Fragment, useState } from 'react';
 import Header from "../../../components/header/HeaderOne";
 import SideHeader from "../../../components/SideHeader";
 import PortfolioGridFourColumn from "../../../templates/portfolio/grid/four-column";
-import FooterTwo from "../../../components/footer/FooterTwo";
 import portfolioData from '../../../data/portfolio'
 
 const PortfolioGridFourColumnPage = () => {
@@ -22,10 +21,9 @@ const PortfolioGridFourColumnPage = () => {
 
     return (
         <Fragment>
-            <Header classes={'position-static'}/>
-            <SideHeader mobile={true}/>
-            <PortfolioGridFourColumn portfolios={portfolios} loading={loading} fullWidth={false}/>
-            <FooterTwo allItems={allItems} loadHandler={loadMore} />
+            <Header classes={'position-static'} />
+            <SideHeader mobile={true} />
+            <PortfolioGridFourColumn portfolios={portfolios} loading={loading} fullWidth={false} />
         </Fragment>
     );
 };

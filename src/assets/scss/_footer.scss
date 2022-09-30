@@ -63,53 +63,58 @@
     }
 }
 
-/*-- Footer Search --*/
-.footer-search {
-    & form {
-        text-align: right;
-        position: relative;
-        max-width: 300px;
-        margin-left: auto;
+.footer-partners {
+    background-image: url(../images/bg/footer-bg.png);
+    min-height: 200px;
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
 
-        // Responsive
-        @media #{$tablet-device}{
-            margin: auto
-        }
-        @media #{$large-mobile}{
-            margin: auto
-        }
-        & input {
-            width: 100%;
-            border: 0 solid transparent;
-            font-size: 14px;
-            color: $body-color;
-            text-transform: uppercase;
-            line-height: 30px;
-            height: 30px;
-            background-color: transparent;
-            border-bottom: 1px solid #cccccc;
-            padding-right: 20px;
-    
-            // Responsive
-            @media #{$large-mobile}{
-                font-size: 13px;
-            }
-        }
-        & button {
-            position: absolute;
-            right: 0;
-            top: 0;
-            background-color: transparent;
-            border: none;
+    img {
+        max-width: 100%;
+    }
+}
+
+.footer-social {
+  display: flex;
+
+  & a {
+    color: $body-color;
+    margin-right: 12px;
+    text-decoration: none!important;
+
+    & i {
+      display: block;
+      font-size: 24px;
+      line-height: 24px;
+    }
+
+    &:hover {
+      color: $primary;
+
+      .social-svg-mask {
+        fill: black!important;
+        opacity: .5;
+      }
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+.footer-rows {
+    font-size: 1rem;
+    .row {
+        margin: auto;
+
+        [class*="col-"] {
+            float: none;
+            display: table-cell;
+            vertical-align: top;
             padding: 0;
-            & i {
-                line-height: 30px;
-                display: block;
-                font-size: 16px;
-            }
-            &:hover {
-                color: $heading-color;
-            }
-        }
+                }
+
     }
 }

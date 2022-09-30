@@ -1,8 +1,7 @@
-import React, {Fragment, useState} from 'react';
+import React, { Fragment, useState } from 'react';
 import Header from "../../components/header/HeaderOne";
 import SideHeader from "../../components/SideHeader";
 import TemplateTeamPage from "../../templates/team";
-import FooterTwo from "../../components/footer/FooterTwo";
 
 import teamMembers from '../../data/team';
 
@@ -24,10 +23,9 @@ const TeamPage = () => {
 
     return (
         <Fragment>
-            <Header classes={'position-static'}/>
-            <SideHeader mobile={true}/>
-            <TemplateTeamPage teams={teams} loading={loading}/>
-            <FooterTwo loadHandler={loadMore} allItems={allItems} />
+            <Header classes={'position-static'} />
+            <SideHeader mobile={true} />
+            <TemplateTeamPage teams={teams} loading={loading} />
         </Fragment>
     );
 };

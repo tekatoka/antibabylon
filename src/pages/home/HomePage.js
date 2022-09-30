@@ -7,7 +7,7 @@ import PersonalPortfolioService from "../../container/service";
 import PersonalPortfolioCareer from '../../container/career';
 import PersonalPortfolio from "../../container/portfolio/PersonalPortfolio";
 import Contact from "../../container/contact";
-import Footer from "../../components/footer/FooterThree";
+import Footer from "../../components/footer/Footer";
 import MainSlider from '../../components/slider';
 
 const HomePage = () => {

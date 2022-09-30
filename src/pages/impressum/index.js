@@ -1,7 +1,6 @@
 import React from 'react';
 import Header from "../../components/header/HeaderOne";
 import SideHeader from "../../components/SideHeader";
-import FooterThree from "../../components/footer/FooterThree";
 import ContentImpressum from '../../container/impressum';
 
 const ImpressumPage = () => {
@@ -10,7 +9,6 @@ const ImpressumPage = () => {
             <Header />
             <SideHeader mobile={true} />
             <ContentImpressum />
-            <FooterThree position={'fixed'} />
         </div>
     );
 };

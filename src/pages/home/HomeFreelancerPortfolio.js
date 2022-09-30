@@ -9,7 +9,6 @@ import PersonalPortfolio from "../../container/portfolio/PersonalPortfolio";
 import PersonalPortfolioService from "../../container/service";
 import PersonalPortfolioTeam from "../../container/team";
 import Contact from "../../container/contact";
-import Footer from "../../components/footer/FooterThree";
 
 const HomePage = () => {
     return (
@@ -22,7 +21,6 @@ const HomePage = () => {
             <PersonalPortfolioService />
             <PersonalPortfolioTeam />
             <Contact />
-            <Footer position={'static'} />
         </div>
     );
 };
