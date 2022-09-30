@@ -8,24 +8,13 @@ import portfolioData from '../../data/portfolio';
 
 const HomeFourColumn = () => {
     const [count, setCount] = useState(12);
-    const [loading, setLoading] = useState(false);
     const portfolios = portfolioData.slice(0, count);
-
-    const loadMore = () => {
-        setLoading(true);
-        setTimeout(() => {
-            setCount(count + 4);
-            setLoading(false);
-        }, 200);
-    };
-
-    const allItems = count >= portfolioData.length;
 
     return (
         <div className={'main-wrapper'}>
             <Header />
             <SideHeader mobile={true} />
-            <PortfolioFourColumn portfolios={portfolios} loading={loading} />
+            <PortfolioFourColumn portfolios={portfolios} />
         </div>
     );
 };

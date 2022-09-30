@@ -7,24 +7,13 @@ import portfolioData from '../../../data/portfolio';
 const PortfolioMasonryFourColumnPage = () => {
 
     const [count, setCount] = useState(12);
-    const [loading, setLoading] = useState(false);
     const portfolios = portfolioData.slice(0, count);
-
-    const loadMore = () => {
-        setLoading(true);
-        setTimeout(() => {
-            setCount(count + 4);
-            setLoading(false);
-        }, 200);
-    };
-
-    const allItems = count >= portfolioData.length;
 
     return (
         <Fragment>
             <Header classes={'position-static'} />
             <SideHeader mobile={true} />
-            <PortfolioMasonryFourColumn portfolios={portfolios} loading={loading} fullWidth={false} />
+            <PortfolioMasonryFourColumn portfolios={portfolios} fullWidth={false} />
         </Fragment>
     );
 };

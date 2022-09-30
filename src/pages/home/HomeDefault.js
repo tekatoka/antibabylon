@@ -9,14 +9,6 @@ const HomeDefault = () => {
 
     const slider = React.useRef(null);
 
-    const SlideNext = () => {
-        slider.current.slickNext();
-    };
-
-    const SlidePrev = () => {
-        slider.current.slickPrev();
-    };
-
     return (
         <div className={'main-wrapper'}>
             <Header />
