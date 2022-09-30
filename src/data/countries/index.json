@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Georgia",
+    "color": "#e43d1c",
+    "thumb": "countries/georgia.png"
+  },
+    {
+    "id": 2,
+    "name": "Armenia",
+    "color": "#f8a522",
+    "thumb": "countries/armenia.png"
+  },
+    {
+    "id": 3,
+    "name": "Moldova",
+    "color": "#9bd73b",
+    "thumb": "countries/moldova.png"
+  },
+    {
+    "id": 4,
+    "name": "Ukraine",
+    "color": "#3b70dd",
+    "thumb": "countries/ukraine.png"
+  },
+    {
+    "id": 5,
+    "name": "Germany",
+    "color": "#fefa0c",
+    "thumb": "countries/germany.png"
+  }
+]

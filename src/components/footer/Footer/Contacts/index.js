@@ -10,7 +10,7 @@ const Contacts = ({ position }) => {
             <Row className={'align-items-center'}>
                 <Col xs={1} sm={3}></Col>
                 <Col xs={{ size: 11 }} sm={9}>
-                    <img src={ContactsTitle} alt={"Contacts"} title={"Contacts"} style={{ height: "3rem" }} />
+                    <img src={ContactsTitle} className={"footer-title"} alt={"Contacts"} title={"Contacts"} />
                     <div className='mt-20'>
                         <a href="mailto:info@antibabylon.org" target="_blank" rel="noopener noreferrer">info@antibabylon.org</a>
                     </div>

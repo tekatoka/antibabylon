@@ -21,7 +21,7 @@ html, body, .site-wrapper {
 
 body {
   background-color: $white;
-  font-size: 14px;
+  font-size: 1rem;
   line-height: 24px;
   font-style: normal;
   font-weight: normal;
@@ -119,6 +119,54 @@ img {
 
 .text-500 {
   font-weight: 500;
+}
+
+.custom-title {
+  margin-bottom: 35px;
+  max-width: 400px;
+}
+
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+@media (min-width: 768px) {
+.col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+.two-columns {
+  column-count: 2;
+  column-gap: 45px;
+  text-align: justify;
+     
+  @media #{$tablet-device,$small-mobile,$extra-small-mobile}{
+      column-count: 1;
+  }
 }
 
 /*-- 

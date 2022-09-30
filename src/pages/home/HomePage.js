@@ -3,12 +3,12 @@ import React from 'react';
 // File imported
 import Header from "../../components/header/HeaderOne";
 import SideHeader from "../../components/SideHeader";
-import PersonalPortfolioService from "../../container/service";
-import PersonalPortfolioCareer from '../../container/career';
-import PersonalPortfolio from "../../container/portfolio/PersonalPortfolio";
 import Contact from "../../container/contact";
 import Footer from "../../components/footer/Footer";
 import MainSlider from '../../components/slider';
+import CountriesMap from '../../container/project/CountriesMap';
+import ProjectMission from '../../container/project/ProjectMission';
+import ProjectPhases from '../../container/project/ProjectPhases';
 
 const HomePage = () => {
     return (
@@ -17,9 +17,9 @@ const HomePage = () => {
                 <Header classes={'position-static'} />
                 <SideHeader mobile={true} />
                 <MainSlider />
-                <PersonalPortfolio />
-                <PersonalPortfolioService />
-                <PersonalPortfolioCareer />
+                <CountriesMap />
+                <ProjectMission />
+                <ProjectPhases />
                 <Contact />
                 <Footer position={'static'} />
             </div>

@@ -8,7 +8,7 @@ const Impressum = () => {
             <Row className={'align-items-center'}>
                 <Col xs={1} sm={3}></Col>
                 <Col xs={{ size: 11 }} sm={9}>
-                    <img src={ImpressumTitle} alt={"Impressum"} title={"Impressum"} style={{ height: "3rem" }} />
+                    <img src={ImpressumTitle} className={"footer-title"} alt={"Impressum"} title={"Impressum"} />
                     <div className='mt-20'>
                         Es gilt die deutsche Rechtsprechung.
                     </div>
