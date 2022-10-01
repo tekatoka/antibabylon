@@ -1,12 +1,14 @@
 import React from 'react';
-import { Row, Col } from 'react-bootstrap'
+import { Container, Row, Col } from 'react-bootstrap'
 import Contacts from './Contacts';
 import Impressum from './Impressum';
 import Partners from './Partners';
 
 const Footer = ({ position }) => {
     return (
-        <div className={`footer-section section position-${position} pt-30 pb-0`}>
+        <>
+        <div id="footer" className={`footer-section section position-${position} pt-30 pb-0`}>
+        <div id="footer-separator"><Container></Container></div>
             <div className="container-full footer-rows">
                 <Row>
                     <Col xs={{ span: 12, order: 2 }} sm={{ span: 12, order: 2 }} md={{ span: 6, order: 1 }}>
@@ -17,6 +19,7 @@ const Footer = ({ position }) => {
                 </Row>
             </div>
         </div>
+        </>
     );
 };
 

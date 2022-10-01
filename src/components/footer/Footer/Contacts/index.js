@@ -12,7 +12,7 @@ const Contacts = ({ position }) => {
                 <Col xs={{ size: 11 }} sm={9}>
                     <img src={ContactsTitle} className={"footer-title"} alt={"Contacts"} title={"Contacts"} />
                     <div className='mt-20'>
-                        <a href="mailto:info@antibabylon.org" target="_blank" rel="noopener noreferrer">info@antibabylon.org</a>
+                        <a href="mailto:opencall@antibabylon.org" target="_blank" rel="noopener noreferrer">opencall@antibabylon.org</a>
                     </div>
                     <div className='footer-social mt-20 mb-40'>
                         {socialIcons.map(social => (

@@ -6,7 +6,7 @@ import countries from '../../data/countries';
 const CountriesMap = () => {
 
     return (
-        <div className="section pt-180 pt-lg-80 pt-md-80 pt-sm-80 pt-xs-50">
+        <div className="section pt-80 pt-xs-50">
             {/*  pb-120 pb-lg-80 pb-md-80 pb-sm-80 pb-xs-50 */}
             <Container style={{ height: "200px" }} className="mb-20">
                 <Row className={'country-map mbn-30'} style={{ position: "relative" }}>

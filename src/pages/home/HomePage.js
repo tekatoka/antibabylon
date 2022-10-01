@@ -3,12 +3,12 @@ import React from 'react';
 // File imported
 import Header from "../../components/header/HeaderOne";
 import SideHeader from "../../components/SideHeader";
-import Contact from "../../container/contact";
 import Footer from "../../components/footer/Footer";
 import MainSlider from '../../components/slider';
 import CountriesMap from '../../container/project/CountriesMap';
 import ProjectMission from '../../container/project/ProjectMission';
 import ProjectPhases from '../../container/project/ProjectPhases';
+import ProjectInfo from '../../container/project/ProjectInfo';
 
 const HomePage = () => {
     return (
@@ -20,8 +20,8 @@ const HomePage = () => {
                 <CountriesMap />
                 <ProjectMission />
                 <ProjectPhases />
-                <Contact />
-                <Footer position={'static'} />
+                <ProjectInfo />
+                <Footer position={'relative'} />
             </div>
         </div>
     );

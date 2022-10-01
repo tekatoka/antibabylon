@@ -1,6 +1,37 @@
 /*----------------------------------------*/
 /*  13. Footer CSS
 /*----------------------------------------*/
+
+#footer-separator {
+
+  position: relative;
+    background-color: $white;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+
+&::before {
+    width: 100%;
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: -75px;
+    -webkit-transform: skewY(1deg);
+    -moz-transform: skewY(1deg);
+    -ms-transform: skewY(1deg);
+    -o-transform: skewY(1deg);
+    transform: skewY(1deg);
+    background-color: $white;
+    z-index: 2;
+}
+
+.container {
+    position: relative;
+    height: 100px;
+}
+}
+
 .footer-section {
     position: fixed;
     left: 0;

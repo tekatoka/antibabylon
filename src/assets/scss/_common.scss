@@ -49,7 +49,7 @@ h2 {
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 22px;
   line-height: 30px;
 }
 
@@ -66,6 +66,14 @@ h5 {
 h6 {
   font-size: 12px;
   line-height: 14px;
+}
+
+.text-medium {
+  font-size: 1.25rem;
+}
+
+.text-large {
+  font-size: 1.5rem;
 }
 
 p:last-child {
@@ -118,11 +126,15 @@ img {
 }
 
 .text-500 {
-  font-weight: 500;
+  font-weight: 500!important;
+}
+
+.text-600 {
+  font-weight: 600!important;
 }
 
 .custom-title {
-  margin-bottom: 35px;
+  margin-bottom: 45px;
   width: 400px;
   max-width: 100%;
 }
@@ -165,9 +177,25 @@ img {
   column-gap: 45px;
   text-align: justify;
      
-  @media #{$tablet-device,$small-mobile,$extra-small-mobile}{
+  @media #{$tablet-device,$large-mobile,$small-mobile,$extra-small-mobile}{
       column-count: 1;
   }
+}
+
+.d-large-only {
+  display: block;
+
+  @media #{$large-mobile,$small-mobile,$extra-small-mobile}{
+    display: none;
+}
+}
+
+.d-small-only {
+  display: none;
+
+  @media #{$large-mobile,$small-mobile,$extra-small-mobile}{
+    display: block;
+}
 }
 
 /*-- 
