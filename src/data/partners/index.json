@@ -1,26 +1,26 @@
 [
-  {
-    "id": 1,
-    "title": "citizen +",
-    "logo": "partners/citizen-plus.png",
-    "link": "https://"
-  },
     {
-    "id": 2,
+    "id": 1,
     "title": "Auswärtiges Amt - German Foreign Office",
     "logo": "partners/aa.svg",
     "link": "https://www.auswaertiges-amt.de/"
   },
-    {
+  {
+    "id": 2,
+    "title": "Pen Armenia",
+    "logo": "partners/pen-armenia.png",
+    "link": "https://penarmenia.org/"
+  },
+  {
     "id": 3,
-    "title": "Panda Platforma",
-    "logo": "partners/panda.svg",
-    "link": "https://panda-platforma.berlin"
+    "title": "Pen Georgia",
+    "logo": "partners/pen-georgia.png",
+    "link": "https://www.pencenter.ge/"
   },
     {
     "id": 4,
-    "title": "need",
-    "logo": "partners/need.png",
-    "link": "https://"
+    "title": "Panda Platforma",
+    "logo": "partners/panda.svg",
+    "link": "https://panda-platforma.berlin"
   }
 ]

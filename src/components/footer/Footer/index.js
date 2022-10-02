@@ -11,11 +11,11 @@ const Footer = ({ position }) => {
         <div id="footer-separator"><Container></Container></div>
             <div className="container-full footer-rows">
                 <Row>
-                    <Col xs={{ span: 12, order: 2 }} sm={{ span: 12, order: 2 }} md={{ span: 6, order: 1 }}>
+                    <Col xs={{ span: 12, order: 2 }} sm={{ span: 12, order: 2 }} md={{ span: 6, order: 1 }} lg={{ span: 6, order: 1 }}>
                         <Contacts />
                         <Partners />
                     </Col>
-                    <Col xs={{ span: 12, order: 1 }} sm={{ span: 12, order: 1 }} md={{ span: 6, order: 2 }}><Impressum /></Col>
+                    <Col xs={{ span: 12, order: 1 }} sm={{ span: 12, order: 1 }} md={{ span: 6, order: 2 }} lg={{ span: 6, order: 1 }}><Impressum /></Col>
                 </Row>
             </div>
         </div>

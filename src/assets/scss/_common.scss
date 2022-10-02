@@ -264,6 +264,14 @@ img {
     }
 }
 
+.pipe {
+  width: 12px;
+  &:before {
+    content: "|";
+    margin: auto;
+    margin-right: 8px;
+}
+}
 /*-- 
     - Input Placeholder
 -----------------------------------------*/

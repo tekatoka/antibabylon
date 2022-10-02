@@ -1,13 +1,24 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import { Container, Row } from 'react-bootstrap';
-import ConnectElements from 'react-connect-elements';
 import countries from '../../data/countries';
+import ReactConnectElements from '../../hooks/ConnectElements';
 
 const CountriesMap = () => {
 
+    const [orientation, setOrientation] = useState(window.screen.orientation.type);
+    const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+    useEffect(() => {
+        window.addEventListener('resize', changeWindowWidth);
+        window.screen.orientation.onchange = function(e) { setOrientation(window.screen.orientation.type); }
+    }, [])
+
+    const changeWindowWidth = () => {
+        setWindowWidth(window.innerWidth)
+    }
+
     return (
         <div className="section pt-80 pt-xs-50">
-            {/*  pb-120 pb-lg-80 pb-md-80 pb-sm-80 pb-xs-50 */}
             <Container style={{ height: "200px" }} className="mb-20">
                 <Row className={'country-map mbn-30'} style={{ position: "relative" }}>
                     {countries.map((country, idx) => (
@@ -21,10 +32,12 @@ const CountriesMap = () => {
                             </div>
                         </>
                     ))}
-                    <ConnectElements
+                    <ReactConnectElements
                         selector=".country-map"
                         strokeWidth={1}
                         elements={[{ from: '#georgia', to: '#armenia' }, { from: '#armenia', to: '#moldova' }, { from: '#moldova', to: '#ukraine' }, { from: '#ukraine', to: '#germany' }]}
+                        orientationType={orientation}
+                        windowWidth={windowWidth}
                     />
                 </Row>
             </Container>

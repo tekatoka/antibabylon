@@ -7,20 +7,38 @@
   },
   {
     "id": 2,
-    "title": "Über mich",
-    "link": "/about",
+    "title": "Jury/Team",
+    "link": "/",
+    "megaMenu": false,
+    "subMenu": [
+      {
+      "id": 0,
+    "title": "Jury",
+    "link": "/jury"
+      },
+      {
+        "id": 1,
+      "title": "Team",
+      "link": "/team"
+        }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Members",
+    "link": "/members",
     "megaMenu": false,
     "subMenu": false
   },
   {
-    "id": 3,
-    "title": "Portfolio",
-    "link": "/portfolio",
+    "id": 4,
+    "title": "Events",
+    "link": "/events",
     "megaMenu": false
   },
   {
-    "id": 4,
-    "title": "Kontakt",
-    "link": "/contact"
+    "id": 5,
+    "title": "About",
+    "link": "/about"
   }
 ]

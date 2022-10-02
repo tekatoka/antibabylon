@@ -82,7 +82,11 @@
         color: $body-color;
         padding: 40px 0;
         transition: 0.4s;
-        text-transform: uppercase;
+        
+        &.submenu-child {
+          display: inline-block;
+          padding-right: 10px;
+        }
 
         &.active{
           color: $heading-color;

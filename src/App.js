@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 * @ Component Imported
 * */
 import TeamPage from "./pages/team";
-import AboutPage from "./pages/about";
+import MembersPage from "./pages/members";
 import ErrorPage from "./pages/404Error";
 import ContactPage from "./pages/contact";
 import ServicePage from "./pages/service";
@@ -90,8 +90,8 @@ const App = () => {
                                           component={PortfolioGridThreeColumnPage} />
                                    <Route path={`${process.env.PUBLIC_URL + "/portfolio-grid-two-column"}`}
                                           component={PortfolioGridTwoColumnPage} />
-                                   <Route path={`${process.env.PUBLIC_URL + "/about"}`}
-                                          component={AboutPage} />
+                                   <Route path={`${process.env.PUBLIC_URL + "/members"}`}
+                                          component={MembersPage} />
                                    <Route path={`${process.env.PUBLIC_URL + "/home-freelancer-portfolio"}`}
                                           component={HomeFreelancerPortfolio} />
                                    <Route path={`${process.env.PUBLIC_URL + "/home-blog"}`}

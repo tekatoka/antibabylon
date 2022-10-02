@@ -47,22 +47,9 @@
   }
   }
 
-  .line{
-    width: 1px;
-    height: 100px;
-    background-color: black;
-    position: absolute;
-
-    &.line-1 {
-    top: 20px;
-    left: 50px;
-    height: 115px;
-    margin: 20px;
-    transform: rotate(120deg);
-        -webkit-transform: rotate(120deg);
-        -ms-transform: rotate(120deg);
-    }
-}
+  #react-connect-elements-container, #react-connect-elements-container > svg {
+    width: 100%;
+  }
 }
 
 #project-mission {

@@ -14,8 +14,8 @@ const ErrorPage = () => {
 
                         <div className="error-404-content col-md-6 col-12 order-2 order-md-1 text-center text-md-left">
                             <h1>OOPS!</h1>
-                            <h3>Diese Seite existiert nicht...</h3>
-                            <Link to={`${process.env.PUBLIC_URL + '/'}`}>Zurück zur Startseite</Link>
+                            <h3>This page does not exist...</h3>
+                            <Link to={`${process.env.PUBLIC_URL + '/'}`}>Back to the start page</Link>
                         </div>
 
                     </div>

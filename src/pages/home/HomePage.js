@@ -1,9 +1,7 @@
 import React from 'react';
 
 // File imported
-import Header from "../../components/header/HeaderOne";
-import SideHeader from "../../components/SideHeader";
-import Footer from "../../components/footer/Footer";
+import { Layout } from '../../Layout';
 import MainSlider from '../../components/slider';
 import CountriesMap from '../../container/project/CountriesMap';
 import ProjectMission from '../../container/project/ProjectMission';
@@ -12,19 +10,14 @@ import ProjectInfo from '../../container/project/ProjectInfo';
 
 const HomePage = () => {
     return (
-        <div className={'main-wrapper p-4'}>
-            <div class='inner-wrapper'>
-                <Header classes={'position-static'} />
-                <SideHeader mobile={true} />
+        <Layout>
                 <MainSlider />
                 <CountriesMap />
                 <ProjectMission />
                 <ProjectPhases />
                 <ProjectInfo />
-                <Footer position={'relative'} />
-            </div>
-        </div>
+                </Layout>
     );
-};
+    }
 
 export default HomePage;
