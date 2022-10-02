@@ -481,7 +481,29 @@
 }
 
 /*-- Side header Menu --*/
+
+.side-header .scrollbar-wrapper>.inner-content.normal {
+  overflow-y: hidden;
+}
+
 .side-header-menu {
+
+  &:before {
+    width: 100%;
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 0100px;
+    left:0;
+    transform: skewY(-4deg);
+    background-color: $primary;
+    z-index: 0;
+  }
+
+  &#side-menu {
+    z-index: 0;
+  }
 }
 
 /*-- Side Menu --*/
@@ -490,7 +512,7 @@
     margin-bottom: 21px;
 
     & > a {
-      display: block;
+      display: inline-block;
       font-family: $heading-font;
       font-size: 14px;
       line-height: 24px;
@@ -498,7 +520,7 @@
       letter-spacing: 0.5px;
       color: $body-color;
       position: relative;
-      padding-right: 24px;
+      padding-right: 10px;
       text-transform: uppercase;
 
       & > i.menu-expand {

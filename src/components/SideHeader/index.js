@@ -3,9 +3,8 @@ import Scrollbar from 'perfect-scrollbar-react';
 import 'perfect-scrollbar-react/dist/style.min.css';
 import Logo from "../logo";
 import NavItem from "../navbar/NavItem";
-import socialicons from '../../data/social-networks';
-import impressumData from '../../../src/data/impressum';
-import EmailLink from '../emailLink';
+import socialIcons from '../../data/social-networks';
+import { SocialIcon } from 'react-social-icons';
 
 const SideHeader = ({ mobile }) => {
 
@@ -64,7 +63,7 @@ const SideHeader = ({ mobile }) => {
             <div className="side-menu-overlay" onClick={() => closeSideMenu()} />
             <div className={`side-header ${mobile ? 'mobile-side-header' : null}`}>
                 <div style={{ display: 'flex', maxHeight: '100vh' }}>
-                    <Scrollbar options={{ suppressScrollX: true }} enable={!isMobile}>
+                    <Scrollbar options={{ suppressScrollX: true, suppressScrollY: true }} enable={!isMobile} style={{overflow: "visible"}}>
                         <div className="side-header-inner">
                             <button className="side-header-close d-block d-lg-none"
                                 onClick={() => {
@@ -85,20 +84,20 @@ const SideHeader = ({ mobile }) => {
                             </div>
 
                             <div className="side-header-footer pb-120 pb-lg-80 pb-md-80 pb-sm-80 pb-xs-50">
-                                <div className="side-header-contact-info">
+                                {/* <div className="side-header-contact-info">
                                     <p><EmailLink email={impressumData.email} /></p>
-                                </div>
+                                </div> */}
 
                                 <div className="side-header-social">
-                                    {socialicons.map(icon => (
-                                        <a key={icon.id} href={`https://${icon.media}.com/${icon.username}`}>
-                                            <i className={`fa fa-${icon.media}`} />
-                                        </a>
-                                    ))}
+                                {socialIcons.map(social => (
+
+<SocialIcon key={social?.id} url={`${social?.url}`} bgColor="#333333" />
+
+))}
                                 </div>
 
                                 <div className="side-header-copyright">
-                                    <p>&copy; {new Date().getFullYear()} DANABOND</p>
+                                    <p>&copy; {new Date().getFullYear()} <a href = "https://panda-platforma.berlin" target="_blank" rel="noopener noreferrer">PANDA platforma</a></p>
                                 </div>
                             </div>
                         </div>
