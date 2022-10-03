@@ -266,10 +266,10 @@ img {
 
 .pipe {
   width: 12px;
-  &:before {
+  &:after {
     content: "|";
     margin: auto;
-    margin-right: 8px;
+    margin: 0 10px;
 }
 }
 /*-- 
