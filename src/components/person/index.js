@@ -1,8 +1,6 @@
 import React from 'react';
 import PropTypes from "prop-types";
 import { SocialIcon } from 'react-social-icons';
-//import { Link } from "react-router-dom";
-import { ReactComponent as FramePortrait } from '../../assets/images/frame-portrait.svg'
 
 const PersonDetails = ({ person }) => {
     return (
