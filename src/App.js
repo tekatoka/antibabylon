@@ -6,6 +6,8 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 * */
 import TeamPage from "./pages/team";
 import MembersPage from "./pages/members";
+import JuryPage from "./pages/jury";
+import EventsPage from "./pages/events";
 import ErrorPage from "./pages/404Error";
 import ContactPage from "./pages/contact";
 import ServicePage from "./pages/service";
@@ -48,8 +50,6 @@ const App = () => {
                             <Switch>
                                    <Route path={`${process.env.PUBLIC_URL + "/contact"}`}
                                           component={ContactPage} />
-                                   <Route path={`${process.env.PUBLIC_URL + "/team"}`}
-                                          component={TeamPage} />
                                    <Route path={`${process.env.PUBLIC_URL + "/service"}`}
                                           component={ServicePage} />
                                    <Route path={`${process.env.PUBLIC_URL + "/blog-details-without-sidebar"}`}
@@ -92,6 +92,12 @@ const App = () => {
                                           component={PortfolioGridTwoColumnPage} />
                                    <Route path={`${process.env.PUBLIC_URL + "/members"}`}
                                           component={MembersPage} />
+                                   <Route path={`${process.env.PUBLIC_URL + "/jury"}`}
+                                          component={JuryPage} />
+                                   <Route path={`${process.env.PUBLIC_URL + "/team"}`}
+                                          component={TeamPage} />
+                                          <Route path={`${process.env.PUBLIC_URL + "/events"}`}
+                                          component={EventsPage} />
                                    <Route path={`${process.env.PUBLIC_URL + "/home-freelancer-portfolio"}`}
                                           component={HomeFreelancerPortfolio} />
                                    <Route path={`${process.env.PUBLIC_URL + "/home-blog"}`}

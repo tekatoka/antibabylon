@@ -10,6 +10,16 @@
     src: url("../fonts/menlo/Menlo\ Regular\ 400.ttf") format('truetype');
 }
 
+@font-face {
+  font-family: 'Dharma Punk';
+  src: url("../fonts/dharma_punk/Dharma\ Punk.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'Dharma Punk 2';
+  src: url("../fonts/dharma_punk/Dharma\ Punk\ 2.ttf") format('truetype');
+}
+
 /*-- Common Style --*/
 *, *::after, *::before {
   box-sizing: border-box;
@@ -89,7 +99,7 @@ a, button {
 }
 
 a {
-  color: $theme-color-2;
+  color: $link-color;
 }
 
 a, button, img, input, span {
@@ -271,6 +281,22 @@ img {
     margin: auto;
     margin: 0 10px;
 }
+}
+
+.social-icon {
+  margin-right: 12px;
+  text-decoration: none !important;
+
+  .social-svg-mask {
+    fill: $body-color;
+    opacity: 1;
+  }
+
+  &:hover {
+    .social-svg-mask {
+      fill: $link-color!important;
+    }
+  }
 }
 /*-- 
     - Input Placeholder

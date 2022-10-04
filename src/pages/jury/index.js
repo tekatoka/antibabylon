@@ -1,16 +1,16 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { Layout } from '../../Layout';
-import poetsData from '../../data/poets';
+import juryData from '../../data/jury';
 import PersonDetails from '../../components/person';
 
-const MembersPage = () => {
+const JuryPage = () => {
     return (
         <Layout>
-            <Container className='mb-20 container-person'>
+            <Container className='container-person mb-20'>
                 <Row>
-            {poetsData.map((poet, idx) => {
-                return <Col md={4} className="poet"><PersonDetails person={poet} /></Col>
+            {juryData.map((juryMember, idx) => {
+                return <Col md={2} xs={6} className="jury"><PersonDetails person={juryMember} /></Col>
             })}
             </Row>
             </Container>
@@ -18,4 +18,4 @@ const MembersPage = () => {
     );
 };
 
-export default MembersPage;
+export default JuryPage;

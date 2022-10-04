@@ -239,15 +239,6 @@
       line-height: 24px;
     }
 
-    &:hover {
-      color: $primary;
-
-      .social-svg-mask {
-        fill: black!important;
-        opacity: .5;
-      }
-    }
-
     &:last-child {
       margin-right: 0;
     }
@@ -669,10 +660,6 @@
       display: block;
       font-size: 16px;
       line-height: 24px;
-    }
-
-    &:hover {
-      color: $heading-color;
     }
 
     &:last-child {

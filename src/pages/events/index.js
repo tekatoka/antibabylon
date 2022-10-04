@@ -4,13 +4,13 @@ import { Layout } from '../../Layout';
 import poetsData from '../../data/poets';
 import PersonDetails from '../../components/person';
 
-const MembersPage = () => {
+const EventsPage = () => {
     return (
         <Layout>
-            <Container className='mb-20 container-person'>
+            <Container className='mb-20'>
                 <Row>
             {poetsData.map((poet, idx) => {
-                return <Col md={4} className="poet"><PersonDetails person={poet} /></Col>
+                return <Col md={4} ><PersonDetails person={poet} /></Col>
             })}
             </Row>
             </Container>
@@ -18,4 +18,4 @@ const MembersPage = () => {
     );
 };
 
-export default MembersPage;
+export default EventsPage;

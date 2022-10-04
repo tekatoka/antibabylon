@@ -1,0 +1,51 @@
+@mixin background-svg($color) {
+  -webkit-mask-size: cover;
+  mask-size: cover;
+  -webkit-mask-image: url(../images/frame-portrait.svg);
+  mask-image: url(../images/frame-portrait.svg);
+  background-color: $color;
+}
+
+.container-person {
+
+.person-title {
+  font-family: "Dharma Punk 2";
+  font-size: 4rem;
+  line-height: 2.8rem;
+}
+
+.poet .person-title {
+  font-size: 4rem;
+  line-height: 2.8rem;
+}
+
+.jury .person-title {
+  font-size: 3rem;
+  line-height: 2rem;
+}
+
+.person-image {
+  position: relative;
+  @include background-svg(#000);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 25px 15px 15px 15px;
+
+  &:hover {
+    &.armenia {@include background-svg($armenia); }
+    &.georgia {@include background-svg($georgia); }
+    &.moldova {@include background-svg($moldova); }
+    &.ukraine {@include background-svg($ukraine); }
+    &.germany {@include background-svg($germany); }
+  }
+
+  img {
+    width: 100%;
+    height:auto;
+    }
+}
+}
+
+.jury .person-image {
+  padding: 10px;
+}
