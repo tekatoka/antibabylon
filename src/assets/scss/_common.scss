@@ -298,6 +298,14 @@ img {
     }
   }
 }
+
+.flex-vertical {
+    display: flex;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+
 /*-- 
     - Input Placeholder
 -----------------------------------------*/

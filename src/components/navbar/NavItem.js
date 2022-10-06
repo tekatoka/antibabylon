@@ -1,5 +1,5 @@
 import React from 'react';
-import {NavLink} from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import navbarData from '../../data/navbar'
 
 const NavItem = () => {
@@ -11,19 +11,19 @@ const NavItem = () => {
                         className={"submenu-child"}
                         exact={child.link === `/`}
                         to={`${process.env.PUBLIC_URL + child.link}`}
-                        activeClassName={'active'}>
+                        activeClassName={'active test'}>
                         {child.title}
                     </NavLink>
-                    {idx < navItem.subMenu.length - 1 && <span className='pipe'></span>}
+                        {idx < navItem.subMenu.length - 1 && <span className='pipe'></span>}
                     </>
-                }) : 
-                <NavLink
-                    exact={navItem.link === `/`}
-                    to={`${process.env.PUBLIC_URL + navItem.link}`}
-                    activeClassName={'active'}>
-                    {navItem.title}
-                </NavLink>
-}
+                }) :
+                    <NavLink
+                        exact={navItem.link === `/`}
+                        to={`${process.env.PUBLIC_URL + navItem.link}`}
+                        activeClassName={'active'}>
+                        {navItem.title}
+                    </NavLink>
+                }
             </li>
         ))
     );

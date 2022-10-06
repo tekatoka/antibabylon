@@ -1,6 +1,28 @@
 [
-    {
+  {
     "id": 1,
+    "name": "Andro Dadiani",
+    "country": "Georgia",
+    "photo": "poets/andro-dadiani.jpg",
+    "shortBio": "Andro Dadiani is a poet and multimedia artist from Georgia. As Georgia is one of the most conservative countries, the artist has to work under a pseudonym and a mask for survival in communal life and freedom in art.",
+    "bio": ["Andro Dadiani is a poet and multimedia artist from Georgia. ",
+      "As Georgia is one of the most conservative countries, the artist has to work under ",
+      "a pseudonym and a mask for survival in communal life and freedom in art. ",
+      "His performances take place at different times in different countries, at exhibitions and biennales. ",
+      "Dadiani's poetic texts have appeared in various Georgian periodicals since 2017 and immediately ",
+      "attracted attention with his delicate lyrics, undisguised brutality and talking about taboo topics ",
+      "with natural calmness. In 2020, the author published the first collected poems: \"Purgatorio\". ",
+      "The collection \"Purgatorio\" which sometimes is referred to as the first collection of ",
+      "homoerotic poetry in the region, was presented in 2021 with an 84-hour non-stop performance, ",
+      "which represented the exact time analogue of Dante Alighieri's and Virgil's journey to Purgatory. ",
+      "In the same year, the collection became a finalist of the \"New Litera\" literary prize, ",
+      "before that, due to a confrontation with the Minister of Culture, the author withdrew ",
+      "the collection from the competition, as the Ministry tried to intervene in the process with censorship. ",
+    "In 2022, Dadian's poems were translated for the London Poetry Week and took part in the \"Tbilisi International Literature Festival.\""],
+    "social": ["https://www.instagram.com/andro.dadiani/", "https://www.facebook.com/andro.dadiani.925","https://androdadiani.wordpress.com/"]
+  },
+  {
+    "id": 2,
     "name": "Tatev Chakhian",
     "country": "Armenia",
     "photo": "poets/tatev-chakhian.jpg",
@@ -23,28 +45,6 @@
     "social": [
       "https://www.facebook.com/tatevchakhchakhian", "https://www.tatevchakhian.com"
     ]
-  },
-  {
-    "id": 2,
-    "name": "Andro Dadiani",
-    "country": "Georgia",
-    "photo": "poets/andro-dadiani.jpg",
-    "shortBio": "Andro Dadiani is a poet and multimedia artist from Georgia. As Georgia is one of the most conservative countries, the artist has to work under a pseudonym and a mask for survival in communal life and freedom in art.",
-    "bio": ["Andro Dadiani is a poet and multimedia artist from Georgia. ",
-      "As Georgia is one of the most conservative countries, the artist has to work under ",
-      "a pseudonym and a mask for survival in communal life and freedom in art. ",
-      "His performances take place at different times in different countries, at exhibitions and biennales. ",
-      "Dadiani's poetic texts have appeared in various Georgian periodicals since 2017 and immediately ",
-      "attracted attention with his delicate lyrics, undisguised brutality and talking about taboo topics ",
-      "with natural calmness. In 2020, the author published the first collected poems: \"Purgatorio\". ",
-      "The collection \"Purgatorio\" which sometimes is referred to as the first collection of ",
-      "homoerotic poetry in the region, was presented in 2021 with an 84-hour non-stop performance, ",
-      "which represented the exact time analogue of Dante Alighieri's and Virgil's journey to Purgatory. ",
-      "In the same year, the collection became a finalist of the \"New Litera\" literary prize, ",
-      "before that, due to a confrontation with the Minister of Culture, the author withdrew ",
-      "the collection from the competition, as the Ministry tried to intervene in the process with censorship. ",
-    "In 2022, Dadian's poems were translated for the London Poetry Week and took part in the \"Tbilisi International Literature Festival.\""],
-    "social": ["https://www.instagram.com/andro.dadiani/", "https://www.facebook.com/andro.dadiani.925","https://androdadiani.wordpress.com/"]
   },
   {
     "id": 3,

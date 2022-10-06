@@ -73,6 +73,7 @@
       position: relative;
 
       & > a {
+        position: relative;
         display: block;
         font-family: $heading-font;
         font-size: 1rem;
@@ -174,6 +175,7 @@
       }
 
       & a {
+        position: relative;
         display: block;
         font-family: $heading-font;
         font-size: 14px;

@@ -1,0 +1,71 @@
+@mixin background-svg-even($color) {
+  -webkit-mask-size: cover;
+  mask-size: cover;
+  -webkit-mask-image: url(../images/events/event-even.svg);
+  mask-image: url(../images/events/event-even.svg);
+  background-color: $color;
+}
+
+@mixin background-svg-odd($color) {
+  -webkit-mask-size: cover;
+  mask-size: cover;
+  -webkit-mask-image: url(../images/events/event-odd.svg);
+  mask-image: url(../images/events/event-odd.svg);
+  background-color: $color;
+}
+
+.event-title {
+  font-family: "Dharma Punk 2";
+  font-size: 4rem;
+  line-height: 2.8rem;
+}
+
+.event-details {
+  display: table;
+  width: 100%;
+  padding: 30px;
+  margin-bottom: 50px;
+}
+
+.event-date {
+      font-family: 'Menlo', sans-serif;
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin-bottom: 15px;
+}
+
+.event-cite {
+  font-weight: 600;
+}
+
+.events-list .event:nth-child(odd) {
+
+  .event-details {
+  position: relative;
+  @include background-svg-odd($grey);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 25px 15px 15px 15px;
+  }
+}
+
+.events-list .event:nth-child(even) {
+
+  .event-details {
+  position: relative;
+  @include background-svg-even($grey);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 45px 25px 25px;
+  }
+}
+
+.events-list .event .event-details:hover {
+    color: #333;
+
+    &.georgia {@include background-svg-odd($georgia); }
+    &.armenia {@include background-svg-even($armenia); }
+    &.moldova {@include background-svg-odd($moldova); }
+    &.ukraine {@include background-svg-even($ukraine); }
+    &.germany {@include background-svg-odd($germany); }
+} 

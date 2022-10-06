@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "country": "Georgia",
+    "city": "Tbilisi",
+    "date": "15.11.2022",
+    "cite": "Tbilisi Academic Theater named after K. Marjanishvili",
+    "address": "8 Kote Marjanishvili St, Tbilisi",
+    "description": "Opisanie"
+  },
+  {
+    "id": 2,
+    "country": "Armenia",
+    "city": "Yerevan",
+    "date": "18.11.2022",
+    "cite": "Armenia Academic Theater named after K. Marjanishvili",
+    "address": "8 Kote Marjanishvili St, Tbilisi",
+    "description": "Opisanie"
+  },
+  {
+    "id": 3,
+    "country": "Moldova",
+    "city": "Chișinău",
+    "date": "21.11.2022",
+    "cite": "Chisinau Academic Theater named after K. Marjanishvili",
+    "address": "8 Kote Marjanishvili St, Tbilisi",
+    "description": "Opisanie"
+  },
+  {
+    "id": 4,
+    "country": "Ukraine",
+    "city": "Berlin",
+    "date": "24.11.2022",
+    "cite": "Berlin Academic Theater named after K. Marjanishvili",
+    "address": "8 Kote Marjanishvili St, Tbilisi",
+    "description": "Opisanie"
+  },
+  {
+    "id": 5,
+    "country": "Germany",
+    "city": "Berlin",
+    "date": "25.-26.11.2022",
+    "cite": "Berlin ACUD",
+    "address": "8 Kote Marjanishvili St, Tbilisi",
+    "description": "Opisanie"  
+  }
+]

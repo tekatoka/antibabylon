@@ -90,13 +90,13 @@ const App = () => {
                                           component={PortfolioGridThreeColumnPage} />
                                    <Route path={`${process.env.PUBLIC_URL + "/portfolio-grid-two-column"}`}
                                           component={PortfolioGridTwoColumnPage} />
-                                   <Route path={`${process.env.PUBLIC_URL + "/members"}`}
+                                   <Route path={`${process.env.PUBLIC_URL + "/poets"}`}
                                           component={MembersPage} />
                                    <Route path={`${process.env.PUBLIC_URL + "/jury"}`}
                                           component={JuryPage} />
                                    <Route path={`${process.env.PUBLIC_URL + "/team"}`}
                                           component={TeamPage} />
-                                          <Route path={`${process.env.PUBLIC_URL + "/events"}`}
+                                   <Route path={`${process.env.PUBLIC_URL + "/events"}`}
                                           component={EventsPage} />
                                    <Route path={`${process.env.PUBLIC_URL + "/home-freelancer-portfolio"}`}
                                           component={HomeFreelancerPortfolio} />

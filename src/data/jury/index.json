@@ -1,22 +1,6 @@
 [
-    {
-    "id": 1,
-    "name": "Armen Ohanyan",
-    "country": "Armenia",
-    "photo": "jury/armen-ohanyan.jpg",
-    "shortBio": "Armen Ohanyan (b.1979; pen name Armen of Armenia) is a fiction writer, essayist and literary translator based in Yerevan. He has received acclaim for his interactive short stories [The Return of Kikos] and the trilogy of novels [Mommyland]. These novels present the Armenian LGBTQI scene under a positive light for the first time in Eastern Armenian literature. His writing is significantly influenced by his civic activism; he is the president of PEN Armenia (since 2017),  chairperson of the TIAC board, as well as board member of HRH Yerevan. He holds a BA in philosophy from Yerevan State University and the graduate certificate in Translation (CTRA) from American University of Armenia",
-    "bio": ["Armen Ohanyan (b.1979; pen name Armen of Armenia) is a fiction writer, ",
-      "essayist and literary translator based in Yerevan. He has received acclaim for his ",
-      "interactive short stories [The Return of Kikos] and the trilogy of novels [Mommyland]. ",
-      "These novels present the Armenian LGBTQI scene under a positive light for the first time ",
-      "in Eastern Armenian literature. His writing is significantly influenced by his civic activism; ",
-      "he is the president of PEN Armenia (since 2017),  chairperson of the TIAC board, as well as board member ",
-      "of HRH Yerevan. He holds a BA in philosophy from Yerevan State University and the graduate certificate ",
-      "in Translation (CTRA) from American University of Armenia."],
-      "social": ["https://www.youtube.com/watch?v=TwarjBQOQv0"]
-  },
   {
-    "id": 2,
+    "id": 1,
     "name": "Paata Shamugia",
     "country": "Georgia",
     "photo": "jury/paata-shamugia.jpg",
@@ -42,6 +26,22 @@
     "early nineties, even Paata is banned from entering the occupied zone—anyhow, his childhood home has been demolished, ",
     "as well as other houses owned by Georgian combatants from the conflict."],
     "social": ["https://shamugia.ge/"]
+  },
+  {
+    "id": 2,
+    "name": "Armen Ohanyan",
+    "country": "Armenia",
+    "photo": "jury/armen-ohanyan.jpg",
+    "shortBio": "Armen Ohanyan (b.1979; pen name Armen of Armenia) is a fiction writer, essayist and literary translator based in Yerevan. He has received acclaim for his interactive short stories [The Return of Kikos] and the trilogy of novels [Mommyland]. These novels present the Armenian LGBTQI scene under a positive light for the first time in Eastern Armenian literature. His writing is significantly influenced by his civic activism; he is the president of PEN Armenia (since 2017),  chairperson of the TIAC board, as well as board member of HRH Yerevan. He holds a BA in philosophy from Yerevan State University and the graduate certificate in Translation (CTRA) from American University of Armenia",
+    "bio": ["Armen Ohanyan (b.1979; pen name Armen of Armenia) is a fiction writer, ",
+      "essayist and literary translator based in Yerevan. He has received acclaim for his ",
+      "interactive short stories [The Return of Kikos] and the trilogy of novels [Mommyland]. ",
+      "These novels present the Armenian LGBTQI scene under a positive light for the first time ",
+      "in Eastern Armenian literature. His writing is significantly influenced by his civic activism; ",
+      "he is the president of PEN Armenia (since 2017),  chairperson of the TIAC board, as well as board member ",
+      "of HRH Yerevan. He holds a BA in philosophy from Yerevan State University and the graduate certificate ",
+      "in Translation (CTRA) from American University of Armenia."],
+      "social": ["https://www.youtube.com/watch?v=TwarjBQOQv0"]
   },
   {
     "id": 3,

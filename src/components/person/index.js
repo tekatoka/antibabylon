@@ -6,17 +6,17 @@ const PersonDetails = ({ person }) => {
     return (
         <div className='mb-20'>
             <div className={`person-image ${person.country.toLowerCase()}`}>
-            <img src={require('../../assets/images/' + person.photo)} alt={person.name}/>
+                <img src={require('../../assets/images/' + person.photo)} alt={person.name} />
             </div>
             <div className='person-title mb-30 mt-30'>{person.name}</div>
-            {person.country && <h3>{person.country}</h3>}
-            <br />
-            {person.shortBio}
-            {person.social && 
+            {person.country && <span className={`country-label ${person.country.toLowerCase()} mb-30`}>{person.country}</span>}
+
+            <div className='mt-20'>{person.shortBio}</div>
+            {person.social &&
                 <div className='mt-20 mb-40'>
-                            {person.social.map((social, idx) => (
-                                <SocialIcon key={idx} url={`${social}`} bgColor="#333333" />
-                            ))}
+                    {person.social.map((social, idx) => (
+                        <SocialIcon key={idx} url={`${social}`} bgColor="#333333" />
+                    ))}
                 </div>
             }
         </div>

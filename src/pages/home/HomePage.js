@@ -11,13 +11,13 @@ import ProjectInfo from '../../container/project/ProjectInfo';
 const HomePage = () => {
     return (
         <Layout>
-                <MainSlider />
-                <CountriesMap />
-                <ProjectMission />
-                <ProjectPhases />
-                <ProjectInfo />
-                </Layout>
+            <MainSlider />
+            <CountriesMap />
+            <ProjectMission />
+            <ProjectPhases />
+            <ProjectInfo />
+        </Layout>
     );
-    }
+}
 
 export default HomePage;
