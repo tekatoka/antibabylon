@@ -14,10 +14,10 @@ const JuryPage = () => {
 
     return (
         <Layout>
-            <Container className='container-person mb-20'>
+            <Container className='mb-20'>
                 <Row>
                     {juryData.map((juryMember, idx) => {
-                        return <Col md={2} xs={6} key={idx} onClick={() => context.showModal(view(juryMember, "jury", true))}>
+                        return <Col className="container-person" lg={2} md={4} xs={6} key={idx} onClick={() => context.showModal(view(juryMember, "jury", true))}>
                             {view(juryMember, "jury")}
                         </Col>
                     })}

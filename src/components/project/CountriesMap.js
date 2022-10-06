@@ -3,7 +3,7 @@ import { Container, Row } from 'react-bootstrap';
 import countries from '../../data/countries';
 import ReactConnectElements from '../../hooks/ConnectElements';
 
-const CountriesMap = () => {
+const CountriesMap = ({ activeCountry }) => {
 
     const [orientation, setOrientation] = useState(window.screen.orientation.type);
     const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -22,15 +22,13 @@ const CountriesMap = () => {
             <Container style={{ height: "200px" }} className="mb-20">
                 <Row className={'country-map mt-30 mbn-30'} style={{ position: "relative" }}>
                     {countries.map((country, idx) => (
-                        <>
-                            <div id={country.name.toLowerCase()} className={"country"} key={country.id}>
-                                <a href={`/events/${country.name.toLowerCase()}`}>
-                                    <img src={require('../../assets/images/' + country.thumb)} alt={country.name} />
-                                    <br />
-                                    <span className='country-name'>{country.name}</span>
-                                </a>
-                            </div>
-                        </>
+                        <div key={idx} id={country.name.toLowerCase()} className={"country"}>
+                            <a href={`/events/${country.name.toLowerCase()}`} className={`${country.name.toLowerCase() === activeCountry ? "active" : ""}`}>
+                                <img src={require('../../assets/images/' + country.thumb)} alt={country.name} />
+                                <br />
+                                <span className='country-name'>{country.name}</span>
+                            </a>
+                        </div>
                     ))}
                     <ReactConnectElements
                         selector=".country-map"

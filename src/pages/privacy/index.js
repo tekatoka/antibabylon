@@ -6,7 +6,7 @@ const PrivacyPage = () => {
     return (
         <Layout>
             <ContentPrivacy />
-            </Layout>
+        </Layout>
     );
 };
 

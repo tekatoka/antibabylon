@@ -23,20 +23,53 @@
     transform: translate3d(0, 100%, 0);
 }
 
+.country-label {
+  position: relative;
+  z-index: 0;
+  font-size: 1.25rem;
+
+  &.armenia {
+    &:after { @include country-label-underline($armenia); }
+  }
+    &.georgia {
+      &:after { @include country-label-underline($georgia); }
+      }
+    &.moldova {
+      &:after {@include country-label-underline($moldova); }
+    }
+    &.ukraine {
+      &:after {@include country-label-underline($ukraine); }
+    }
+
+    &.germany {
+      &:after {@include country-label-underline($germany); }
+    }
+}
+
+.container-person {
+  cursor: pointer;
+} 
+
 .person-title {
   font-family: "Dharma Punk 2";
-  font-size: 4rem;
-  line-height: 2.8rem;
 }
 
 .poet .person-title {
-  font-size: 4rem;
-  line-height: 2.8rem;
+  font-size: 3.5rem;
+  line-height: 2.5rem;
 }
 
-.jury .person-title {
-  font-size: 3rem;
-  line-height: 2rem;
+.jury {
+.person-title {
+  font-size: 2.75rem;
+  line-height: 1.75rem;
+}
+
+.person-image {
+  img {
+    margin-top: 5px;
+  }
+}
 }
 
 .person-image {
@@ -60,29 +93,31 @@
     } 
 }
 
-.jury .person-image {
+.jury {
+  .person-image {
   padding: 10px;
 }
-
-.country-label {
-  position: relative;
-  z-index: 0;
-  font-size: 1.25rem;
-
-  &.armenia {
-    &:after { @include country-label-underline($armenia); }
-  }
-    &.georgia {
-      &:after { @include country-label-underline($georgia); }
-      }
-    &.moldova {
-      &:after {@include country-label-underline($moldova); }
-    }
-    &.ukraine {
-      &:after {@include country-label-underline($ukraine); }
-    }
-
-    &.germany {
-      &:after {@include country-label-underline($germany); }
-    }
 }
+
+.team-member {
+  .person-image {
+    max-width: 100%;
+    padding: 10px;
+    background-color: $link-color;
+
+    img {
+      margin-top: 2px;
+    }
+  }
+
+  .person-title {
+  font-size: 2rem;
+  line-height: 1.5rem;
+}
+
+i:hover {
+  color: black
+}
+
+}
+

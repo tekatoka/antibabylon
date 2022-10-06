@@ -4,10 +4,12 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 /*
 * @ Component Imported
 * */
+import AboutPage from "./pages/about";
 import TeamPage from "./pages/team";
 import MembersPage from "./pages/members";
 import JuryPage from "./pages/jury";
 import EventsPage from "./pages/events";
+import EventPage from './pages/events/event-page';
 import ErrorPage from "./pages/404Error";
 import ContactPage from "./pages/contact";
 import ServicePage from "./pages/service";
@@ -62,6 +64,8 @@ const App = () => {
               <AppContext.Provider value={{ modalVisible, modalContent, showModal, hideModal }}>
                      <Router>
                             <Switch>
+                                   <Route path={`${process.env.PUBLIC_URL + "/about"}`}
+                                          component={AboutPage} />
                                    <Route path={`${process.env.PUBLIC_URL + "/contact"}`}
                                           component={ContactPage} />
                                    <Route path={`${process.env.PUBLIC_URL + "/service"}`}
@@ -110,6 +114,8 @@ const App = () => {
                                           component={JuryPage} />
                                    <Route path={`${process.env.PUBLIC_URL + "/team"}`}
                                           component={TeamPage} />
+                                   <Route path={`${process.env.PUBLIC_URL + "/events/:countryName"}`}
+                                          component={EventPage} />
                                    <Route path={`${process.env.PUBLIC_URL + "/events"}`}
                                           component={EventsPage} />
                                    <Route path={`${process.env.PUBLIC_URL + "/home-freelancer-portfolio"}`}

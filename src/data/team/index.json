@@ -1,117 +1,199 @@
 [
   {
+  "category": "Organization",
+  "members": [
+  {
     "id": 1,
     "name": "LEBMID JONSON",
-    "designation": "Senior Developer",
+    "role": "Senior Developer",
     "profilePhoto": "team-1.jpg",
     "socials": [
       {
         "id": 1,
         "media": "facebook",
-        "username": "hasthemes"
+        "link": "https://facebook.com"
       },
       {
         "id": 2,
         "media": "twitter",
-        "username": "hasthemes"
+        "link": "https://facebook.com"
       },
       {
         "id": 3,
         "media": "dribbble",
-        "username": "hastech"
+        "link": "https://facebook.com"
       }
     ]
   },
   {
     "id": 2,
     "name": "Raju Ahammad",
-    "designation": "HTML Coder",
+    "role": "HTML Coder",
     "profilePhoto": "team-2.jpg",
     "socials": [
       {
         "id": 1,
         "media": "facebook",
-        "username": "rajuahammadfans"
+"link": "https://facebook.com"
       },
       {
         "id": 2,
         "media": "twitter",
-        "username": "rajuahammadfans"
+        "link": "https://facebook.com"
       },
       {
         "id": 3,
         "media": "dribbble",
-        "username": "rajuahammadfans"
+"link": "https://facebook.com"
       }
     ]
   },
   {
     "id": 3,
     "name": "KB Arif",
-    "designation": "Creative Designer",
+    "role": "Creative Designer",
     "profilePhoto": "team-3.jpg",
     "socials": [
       {
         "id": 1,
         "media": "facebook",
-        "username": "kbarif"
+        "link": "https://facebook.com"
       },
       {
         "id": 2,
         "media": "twitter",
-        "username": "kbarif"
+        "link": "https://facebook.com"
       },
       {
         "id": 3,
         "media": "dribbble",
-        "username": "kbarif"
+        "link": "https://facebook.com"
       }
     ]
   },
   {
     "id": 4,
     "name": "Charlie Puth",
-    "designation": "Shopify Experts",
+    "role": "Shopify Experts",
     "profilePhoto": "team-4.jpg",
     "socials": [
       {
         "id": 1,
         "media": "facebook",
-        "username": "rajuahammadfans"
+        "link": "https://facebook.com"
       },
       {
         "id": 2,
         "media": "twitter",
-        "username": "rajuahammadfans"
+        "link": "https://facebook.com"
       },
       {
         "id": 3,
         "media": "github",
-        "username": "rajuahammadfans"
+        "link": "https://facebook.com"
       }
     ]
   },
   {
     "id": 5,
     "name": "Jeremy Scott",
-    "designation": "Front End Devs",
+    "role": "Front End Devs",
     "profilePhoto": "team-5.jpg",
     "socials": [
       {
         "id": 1,
         "media": "facebook",
-        "username": "rajuahammadfans"
+        "link": "https://facebook.com"
       },
       {
         "id": 2,
         "media": "twitter",
-        "username": "rajuahammadfans"
+        "link": "https://facebook.com"
       },
       {
         "id": 3,
         "media": "github",
-        "username": "rajuahammadfans"
+        "link": "https://facebook.com"
       }
     ]
   }
+]
+},
+  {
+  "category": "Social Media",
+  "members": [
+  {
+    "id": 1,
+    "name": "Alex Murray",
+    "role": "Social Media Manager",
+    "profilePhoto": "team-5.jpg",
+    "socials": [
+      {
+        "id": 1,
+        "media": "facebook",
+        "link": "https://facebook.com"
+      },
+      {
+        "id": 2,
+        "media": "twitter",
+        "link": "https://facebook.com"
+      },
+      {
+        "id": 3,
+        "media": "dribbble",
+        "link": "https://facebook.com"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Petra Lembowski",
+    "role": "Trainee",
+    "profilePhoto": "team-3.jpg",
+    "socials": [
+      {
+        "id": 1,
+        "media": "facebook",
+"link": "https://facebook.com"
+      },
+      {
+        "id": 2,
+        "media": "twitter",
+        "link": "https://facebook.com"
+      },
+      {
+        "id": 3,
+        "media": "dribbble",
+"link": "https://facebook.com"
+      }
+    ]
+  }
+]},
+{
+"category": "Web",
+"members": [  {
+    "id": 3,
+    "name": "KB Arif",
+    "role": "Creative Designer",
+    "profilePhoto": "team-1.jpg",
+    "socials": [
+      {
+        "id": 1,
+        "media": "facebook",
+        "link": "https://facebook.com"
+      },
+      {
+        "id": 2,
+        "media": "twitter",
+        "link": "https://facebook.com"
+      },
+      {
+        "id": 3,
+        "media": "dribbble",
+        "link": "https://facebook.com"
+      }
+    ]
+  }
+]
+}
 ]

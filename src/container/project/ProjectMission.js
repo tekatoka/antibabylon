@@ -5,7 +5,6 @@ import ProjectMissionTitle from "../../assets/images/titles/project-mission.png"
 const ProjectMission = () => {
     return (
         <div id="project-mission" className="section">
-            {/* style={{ backgroundImage: `url(${serviceBg})` }} */}
             <div className="section-wrap section pt-80 pt-xs-50 pb-80 pb-lg-80 pb-md-80 pb-sm-80 pb-xs-50 mb-140">
                 <Container>
                     <Row className={'text-center'}>

@@ -14,10 +14,10 @@ const MembersPage = () => {
 
     return (
         <Layout>
-            <Container className='container-person poet mb-20'>
+            <Container className='mb-20'>
                 <Row>
                     {poetsData.map((poet, idx) => {
-                        return <Col md={4} key={idx} onClick={() => context.showModal(view(poet, "poet", true))}>
+                        return <Col className="container-person" md={4} key={idx} onClick={() => context.showModal(view(poet, "poet", true))}>
                             {view(poet, "poet")}
                         </Col>
                     })}

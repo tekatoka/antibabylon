@@ -9,6 +9,12 @@
     font-size: 1rem;
     color: #333;
 
+    &.active {
+      font-size: 1.15rem;
+      text-decoration: underline;
+      font-weight: 600;
+    }
+
     img {
       max-width: 50px;
 
@@ -194,4 +200,10 @@
       }
   }
     }
+}
+
+.section#about {
+  #project-mission::before, #project-info::before {
+    transform: none;
+  }
 }
