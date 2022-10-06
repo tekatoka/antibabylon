@@ -7,13 +7,18 @@ import PersonDetails from '../../components/person';
 
 const MembersPage = () => {
     const context = React.useContext(AppContext);
+
+    const view = (person, type, fullBio) => {
+        return <PersonDetails person={person} type={type} fullBio={fullBio} />
+    }
+
     return (
         <Layout>
             <Container className='container-person poet mb-20'>
                 <Row>
                     {poetsData.map((poet, idx) => {
-                        return <Col md={4} key={idx} onClick={() => context.showModal(<PersonDetails person={poet} type={"poet"} />)}>
-                            <PersonDetails person={poet} type={"poet"} />
+                        return <Col md={4} key={idx} onClick={() => context.showModal(view(poet, "poet", true))}>
+                            {view(poet, "poet")}
                         </Col>
                     })}
                 </Row>

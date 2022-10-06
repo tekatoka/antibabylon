@@ -13,9 +13,15 @@
       max-width: 50px;
 
       @media #{$large-mobile, $small-mobile, $extra-small-mobile}{
-        max-width: 25px;
+        max-width: 35px;
       }
     }
+
+      &:hover {
+        img {
+          transform: scale(1.25); 
+        }
+      }
   }
 
   &#georgia {
