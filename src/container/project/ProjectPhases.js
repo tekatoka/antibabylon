@@ -10,8 +10,8 @@ const ProjectPhases = () => {
             <div className="section-wrap section pt-0 pb-lg-80 pb-md-80 pb-sm-80 pb-xs-50">
                 <Container>
                     <Row className={'text-center'}>
-                        <Col>
-                            <img src={ProjectPhasesTitle} className={"custom-title"} alt={"Project Mission"} title={"Project Mission"} />
+                        <Col className='custom-title mb-40'>
+                            Project Phases
                         </Col>
                     </Row>
 
