@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React, { useState } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 /*
@@ -42,10 +42,24 @@ import PortfolioMasonryThreeColumnFullWidthPage from "./pages/portfolio/masonry/
 
 import CookieConsentComponent from './components/CookieConsent';
 
+export const AppContext = React.createContext();
+
 const App = () => {
+       const [modalVisible, setModalVisible] = useState(false);
+       const [modalContent, setModalContent] = useState(null);
+
+       const showModal = (children) => {
+              setModalContent(children);
+              setModalVisible(true);
+       }
+
+       const hideModal = () => {
+              setModalContent(null);
+              setModalVisible(false);
+       }
 
        return (
-              <Fragment>
+              <AppContext.Provider value={{ modalVisible, modalContent, showModal, hideModal }}>
                      <Router>
                             <Switch>
                                    <Route path={`${process.env.PUBLIC_URL + "/contact"}`}
@@ -121,7 +135,7 @@ const App = () => {
                             </Switch>
                             <CookieConsentComponent />
                      </Router>
-              </Fragment>
+              </AppContext.Provider>
        );
 };
 

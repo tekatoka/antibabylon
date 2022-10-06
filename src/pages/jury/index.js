@@ -9,10 +9,10 @@ const JuryPage = () => {
         <Layout>
             <Container className='container-person mb-20'>
                 <Row>
-            {juryData.map((juryMember, idx) => {
-                return <Col md={2} xs={6} className="jury"><PersonDetails person={juryMember} /></Col>
-            })}
-            </Row>
+                    {juryData.map((juryMember, idx) => {
+                        return <Col md={2} xs={6} className="jury"><PersonDetails person={juryMember} type={"jury"} /></Col>
+                    })}
+                </Row>
             </Container>
         </Layout>
     );

@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, { useEffect, useState } from 'react';
 import { Container, Row } from 'react-bootstrap';
 import countries from '../../data/countries';
 import ReactConnectElements from '../../hooks/ConnectElements';
@@ -10,7 +10,7 @@ const CountriesMap = () => {
 
     useEffect(() => {
         window.addEventListener('resize', changeWindowWidth);
-        window.screen.orientation.onchange = function(e) { setOrientation(window.screen.orientation.type); }
+        window.screen.orientation.onchange = function (e) { setOrientation(window.screen.orientation.type); }
     }, [])
 
     const changeWindowWidth = () => {
@@ -20,7 +20,7 @@ const CountriesMap = () => {
     return (
         <div className="section pt-80 pt-xs-50">
             <Container style={{ height: "200px" }} className="mb-20">
-                <Row className={'country-map mbn-30'} style={{ position: "relative" }}>
+                <Row className={'country-map mt-30 mbn-30'} style={{ position: "relative" }}>
                     {countries.map((country, idx) => (
                         <>
                             <div id={country.name.toLowerCase()} className={"country"} key={country.id}>

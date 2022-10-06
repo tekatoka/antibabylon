@@ -1,0 +1,57 @@
+.react-modal {
+     position: fixed;
+     z-index: 1001!important;
+
+     .react-modal-body {
+         position: relative;
+         background-color: #fff;
+         padding: 10px;
+         border-radius: 4px;
+         z-index: 1001;
+         min-height: 200px;
+         display: none;
+         background-color: $primary;
+         width: 50%;
+         height: 95vh;
+         @media #{
+            $tablet-device,$large-mobile
+        }
+        {
+             width: 75%;
+        }
+         @media #{
+            $small-mobile,$extra-small-mobile
+        }
+        {
+             width: 90%;
+        }
+         &.pulse-enter-active, &.pulse-enter-done, &.pulse-exit-active {
+             //display: table!important;
+        }
+         .inner-wrapper {
+             height: 100%;
+             //display: table-cell;
+             flex: revert;
+             background-color: $white;
+             padding: 20px 0 0;
+
+            > div {
+              height: 100%;
+              overflow-y: scroll;
+              padding: 25px;
+            }
+        }
+         .react-modal-body-close {
+             position: absolute;
+             cursor: pointer;
+             top: 10px;
+             right: 10px;
+             width: 15px;
+             height: 15px;
+        }
+
+        .main-image {
+          max-width: 250px;
+        }
+    }
+}

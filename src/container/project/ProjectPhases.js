@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import ProjectPhasesTitle from "../../assets/images/titles/project-phases.png";
-import ProjectTimeline from './ProjectTimeline';
+import ProjectTimeline from '../../components/project/ProjectTimeline';
 
 const ProjectPhases = () => {
     return (
