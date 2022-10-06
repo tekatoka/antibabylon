@@ -1,6 +1,5 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import ProjectMissionTitle from "../../assets/images/titles/project-mission.png";
 
 const ProjectMission = () => {
     return (
