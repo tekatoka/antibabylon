@@ -5,6 +5,7 @@ import { Layout } from '../../../Layout';
 import eventsData from '../../../data/events';
 import Error404 from '../../../components/error';
 import CountriesMap from '../../../components/project/CountriesMap';
+import Map from '../../../components/map';
 
 const EventPage = () => {
 
@@ -31,14 +32,15 @@ const EventPage = () => {
                                     <div className='event-cite'>{event.cite}</div>
                                     <div className='event-address'>{event.address}</div>
                                     <div className='mb-40 mt-40'>
-                                        <iframe
+                                        <Map address={"8 Kote Marjanishvili St, Tbilisi"} />
+                                        {/* <iframe
                                             width="600"
                                             height="500"
                                             className='w-100'
                                             title="gmap-canvas"
                                             src="https://maps.google.com/maps?q=10439 Kulturbrauerei,Berlin&t=&z=13&ie=UTF8&iwloc=&output=embed"
                                             frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
-                                        </iframe>
+                                        </iframe> */}
                                         {/* <iframe
                                             title='google-map'
                                             width="600"

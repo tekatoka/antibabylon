@@ -1,24 +1,33 @@
 import React from 'react';
+import { Row, Col } from 'react-bootstrap';
 
-const Map = ({ text, lat, long }) => {
+const Map = ({ text, address }) => { //lat, long
     return (
-        <div className="row">
-            <div className="col-lg-10 col-12 mb-45">
+        <Row>
+            {text && <Col xs={12} className="mb-45">
                 <div className="contact-availability">
-                    <h3>MEIN STANDORT</h3>
                     <p>{text}</p>
                 </div>
-            </div>
-            <div className="col-lg-10 col-12">
+            </Col>
+            }
+            <Col xs={12}>
                 <div id="contact-map">
                     <iframe
-                        src={`https://maps.google.com/maps?q=${lat},${long}&hl=de&z=10&output=embed`}
+                        style={{ width: '100%', height: '100%', border: 0 }}
+                        className='w-100'
+                        title="gmap-canvas"
+                        src={`https://maps.google.com/maps?q=${address}&t=&z=13&ie=UTF8&iwloc=&output=embed`}
+                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                    </iframe>
+
+                    {/* <iframe
+                        //src={`https://maps.google.com/maps?q=${lat},${long}&hl=de&z=10&output=embed`}
                         title={'Contact Map'}
                         style={{ width: '100%', height: '100%', border: 0 }}
-                    />
+                    /> */}
                 </div>
-            </div>
-        </div>
+            </Col>
+        </Row>
     );
 };
 

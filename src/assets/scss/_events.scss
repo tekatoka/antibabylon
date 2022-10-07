@@ -37,14 +37,14 @@ a {
   i {
     font-size: 2rem;
     position: absolute;
-    left: -35px;
+    left: -15px;
   }
 
   &:hover {
     i {
       transform: scale(1.25); 
       transition: top ease 1.5s;
-      left: -25px;
+      left: 0px;
     }
   }
 }
