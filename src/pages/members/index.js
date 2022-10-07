@@ -9,7 +9,7 @@ const MembersPage = () => {
     const context = React.useContext(AppContext);
 
     const view = (person, type, fullBio) => {
-        return <PersonDetails person={person} type={type} fullBio={fullBio} />
+        return <PersonDetails person={person} type={type} fullBio={fullBio} onClick={() => context.showModal(view(person, "poet", true))} />
     }
 
     return (
@@ -17,7 +17,7 @@ const MembersPage = () => {
             <Container className='mb-20'>
                 <Row>
                     {poetsData.map((poet, idx) => {
-                        return <Col className="container-person" md={4} key={idx} onClick={() => context.showModal(view(poet, "poet", true))}>
+                        return <Col className="container-person" md={4} key={idx}>
                             {view(poet, "poet")}
                         </Col>
                     })}
