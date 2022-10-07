@@ -1,4 +1,9 @@
 #cookie-consent {
+
+    > div {
+        z-index: 9999!important;
+    }
+
     a {
         text-decoration: underline;
     }
