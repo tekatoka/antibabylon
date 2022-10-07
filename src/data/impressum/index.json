@@ -1,8 +1,10 @@
 {
-  "name": "Bogdana Bondarenko",
-  "address-line-1": "Rostocker Str.",
-  "address-line-2": "10553 Berlin",
-  "email": "dana.b@web.de",
+  "role": "Vereinsvorsitzenpe PANDA platforma",
+  "name": "Svetlana Müller, Daniel Adasinskiy",
+  "address-line-1": "PANDA platforma",
+  "address-line-2": "Knaackstr. 97",
+  "address-line-3": "10435 Berlin",
+  "email": "info@panda-platforma.berlin",
   "taxId": "",
-  "taxOffice": "Finanzamt Berlin/Mitte"
+  "taxOffice": ""
 }

@@ -20,16 +20,19 @@ const ContentImpressum = ({ type }) => {
                                         <div>{impressumData.name}</div>
                                         <div>{impressumData["address-line-1"]}</div>
                                         <div>{impressumData["address-line-2"]}</div>
+                                        <div>{impressumData["address-line-3"]}</div>
                                         <EmailLink email={impressumData.email} />
                                         <div className='mt-25'>
 
-                                            <strong>Vertreten durch: </strong> {impressumData.name}
+                                            <strong>Vertreten durch: </strong>
+                                            <div>{impressumData.role}</div>
+                                            <div>{impressumData.name}</div>
                                         </div>
-                                        <div className='mt-25'>
+                                        {/* <div className='mt-25'>
                                             <strong>Steuernummer</strong>: {impressumData.taxId}
                                             <br />
                                             {impressumData.taxOffice}
-                                        </div>
+                                        </div> */}
                                     </>
                                 }
                             </div>

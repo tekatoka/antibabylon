@@ -1,6 +1,7 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 import ImpressumTitle from "../../../../assets/images/titles/impressum.png";
+import impressumData from '../../../../data/impressum';
 
 const Impressum = () => {
     return (
@@ -13,21 +14,21 @@ const Impressum = () => {
                         Es gilt die deutsche Rechtsprechung.
                     </div>
                     <div className='mt-20 mb-20 mb-sm-10 text-500' style={{ fontSize: "1rem" }}>
-                        PANDA platforma
+                        {impressumData["address-line-1"]}
                         <br />
-                        Knaackstr. 97
+                        {impressumData["address-line-2"]}
                         <br />
-                        10435 Berlin
+                        {impressumData["address-line-3"]}
                     </div>
                     <div className='mt-20 mb-20 mb-sm-10 text-500' style={{ fontSize: "1rem" }}>
                         Inhaltsverantwortliche:
                     </div>
                     <div className='mt-20 mb-20 mb-sm-10' style={{ fontSize: "1rem" }}>
-                        Vereinsvorsitzenpe PANDA platforma
+                        {impressumData.role}
                         <br />
-                        Svetlana Müller, Daniel Adasinskiy
+                        {impressumData.name}
                     </div>
-                    <div className='mb-sm-10 mb-xs-20'><a href = "/privacy">Privacy policy</a> | &copy; 2022 <a href = "https://panda-platforma.berlin" target="_blank" rel="noopener noreferrer">PANDA platforma</a></div>
+                    <div className='mb-sm-10 mb-xs-20'><a href="/privacy">Privacy policy</a> | &copy; 2022 <a href="https://panda-platforma.berlin" target="_blank" rel="noopener noreferrer">PANDA platforma</a></div>
                 </Col>
             </Row>
         </>
