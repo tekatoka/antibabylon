@@ -4,10 +4,11 @@
     width: 20%;
     z-index: 1001;
 
-      a {
-    font-weight: 500;
-    font-size: 1rem;
-    color: #333;
+    a {
+      font-weight: 500;
+      font-size: 1rem;
+      color: #333;
+      width: auto;
 
     &.active {
       font-size: 1.15rem;

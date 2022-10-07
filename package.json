@@ -27,6 +27,7 @@
     "react-scripts": "3.4.1",
     "react-slick": "^0.29.0",
     "react-social-icons": "^5.14.0",
+    "react-xarrows": "^2.0.2",
     "sass": "^1.32.0",
     "slick-carousel": "^1.8.1"
   },

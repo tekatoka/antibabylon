@@ -34,10 +34,10 @@ export const drawPath = (svg, path, startX, startY, endX, endY) => {
   path.setAttribute(
     'd',
     `M${startX} ${startY} V${startY +
-      delta} A${delta} ${delta} 0 0 ${arc1} ${startX +
-      delta * signum(deltaX)} ${startY + 2 * delta} H${endX -
-      delta * signum(deltaX)} A${delta} ${delta} 0 0 ${arc2} ${endX} ${startY +
-      3 * delta} V${endY}`
+    delta} A${delta} ${delta} 0 0 ${arc1} ${startX +
+    delta * signum(deltaX)} ${startY + 2 * delta} H${endX -
+    delta * signum(deltaX)} A${delta} ${delta} 0 0 ${arc2} ${endX} ${startY +
+    3 * delta} V${endY}`
   );
 };
 
