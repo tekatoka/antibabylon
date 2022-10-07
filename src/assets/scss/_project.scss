@@ -97,6 +97,43 @@
 }
 }
 
+#project-dates {
+
+  position: relative;
+    background-color: $primary;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+
+&::before {
+    width: 100%;
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: -130px;
+    -webkit-transform: skewY(4deg);
+    -moz-transform: skewY(4deg);
+    -ms-transform: skewY(4deg);
+    -o-transform: skewY(4deg);
+    transform: skewY(4deg);
+    background-color: $primary;
+    z-index: 2;
+}
+
+.container {
+      position: relative;
+    z-index: 3;
+    top: -135px;
+
+        a {
+      width: 100%;
+      color: $heading-color;
+    }
+}
+}
+
 #project-phases {
 
   position: relative;
@@ -113,11 +150,11 @@
     height: 100%;
     position: absolute;
     top: -130px;
-    -webkit-transform: skewY(4deg);
-    -moz-transform: skewY(4deg);
-    -ms-transform: skewY(4deg);
-    -o-transform: skewY(4deg);
-    transform: skewY(4deg);
+    -webkit-transform: skewY(-4deg);
+    -moz-transform: skewY(-4deg);
+    -ms-transform: skewY(-4deg);
+    -o-transform: skewY(-4deg);
+    transform: skewY(-4deg);
     background-color: $white;
     z-index: 2;
 }
@@ -125,7 +162,7 @@
 .container {
       position: relative;
     z-index: 3;
-    top: -35px
+    top: -35px;
 }
 }
 
@@ -145,11 +182,11 @@
     height: 100%;
     position: absolute;
     top: 0;
-    -webkit-transform: skewY(-2deg);
-    -moz-transform: skewY(-2deg);
-    -ms-transform: skewY(-2deg);
-    -o-transform: skewY(-2deg);
-    transform: skewY(-2deg);
+    -webkit-transform: skewY(-1deg);
+    -moz-transform: skewY(-1deg);
+    -ms-transform: skewY(-1deg);
+    -o-transform: skewY(-1deg);
+    transform: skewY(-1deg);
     background-color: $grey;
     z-index: 2;
 }

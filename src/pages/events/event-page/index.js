@@ -1,5 +1,5 @@
-import React from 'react';
-import { useParams } from "react-router-dom";
+import React, { useEffect } from 'react';
+import { useParams, useLocation } from "react-router-dom";
 import { Container, Row, Col } from 'react-bootstrap';
 import { Layout } from '../../../Layout';
 import eventsData from '../../../data/events';
@@ -10,6 +10,12 @@ import Map from '../../../components/map';
 const EventPage = () => {
 
     let { countryName } = useParams();
+
+    const { pathname } = useLocation();
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [pathname]);
 
     const event = eventsData.find(item => item.country.toLowerCase() === countryName.toLowerCase());
     const country = event ? event.country.toLowerCase() : "";
