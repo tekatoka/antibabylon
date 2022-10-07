@@ -11,7 +11,10 @@ const PersonDetails = ({ person, type, fullBio }) => {
             <div className='person-title mb-30 mt-30'>{person.name}</div>
             {person.country && <span className={`country-label ${person.country.toLowerCase()} mb-30`}>{person.country}</span>}
             <div className='main-info-wrapper'>
-                <div className='mt-20'>{fullBio ? person.bio : person.shortBio}</div>
+                <div
+                    className='mt-20'
+                    dangerouslySetInnerHTML={{ __html: fullBio ? person.bio : person.shortBio }}
+                />
             </div>
             {person.social &&
                 <div className='mt-20 mb-40'>
