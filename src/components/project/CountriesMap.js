@@ -6,13 +6,13 @@ import Xarrow from 'react-xarrows';
 
 const CountriesMap = ({ activeCountry }) => {
 
-    const [orientation, setOrientation] = useState(window.screen.orientation.type);
+    // const [orientation, setOrientation] = useState(window.screen.orientation.type);
     const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
-    useEffect(() => {
-        window.addEventListener('resize', changeWindowWidth);
-        window.screen.orientation.onchange = function (e) { setOrientation(window.screen.orientation.type); }
-    }, [])
+    // useEffect(() => {
+    //     window.addEventListener('resize', changeWindowWidth);
+    //     window.screen.orientation.onchange = function (e) { setOrientation(window.screen.orientation.type); }
+    // }, [])
 
     const changeWindowWidth = () => {
         setWindowWidth(window.innerWidth)
@@ -50,7 +50,7 @@ const CountriesMap = ({ activeCountry }) => {
                         selector=".country-map"
                         strokeWidth={1}
                         elements={[{ from: '#georgia', to: '#armenia' }, { from: '#armenia', to: '#moldova' }, { from: '#moldova', to: '#ukraine' }, { from: '#ukraine', to: '#germany' }]}
-                        orientationType={orientation}
+                        // orientationType={orientation}
                         windowWidth={windowWidth}
                     />
                 </Row>
