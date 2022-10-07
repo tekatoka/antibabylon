@@ -1,6 +1,6 @@
 {
-  "short_name": "DanaBond",
-  "name": "Minimal Portfolio",
+  "short_name": "AntiBabylon 2022",
+  "name": "AntiBabylon 2022 :: free multilingual poetic space",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,14 +8,9 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "logo-antibabylon.png",
       "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "93x153"
     }
   ],
   "start_url": ".",
