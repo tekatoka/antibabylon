@@ -6,6 +6,11 @@
 
     a {
         text-decoration: underline;
+        color: $primary;
+
+        &:hover {
+            opacity: .8;
+        }
     }
 
     button {
@@ -21,7 +26,8 @@
         }
 
         &.btn-danger {
-            background-color: $theme-color-2!important;
+            background-color: $primary!important;
+            color: black!important;
 
             &:hover {
                 opacity: .8;

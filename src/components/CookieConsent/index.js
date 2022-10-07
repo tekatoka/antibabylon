@@ -1,8 +1,8 @@
 import React from 'react';
 import CookieConsent from "react-cookie-consent";
 
-const COOKIE_NAME = "danabond_cookie";
-const cookieWarning = "Meine Seite verwendet Cookies, um Ihnen die bestmögliche Nutzungserfahrung zu bieten. Bitte stimmen Sie der Nutzung von Cookies zu.   <a href='/privacy'>Datenschutzerklärung</a>"
+const COOKIE_NAME = "antibabylon_cookie";
+const cookieWarning = "This site uses cookies to give you the best possible user experience. Please agree to the use of cookies.  <a href='/privacy'>Privacy policy</a>"
 
 const createMarkup = (txt) => {
     return { __html: txt };
