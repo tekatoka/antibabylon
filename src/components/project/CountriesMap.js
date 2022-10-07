@@ -2,11 +2,9 @@ import React, { useEffect, useState } from 'react';
 import { Container, Row } from 'react-bootstrap';
 import countries from '../../data/countries';
 import ReactConnectElements from '../../hooks/ConnectElements';
-import Xarrow, { useXarrow, Xwrapper } from 'react-xarrows';
+import Xarrow from 'react-xarrows';
 
 const CountriesMap = ({ activeCountry }) => {
-
-    const updateXarrow = useXarrow()
 
     const [orientation, setOrientation] = useState(window.screen.orientation.type);
     const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -55,7 +53,6 @@ const CountriesMap = ({ activeCountry }) => {
                         orientationType={orientation}
                         windowWidth={windowWidth}
                     />
-
                 </Row>
             </Container>
         </div>
