@@ -8,7 +8,6 @@ import Slide2 from "../../../src/assets/images/hero/slider-2.jpg";
 import Slide3 from "../../../src/assets/images/hero/slider-3.jpg";
 import Slide4 from "../../../src/assets/images/hero/slider-4.jpg";
 
-import PageTitle from "../../../src/assets/images/titles/title.png";
 import PageSubTitle from "../../../src/assets/images/titles/subtitle.png";
 
 const Slides = [Slide1, Slide2, Slide3, Slide4];
@@ -73,7 +72,6 @@ let MainSlider = (props, ref) => {
                     <Row>
                         <Col className={'p-0'}>
                             <div className='page-title'>
-                                {/* <img src={PageTitle} alt={"AntiBabylon 2022"} title={"AntiBabylon 2022"} /> */}
                                 <h1 className='dharma'>ANTIBABYLON</h1>
                                 <br />
                                 <img src={PageSubTitle} alt={"free multilingual poetic space"} title={"free multilingual poetic space"} />
