@@ -245,9 +245,30 @@ img {
     top: 25px;
     width: 100%;
     text-align: center;
+    
+    > h1 {
+      font-size: 8rem;
+      line-height: 8rem;
+
+      @media #{$tablet-device}{ 
+        font-size: 5rem;
+        line-height: 3.5rem;
+      }
+
+      @media #{$large-mobile,$small-mobile}{ 
+        font-size: 3rem;
+        line-height: 2.5rem;
+      }
+
+      @media #{$extra-small-mobile}{ 
+        font-size: 2rem;
+        line-height: 1.75rem;
+      }
+
+    }
 
     > img {
-      max-width: 50%;
+      max-width: 75%;
       margin-bottom: 10px;
     }
 
@@ -269,7 +290,7 @@ img {
 
     @media #{$small-mobile,$extra-small-mobile}{
          margin-top: 5px;
-      font-size: .7rem;
+      font-size: 1rem;
     }
     }
 }

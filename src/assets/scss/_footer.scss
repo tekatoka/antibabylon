@@ -96,13 +96,16 @@
 
 .footer-partners {
     background-image: url(../images/bg/footer-bg.png);
-    min-height: 200px;
     background-position: left;
     background-size: cover;
     background-repeat: no-repeat;
 
     img {
         max-width: 95%;
+    }
+
+    @media #{$desktop-device, $tablet-device, $large-mobile, $small-mobile, $extra-small-mobile}{
+        min-height: 210px;
     }
 }
 

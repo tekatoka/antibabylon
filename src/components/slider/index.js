@@ -73,7 +73,8 @@ let MainSlider = (props, ref) => {
                     <Row>
                         <Col className={'p-0'}>
                             <div className='page-title'>
-                                <img src={PageTitle} alt={"AntiBabylon 2022"} title={"AntiBabylon 2022"} />
+                                {/* <img src={PageTitle} alt={"AntiBabylon 2022"} title={"AntiBabylon 2022"} /> */}
+                                <h1 className='dharma'>ANTIBABYLON</h1>
                                 <br />
                                 <img src={PageSubTitle} alt={"free multilingual poetic space"} title={"free multilingual poetic space"} />
                                 <div className='main-info'>Oct. - Nov. 2022 | Armenia, Georgia, Germany, Moldova, Ukraine</div>
