@@ -1,7 +1,7 @@
 import React from 'react';
 
 const TeamMember = ({ name, role, profilePhoto, socials }) => {
-    const photo = profilePhoto != "" ? profilePhoto : "team-1.jpg"
+    const photo = profilePhoto !== "" ? profilePhoto : "team-1.jpg"
     return (
         <div className="team-member mb-20">
             <div className="team-inner">
