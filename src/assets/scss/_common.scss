@@ -247,12 +247,12 @@ img {
     text-align: center;
     
     > h1 {
-      font-size: 8rem;
-      line-height: 8rem;
+      font-size: 6rem;
+      line-height: 6rem;
 
       @media #{$tablet-device}{ 
-        font-size: 5rem;
-        line-height: 3.5rem;
+        font-size: 4rem;
+        line-height: 3rem;
       }
 
       @media #{$large-mobile,$small-mobile}{ 
@@ -270,11 +270,16 @@ img {
     > img {
       max-width: 75%;
       margin-bottom: 10px;
+
+      @media #{$extraBig-device, $laptop-device, $laptop-large-device}{ 
+        max-width: 50%;
+      }
     }
 
     > .main-info {
       margin-top: 25px;
-      font-size: 2rem;
+      font-size: 1.75rem;
+      line-height: 2rem;
       font-weight: 600;
       font-family: 'Menlo', sans-serif;
 

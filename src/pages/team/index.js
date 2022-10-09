@@ -10,19 +10,11 @@ const TeamPage = () => {
         <Layout>
             <Container className='mb-20'>
                 <Row>
-                    {teamData.map((category, i) => {
-                        return <Col key={i} xs={12} className='mb-60'>
-                            <h2 className='team-category-name mb-40'>{category.category}</h2>
-                            <Row>
-                                {category.members.map((member, j) => {
-                                    return <Col xs={4} md={2} className="container-team" key={j}>
+                    {teamData.map((member, i) => {
+                        return <Col xs={3} md={15} className="container-team" key={i}>
                                         <TeamMember {...member} />
                                     </Col>
                                 })}
-                            </Row>
-                        </Col>
-
-                    })}
                 </Row>
             </Container>
         </Layout>
