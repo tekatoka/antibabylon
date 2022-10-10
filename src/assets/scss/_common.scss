@@ -280,6 +280,7 @@ img {
     > h1 {
       font-size: 6rem;
       line-height: 6rem;
+      margin-bottom: 1.35rem;
 
       @media #{$tablet-device}{ 
         font-size: 4rem;
@@ -303,7 +304,7 @@ img {
       margin-bottom: 10px;
 
       @media #{$extraBig-device, $laptop-device, $laptop-large-device}{ 
-        max-width: 50%;
+        max-width: 40%;
       }
     }
 
