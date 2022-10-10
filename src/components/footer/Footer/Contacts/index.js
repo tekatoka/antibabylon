@@ -1,7 +1,6 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 import { SocialIcon } from 'react-social-icons';
-import ContactsTitle from "../../../../assets/images/titles/contacts.png";
 import socialIcons from '../../../../data/social-networks';
 
 const Contacts = ({ position }) => {
@@ -10,7 +9,7 @@ const Contacts = ({ position }) => {
             <Row className={'align-items-center'}>
                 <Col xs={1} sm={3}></Col>
                 <Col xs={{ size: 11 }} sm={9}>
-                    <img src={ContactsTitle} className={"footer-title"} alt={"Contacts"} title={"Contacts"} />
+                    <div className='custom-title'>Contacts</div>
                     <div className='mt-20'>
                         <a href="mailto:opencall@antibabylon.org" target="_blank" rel="noopener noreferrer">opencall@antibabylon.org</a>
                     </div>

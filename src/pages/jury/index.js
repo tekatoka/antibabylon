@@ -17,7 +17,7 @@ const JuryPage = () => {
             <Container className='mb-20'>
                 <Row>
                     {juryData.map((juryMember, idx) => {
-                        return <Col className="container-person" lg={2} md={4} xs={6} key={idx}>
+                        return <Col className="container-person" md={15} xs={6} key={idx}>
                             {view(juryMember, "jury")}
                         </Col>
                     })}

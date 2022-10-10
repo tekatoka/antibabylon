@@ -35,10 +35,10 @@ const EventPage = () => {
                                     <div className='mb-30'>
                                         <span className={`country-label ${country}`}>{event.country}</span>
                                     </div>
-                                    <div className='event-cite'>{event.cite}</div>
+                                    <div className='event-site'>{event.time} | {event.site}</div>
                                     <div className='event-address'>{event.address}</div>
                                     <div className='mb-40 mt-40'>
-                                        <Map address={"8 Kote Marjanishvili St, Tbilisi"} />
+                                        <Map address={event.address} />
                                         {/* <iframe
                                             width="600"
                                             height="500"

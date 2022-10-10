@@ -106,7 +106,7 @@
 
   .person-image {
     max-width: 100%;
-    padding: 10px;
+    padding: 8.5px;
     background-color: $primary;
 
     img {
@@ -115,8 +115,10 @@
   }
 
   .person-title {
-  font-size: 2rem;
-  line-height: 1.5rem;
+  font-size: 1.5rem;
+  line-height: 1.25rem;
+  font-family: "Poppins";
+  height: 40px;
 }
 
 i:hover {

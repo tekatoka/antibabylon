@@ -11,10 +11,10 @@ const TeamPage = () => {
             <Container className='mb-20'>
                 <Row>
                     {teamData.map((member, i) => {
-                        return <Col xs={3} md={15} className="container-team" key={i}>
-                                        <TeamMember {...member} />
-                                    </Col>
-                                })}
+                        return <Col xs={6} sm={15} className="container-team" key={i}>
+                            <TeamMember {...member} />
+                        </Col>
+                    })}
                 </Row>
             </Container>
         </Layout>

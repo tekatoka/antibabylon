@@ -7,6 +7,7 @@ import Slide1 from "../../assets/images/hero/slider-1.jpg";
 import Slide2 from "../../../src/assets/images/hero/slider-2.jpg";
 import Slide3 from "../../../src/assets/images/hero/slider-3.jpg";
 import Slide4 from "../../../src/assets/images/hero/slider-4.jpg";
+import eventsData from "../../../src/data/events";
 
 import PageSubTitle from "../../../src/assets/images/titles/subtitle.png";
 
@@ -75,7 +76,7 @@ let MainSlider = (props, ref) => {
                                 <h1 className='dharma'>ANTIBABYLON</h1>
                                 <br />
                                 <img src={PageSubTitle} alt={"free multilingual poetic space"} title={"free multilingual poetic space"} />
-                                <div className='main-info'>Oct. - Nov. 2022 | Armenia, Georgia, Germany, Moldova, Ukraine</div>
+                                <div className='main-info'>Oct. - Nov. 2022 | {eventsData.map((event, idx) => { return `${event.country}${idx < eventsData.length - 1 ? ", " : ""}` })}</div>
                             </div>
                             <Slider {...carouselSettings}>
                                 {Slides.map((slide, idx) => {

@@ -4,44 +4,49 @@
     "country": "Georgia",
     "city": "Tbilisi",
     "date": "15.11.2022",
-    "cite": "Tbilisi Academic Theater named after K. Marjanishvili",
-    "address": "8 Kote Marjanishvili St, Tbilisi",
-    "description": "Opisanie"
+    "time": "19:00",
+    "site": "Goethe-Institut Georgien",
+    "address": "Zandukeli Str. 16, 0108 Tbilisi",
+    "description": ""
   },
   {
     "id": 2,
     "country": "Armenia",
     "city": "Yerevan",
     "date": "18.11.2022",
-    "cite": "Armenia Academic Theater named after K. Marjanishvili",
+    "time": "",
+    "site": "Armenia Academic Theater named after K. Marjanishvili",
     "address": "8 Kote Marjanishvili St, Tbilisi",
-    "description": "Opisanie"
+    "description": ""
   },
   {
     "id": 3,
     "country": "Moldova",
     "city": "Chișinău",
     "date": "21.11.2022",
-    "cite": "Chisinau Academic Theater named after K. Marjanishvili",
-    "address": "8 Kote Marjanishvili St, Tbilisi",
-    "description": "Opisanie"
+    "time": "19:00",
+    "site": "Bar Pro Sănătate",
+    "address": "str. V. Alecsandri 90/1, Chișinău",
+    "description": ""
   },
   {
     "id": 4,
     "country": "Ukraine",
     "city": "Berlin",
     "date": "24.11.2022",
-    "cite": "Berlin Academic Theater named after K. Marjanishvili",
-    "address": "8 Kote Marjanishvili St, Tbilisi",
-    "description": "Opisanie"
+    "time": "",
+    "site": "ACUD Theater",
+    "address": "Veteranenstraße 21, 10119 Berlin",
+    "description": ""
   },
   {
     "id": 5,
     "country": "Germany",
     "city": "Berlin",
     "date": "25.-26.11.2022",
-    "cite": "Berlin ACUD",
-    "address": "8 Kote Marjanishvili St, Tbilisi",
-    "description": "Opisanie"  
+    "time": "20:00",
+    "site": "PANDA Platforma",
+    "address": "Knaackstr. 97, 10435 Berlin",
+    "description": ""  
   }
 ]

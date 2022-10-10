@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Alina Feldman",
     "role": "project manager",
-    "profilePhoto": ""
+    "profilePhoto": "a-feldman.png"
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
     "id": 3,
     "name": "Maya Ashinyants",
     "role": "logistic coordinator",
-    "profilePhoto": ""
+    "profilePhoto": "m-ashinyantz.png"
   },
   {
     "id": 4,
@@ -33,7 +33,7 @@
     "id": 6,
     "name": "Nadezhda Ukhanova",
     "role": "web and graphic design",
-    "profilePhoto": ""
+    "profilePhoto": "n-ukhanova.png"
   },
   {
     "id": 7,
@@ -51,12 +51,12 @@
     "id": 9,
     "name": "Victoria Danelyan",
     "role": "project coordinator Tbilisi",
-    "profilePhoto": ""
+    "profilePhoto": "v-danielyan.png"
   },
   {
     "id": 10,
     "name": "Moni Stănilă",
-    "role": "project coordinator Chisinau",
+    "role": "project coordinator Chișinău",
     "profilePhoto": ""
   }
 ]

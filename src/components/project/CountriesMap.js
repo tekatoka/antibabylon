@@ -28,7 +28,7 @@ const CountriesMap = ({ activeCountry }) => {
     }
 
     return (
-        <div className="section pt-80 pt-xs-50">
+        <div className="section pt-50 pt-xs-50">
             <Container style={{ height: "200px" }} className="mb-20">
                 <Row className={'country-map mt-30 mbn-30'} style={{ position: "relative" }}>
                     {countries.map((country, idx) => (

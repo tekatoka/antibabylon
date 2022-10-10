@@ -22,7 +22,7 @@ const ProjectMission = () => {
                             we would like to create a free and safe space of horizontal communication, assuming that the art of poetry is capable
                             of overcoming linguistic and cultural barriers.
                             <br /><br />
-                            But is it? How free is the poetry word? What are the themes that excite contemporary poets*?
+                            But is it? How free is the poetry word? What are the themes that exsite contemporary poets*?
                             Do they want to appeal directly to readers/listeners/viewers, or do they rather want to stay within their professional environment?
                             Can modern poetry be an adequate tool for a critical examination of reality?
                             <br /><br />
@@ -30,11 +30,8 @@ const ProjectMission = () => {
                             and present the results of their creative search to the public.
                             <br />
                             <br />
-                            <span className='text-500'>
-                                It is the first edition of the antiBabylon poetry project that will be held in five countries which used to be under the Soviet influence
-                                (Armenia, Georgia, Germany, Moldova and Ukraine) and invites poets* interested in performance poetry,
-                                spoken word poetry and developing their communication skills in an international poetry environment.
-                            </span>
+                            It is the first edition of the antiBabylon poetry project that will be held in five countries which used to be under the Soviet influence
+                            (Georgia, Armenia, Moldova, Ukraine, and Germany) and invites poetesses and poets interested in performance poetry, spoken word poetry and developing their communication skills in an international poetry environment.
                         </Col>
                     </Row>
                 </Container>

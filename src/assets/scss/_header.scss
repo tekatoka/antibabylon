@@ -90,10 +90,13 @@
           display: inline-block;
           padding-right: 0;
         }
+        
+        &.active {
+          font-weight: 600;
+        }
 
         &.active, &.current, &:hover{
           color: $heading-color;
-          font-weight: 600;
           text-decoration: none;
 
           &:after {
@@ -123,15 +126,6 @@
             margin-left: 5px;
             float: right;
           }
-        }
-      }
-
-      &.current,
-      &.active,
-      &:hover {
-        & > a {
-          color: $heading-color;
-          font-weight: 600;
         }
       }
 
@@ -534,11 +528,14 @@
       position: relative;
       text-transform: uppercase;
 
+      &.active {
+          font-weight: 600;
+      }
+
       &.current,
       &.active,
       &:hover {
           color: $heading-color;
-          font-weight: 600;
           text-decoration: underline;
       }
 

@@ -1,6 +1,5 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
-import ImpressumTitle from "../../../../assets/images/titles/impressum.png";
 import impressumData from '../../../../data/impressum';
 
 const Impressum = () => {
@@ -9,7 +8,7 @@ const Impressum = () => {
             <Row className={'align-items-center'}>
                 <Col xs={1} sm={3}></Col>
                 <Col xs={{ size: 11 }} sm={9}>
-                    <img src={ImpressumTitle} className={"footer-title"} alt={"Impressum"} title={"Impressum"} />
+                    <div className='custom-title'>Impressum</div>
                     <div className='mt-20'>
                         Es gilt die deutsche Rechtsprechung.
                     </div>
