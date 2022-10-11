@@ -499,7 +499,8 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 
 // Content Body
 .content-body {
-  min-height: calc(100vh - 300px);
+  //min-height: calc(100vh - 300px);
+  min-height: 300px;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
