@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row } from 'react-bootstrap';
 import countries from '../../data/countries';
-import ReactConnectElements from '../../hooks/ConnectElements';
+//import ReactConnectElements from '../../hooks/ConnectElements';
 import Xarrow from 'react-xarrows';
 
 const CountriesMap = ({ activeCountry }) => {
