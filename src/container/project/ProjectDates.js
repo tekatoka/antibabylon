@@ -9,7 +9,7 @@ const Event = ({ event }) => {
         <div className='mb-30' id={`${event.country.toLowerCase()}-container`}>
             <h1 className='dharma'>{event.date} | {event.time}</h1>
             <div>
-                <h3 className="text-600">{event.site}</h3>
+                {event.site && <h3 className="text-600">{event.site}</h3>}
                 <div className='text-600' style={{ fontSize: "18px" }}>{event.city}, {event.country === "Ukraine" ? "Germany (for Ukraine)" : event.country}</div>
             </div>
         </div>

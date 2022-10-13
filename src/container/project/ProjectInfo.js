@@ -9,7 +9,7 @@ const ProjectInfo = () => {
                 <Container>
                     <Row className={'text-left d-table'}>
                         <Col xs={3} className={"d-table-cell"}>
-                            <img src={PandaLogo} alt={"PANDA platforma"} title={"PANDA platforma"} />
+                            <img src={PandaLogo} style={{ maxWidth: "250px" }} alt={"PANDA platforma"} title={"PANDA platforma"} />
                         </Col>
                         <Col xs={9} className={'mb-40 mb-xs-30 text-500 text-medium d-table-cell'}>
                             The project was initiated by the Berlin-based NGO “PANDA platforma” with the support of the German Ministry of Foreign Affairs
