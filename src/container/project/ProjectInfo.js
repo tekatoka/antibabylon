@@ -8,10 +8,10 @@ const ProjectInfo = () => {
             <div className="section-wrap section pt-60 pt-xs-50 pb-60 pb-lg-60 pb-md-60 pb-sm-60 pb-xs-50 mb-0">
                 <Container>
                     <Row className={'text-left d-table'}>
-                        <Col xs={4} sm={3} className={"d-table-cell"}>
+                        <Col xs={0} sm={4} md={3} style={{ maxWidth: "25%" }} className={"d-table-cell"}>
                             <img src={PandaLogo} style={{ maxWidth: "100%" }} alt={"PANDA platforma"} title={"PANDA platforma"} />
                         </Col>
-                        <Col xs={8} sm={9} className={'mb-40 mb-xs-30 text-500 text-medium d-table-cell'}>
+                        <Col xs={12} sm={8} md={9} className={'mb-40 mb-xs-30 text-500 text-medium d-table-cell'}>
                             The project was initiated by the Berlin-based NGO “PANDA platforma” with the support of the German Ministry of Foreign Affairs
                         </Col>
                     </Row>
