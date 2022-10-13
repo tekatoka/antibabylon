@@ -204,6 +204,17 @@
 
 .d-table-cell {
   vertical-align: middle;
+
+  img {
+    max-width: 100%;
+    min-width: 175px;
+
+      @media #{$small-mobile, $extra-small-mobile}{
+        width: 0!important;
+        min-width: 0;
+        max-width: 0;
+      }
+  }
 }
 }
 
