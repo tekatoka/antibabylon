@@ -83,6 +83,7 @@ a, button {
 
 a {
   color: $link-color;
+  overflow-wrap: anywhere;
 }
 
 a, button, img, input, span {
