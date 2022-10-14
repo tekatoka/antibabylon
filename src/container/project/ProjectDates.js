@@ -39,7 +39,7 @@ const ProjectDates = () => {
 
 
                     {eventsData.map((event, idx) => {
-                        return <Row>
+                        return <Row key={idx}>
                             <Link to={`/events/${event.country.toLowerCase()}`}><Col xs={12}>{<Event event={event} />}</Col></Link>
                         </Row>
                     })}

@@ -33,7 +33,7 @@ const CountriesMap = ({ activeCountry }) => {
                 <Row className={'country-map mt-30 mbn-30'} style={{ position: "relative" }}>
                     {countries.map((country, idx) => (
                         <div key={idx} id={country.id} className={"country"}>
-                            <a href={`/events/${country.name.toLowerCase()}`} id={`${country.id}-link`} className={`${country.name.toLowerCase() === activeCountry ? "active" : ""}`}>
+                            <a href={`/events/${country.name.toLowerCase()}`} id={`${country.id}-link`} className={`text-nowrap ${country.name.toLowerCase() === activeCountry ? "active" : ""}`}>
                                 <img id={`${country.id}-icon`} src={require('../../assets/images/' + country.thumb)} alt={country.name} />
                                 <br />
                                 <span className='country-name'>{country.name}</span>
