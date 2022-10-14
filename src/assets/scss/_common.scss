@@ -2,46 +2,6 @@
 /*  01. Theme default CSS
 /*----------------------------------------*/
 
-/*-- Google Font --*/
-@import url('https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,600,600i,800');
-
-@font-face {
-    font-family: 'Menlo';
-    src: url("../fonts/menlo/Menlo\ Regular\ 400.ttf") format('truetype');
-}
-
-@font-face {
-  font-family: 'Dharma Punk';
-  src: url("../fonts/dharma_punk/Dharma\ Punk.ttf") format('truetype');
-}
-
-@font-face {
-  font-family: 'Dharma Punk 2';
-  src: url("../fonts/dharma_punk/Dharma\ Punk\ 2.ttf") format('truetype');
-}
-
-@font-face {
-  font-family: 'Letterpress';
-  src: url("../fonts/Letterpress/CFLetterpressTypePERSONAL-R.ttf") format('truetype');
-}
-
-@font-face {
-  font-family: 'Golos';
-  src: url("../fonts/Golos/Golos-Text_Regular.ttf") format('truetype');
-}
-
-@font-face {
-  font-family: 'Golos';
-  src: url("../fonts/Golos/Golos-Text_DemiBold.ttf") format('truetype');
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: 'Golos';
-  src: url("../fonts/Golos/Golos-Text_Bold.ttf") format('truetype');
-  font-weight: 600;
-}
-
 /*-- Common Style --*/
 *, *::after, *::before {
   box-sizing: border-box;
