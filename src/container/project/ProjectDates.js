@@ -7,10 +7,10 @@ import Xarrow from 'react-xarrows';
 const Event = ({ event }) => {
     return (
         <div className='mb-30' id={`${event.country.toLowerCase()}-container`}>
-            <h2 className='dharma'>{event.date} | {event.time}</h2>
+            <h1 className='dharma'>{event.date} | {event.time}</h1>
             <div>
-                <h4 className="text-600">{event.site}</h4>
-                <div className='text-600'>{event.city}, {event.country === "Ukraine" ? "Germany (for Ukraine)" : event.country}</div>
+                {event.site && <h3 className="text-600">{event.site}</h3>}
+                <div className='text-600' style={{ fontSize: "18px" }}>{event.city}, {event.country === "Ukraine" ? "Germany (for Ukraine)" : event.country}</div>
             </div>
         </div>
     )
@@ -39,7 +39,7 @@ const ProjectDates = () => {
 
 
                     {eventsData.map((event, idx) => {
-                        return <Row>
+                        return <Row key={idx}>
                             <Link to={`/events/${event.country.toLowerCase()}`}><Col xs={12}>{<Event event={event} />}</Col></Link>
                         </Row>
                     })}

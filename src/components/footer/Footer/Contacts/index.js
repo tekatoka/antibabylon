@@ -11,7 +11,7 @@ const Contacts = ({ position }) => {
                 <Col xs={{ size: 11 }} sm={9}>
                     <div className='custom-title'>Contacts</div>
                     <div className='mt-20'>
-                        <a href="mailto:opencall@antibabylon.org" target="_blank" rel="noopener noreferrer">opencall@antibabylon.org</a>
+                        <a href="mailto:project@antibabylon.org" target="_blank" rel="noopener noreferrer">project@antibabylon.org</a>
                     </div>
                     <div className='footer-social mt-20 mb-40'>
                         {socialIcons.map(social => (

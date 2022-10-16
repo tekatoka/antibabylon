@@ -14,7 +14,7 @@ const CookieConsentComponent = () => {
             <CookieConsent
                 buttonText="OK"
                 enableDeclineButton={true}
-                declineButtonText="Ablehnen"
+                declineButtonText="Decline"
                 location="bottom"
                 cookieName={COOKIE_NAME}
                 expires={999}

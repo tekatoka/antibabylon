@@ -13,8 +13,8 @@ const Event = ({ event }) => {
             <Link to={`/events/${event.country.toLowerCase()}`}>
                 <div className={`event-details ${event.country.toLowerCase()} d-table mb-60 mt-30`}>
                     <Col xs={11} className='d-table-cell'>
-                        <div className='event-date'>{event.date} | {event.time}</div>
-                        <div className='event-site'>{event.site}</div>
+                        <div className='event-date'>{event.date} {event.time && "| " + event.time}</div>
+                        <div className='event-site'>{event.site ? event.site : "more info TBA"}</div>
                         <div className='event-address'>{event.address}</div>
                     </Col>
                     <Col xs={1} className='d-table-cell align-middle'>

@@ -2,46 +2,6 @@
 /*  01. Theme default CSS
 /*----------------------------------------*/
 
-/*-- Google Font --*/
-@import url('https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,600,600i,800');
-
-@font-face {
-    font-family: 'Menlo';
-    src: url("../fonts/menlo/Menlo\ Regular\ 400.ttf") format('truetype');
-}
-
-@font-face {
-  font-family: 'Dharma Punk';
-  src: url("../fonts/dharma_punk/Dharma\ Punk.ttf") format('truetype');
-}
-
-@font-face {
-  font-family: 'Dharma Punk 2';
-  src: url("../fonts/dharma_punk/Dharma\ Punk\ 2.ttf") format('truetype');
-}
-
-@font-face {
-  font-family: 'Letterpress';
-  src: url("../fonts/Letterpress/CFLetterpressTypePERSONAL-R.ttf") format('truetype');
-}
-
-@font-face {
-  font-family: 'Golos';
-  src: url("../fonts/Golos/Golos-Text_Regular.ttf") format('truetype');
-}
-
-@font-face {
-  font-family: 'Golos';
-  src: url("../fonts/Golos/Golos-Text_DemiBold.ttf") format('truetype');
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: 'Golos';
-  src: url("../fonts/Golos/Golos-Text_Bold.ttf") format('truetype');
-  font-weight: 600;
-}
-
 /*-- Common Style --*/
 *, *::after, *::before {
   box-sizing: border-box;
@@ -68,10 +28,11 @@ h1, h2, h3, h4, h5, h6 {
   color: $heading-color;
   font-weight: 400;
   margin-top: 0;
+  overflow-wrap: break-word;
 }
 
 h1 {
-  font-size: 36px;
+  font-size: 42px;
   line-height: 42px;
 }
 
@@ -122,6 +83,11 @@ a, button {
 
 a {
   color: $link-color;
+  overflow-wrap: anywhere;
+
+  &.text-nowrap {
+    overflow-wrap: normal;
+  }
 }
 
 a, button, img, input, span {
@@ -318,7 +284,7 @@ img {
 
     @media #{$tablet-device}{
       margin-top: 10px;
-      font-size: 1.25rem;
+      font-size: 1.2rem;
     }
 
     @media #{$large-mobile}{
@@ -500,7 +466,8 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 
 // Content Body
 .content-body {
-  min-height: calc(100vh - 300px);
+  //min-height: calc(100vh - 300px);
+  min-height: 300px;
   width: 100%;
   display: flex;
   flex-wrap: wrap;

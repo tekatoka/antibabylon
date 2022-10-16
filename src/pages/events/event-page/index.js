@@ -35,30 +35,11 @@ const EventPage = () => {
                                     <div className='mb-30'>
                                         <span className={`country-label ${country}`}>{event.country}</span>
                                     </div>
-                                    <div className='event-site'>{event.time} | {event.site}</div>
-                                    <div className='event-address'>{event.address}</div>
-                                    <div className='mb-40 mt-40'>
-                                        <Map address={event.address} />
-                                        {/* <iframe
-                                            width="600"
-                                            height="500"
-                                            className='w-100'
-                                            title="gmap-canvas"
-                                            src="https://maps.google.com/maps?q=10439 Kulturbrauerei,Berlin&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
-                                        </iframe> */}
-                                        {/* <iframe
-                                            title='google-map'
-                                            width="600"
-                                            height="450"
-                                            className='w-100'
-                                            style={{ border: "0" }}
-                                            loading="lazy"
-                                            allowfullscreen
-                                            //referrerpolicy="no-referrer-when-downgrade"
-                                            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCLSNNuZJpD5acdJ7gP2YJjBRAtiY7ReEY&q=Eiffel+Tower,Paris+France">
-                                        </iframe> */}
-                                    </div>
+                                    <div className='event-site'>{event.time && event.time + " | "}{event.site}</div>
+                                    {event.address ? <><div className='event-address'>{event.address}</div>
+                                        <div className='mb-40 mt-40'>
+                                            <Map address={event.address} />
+                                        </div></> : <div>more info TBA</div>}
                                     <div className='event-description'>{event.description}</div>
                                 </div>
                                 <CountriesMap activeCountry={country} />
