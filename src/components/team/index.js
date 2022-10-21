@@ -6,7 +6,7 @@ const TeamMember = ({ name, role, profilePhoto, socials }) => {
         <div className="team-member mb-20">
             <div className="team-inner">
                 <div className={`main-image person-image`}>
-                    <img src={require('../../assets/images/team/' + photo)} alt={name} />
+                    <img src={require('../../assets/images/team/' + photo)} alt={name} title={name} />
                 </div>
                 <div className='person-title mb-30 mt-30'>{name}</div>
                 <div className={`role-label mb-30`}>{role}</div>
