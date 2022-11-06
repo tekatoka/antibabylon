@@ -9,6 +9,7 @@ const PersonDetails = ({ person, type, fullBio, onClick }) => {
                 <div className={`main-image person-image ${person.country.toLowerCase()}`}>
                     <img src={require('../../assets/images/' + person.photo)} alt={person.name} title={person.name} />
                 </div>
+                <div className="photo-credit">photo &copy; {person.photoCredit}</div>
                 <div className='person-title mb-30 mt-30'>{person.name}</div>
                 {person.country && <span className={`country-label ${person.country.toLowerCase()} mb-30`}>{person.country}</span>}
                 <div className='main-info-wrapper'>

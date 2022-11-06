@@ -3,60 +3,70 @@
     "id": 1,
     "name": "Alina Feldman",
     "role": "project manager",
-    "profilePhoto": "a-feldman.png"
+    "profilePhoto": "a-feldman.png",
+    "photoCredit": "Elya Yalonetski"
   },
   {
     "id": 2,
     "name": "Svetlana Mueller",
     "role": "creative producer",
-    "profilePhoto": "s-mueller.png"
+    "profilePhoto": "s-mueller.png",
+    "photoCredit": "Roman Ekimov"
   },
   {
     "id": 3,
     "name": "Maya Ashinyants",
     "role": "logistic coordinator",
-    "profilePhoto": "m-ashinyantz.png"
+    "profilePhoto": "m-ashinyantz.png",
+    "photoCredit": "Roman Ekimov"
   },
   {
     "id": 4,
     "name": "Anastasiya Ivanova",
     "role": "video",
-    "profilePhoto": "a-ivanova.png"
+    "profilePhoto": "a-ivanova.png",
+    "photoCredit": "Eugene Hill"
   },
   {
     "id": 5,
     "name": "Lily Yurchenko",
     "role": "SMM",
-    "profilePhoto": "l-yurchenko.png"
+    "profilePhoto": "l-yurchenko.png",
+    "photoCredit": "Taya Kalinichenko"
   },
   {
     "id": 6,
     "name": "Nadezhda Ukhanova",
     "role": "web and graphic design",
-    "profilePhoto": "n-ukhanova.png"
+    "profilePhoto": "n-ukhanova.png",
+    "photoCredit": "Nadja Fedorova"
   },
   {
     "id": 7,
     "name": "Dana Bondarenko",
     "role": "web programming",
-    "profilePhoto": "d-bondarenko.png"
+    "profilePhoto": "d-bondarenko.png",
+    "photoCredit": "Dana Bondarenko"
   },
   {
     "id": 8,
     "name": "Lina Khesina",
     "role": "logo design",
-    "profilePhoto": "l-khesina.png"
+    "profilePhoto": "l-khesina.png",
+    "photoCredit": "Natalia Smirnova"
   },
   {
     "id": 9,
-    "name": "Victoria Danelyan",
+    "name": "Nanuka Tchintcharauli",
     "role": "project coordinator Tbilisi",
-    "profilePhoto": "v-danielyan.png"
+    "profilePhoto": "n-tchintcharauli.png",
+    "photoCredit": "Nanuka Tchintcharauli"
   },
   {
     "id": 10,
     "name": "Moni Stanila",
     "role": "project coordinator Chișinău",
-    "profilePhoto": "m-stanila.png"
+    "profilePhoto": "m-stanila.png",
+    "photoCredit": "Alexandru Vakulovski"
   }
 ]

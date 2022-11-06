@@ -59,6 +59,10 @@
   line-height: 2.5rem;
 }
 
+.poet .photo-credit {
+  margin-right: 10px;
+}
+
 .jury {
 .person-title {
   font-size: 2.75rem;
@@ -93,6 +97,11 @@
     } 
 }
 
+.photo-credit {
+  text-align: right;
+  font-size: 10px;
+}
+
 .jury {
   .person-image {
   padding: 10px;
@@ -123,6 +132,10 @@
 
 i:hover {
   color: black
+}
+
+.photo-credit {
+  margin-right: 5px;
 }
 
 }
