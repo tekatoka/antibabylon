@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { useParams, useLocation } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import { Container, Row, Col } from 'react-bootstrap';
 import { Layout } from '../../../Layout';
 import eventsData from '../../../data/events';
@@ -9,17 +9,16 @@ import Map from '../../../components/map';
 
 const EventPage = () => {
 
-    let { countryName } = useParams();
-    const { pathname } = useLocation();
+    const { countryName } = useParams();
+    //const { pathname } = useLocation();
 
     const url = window.location.pathname.split('/').pop();
 
     useEffect(() => {
         window.scrollTo(0, 0);
-
         const mainWrapper = document.getElementById("main-wrapper");
         mainWrapper.className = `main-wrapper p-4 ${countryName}`;
-    }, [, url])
+    }, [, countryName, url])
 
     const event = eventsData.find(item => item.country.toLowerCase() === countryName.toLowerCase());
     const country = event ? event.country.toLowerCase() : "";
