@@ -8,7 +8,7 @@ export const Layout = ({ children }) => {
        return (
               <>
                      <ModalWindow />
-                     <div className={'main-wrapper p-4'}>
+                     <div id="main-wrapper" className={'main-wrapper p-4'}>
                             <div className='inner-wrapper'>
                                    <Header classes={'position-static'} />
                                    <SideHeader mobile={true} />

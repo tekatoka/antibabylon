@@ -2,31 +2,31 @@
   {
     "id": "georgia",
     "name": "Georgia",
-    "color": "#e43d1c",
+    "color": "#E53F1E",
     "thumb": "countries/georgia.png"
   },
     {
     "id": "armenia",
     "name": "Armenia",
-    "color": "#f8a522",
+    "color": "#F8A525",
     "thumb": "countries/armenia.png"
   },
     {
     "id": "moldova",
     "name": "Moldova",
-    "color": "#9bd73b",
+    "color": "#9CD73D",
     "thumb": "countries/moldova.png"
   },
     {
     "id": "ukraine",
     "name": "Ukraine",
-    "color": "#3b70dd",
+    "color": "#3D71DD",
     "thumb": "countries/ukraine.png"
   },
     {
     "id": "germany",
     "name": "Germany",
-    "color": "#fefa0c",
+    "color": "#FFFA0F",
     "thumb": "countries/germany.png"
   }
 ]

@@ -10,12 +10,16 @@ import Map from '../../../components/map';
 const EventPage = () => {
 
     let { countryName } = useParams();
-
     const { pathname } = useLocation();
+
+    const url = window.location.pathname.split('/').pop();
 
     useEffect(() => {
         window.scrollTo(0, 0);
-    }, [pathname]);
+
+        const mainWrapper = document.getElementById("main-wrapper");
+        mainWrapper.className = `main-wrapper p-4 ${countryName}`;
+    }, [, url])
 
     const event = eventsData.find(item => item.country.toLowerCase() === countryName.toLowerCase());
     const country = event ? event.country.toLowerCase() : "";
@@ -27,6 +31,13 @@ const EventPage = () => {
                     <Container className='mb-60'>
                         <Row className='event'>
                             <Col xs={12}>
+
+                                <div className={`event-cover`}>
+                                    <div className={`mb-40`}>
+                                        <img src={require('../../../assets/images/events/' + event.cover)} alt={`${event.country} - ${event.date}`} title={`${event.country} - ${event.date}`} />
+                                    </div>
+                                </div>
+
                                 <div className={`event-title`}>
                                     {event.date}
                                 </div>

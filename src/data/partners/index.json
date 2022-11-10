@@ -5,20 +5,32 @@
     "logo": "partners/aa.svg",
     "link": "https://www.auswaertiges-amt.de/"
   },
-  {
+      {
     "id": 2,
+    "title": "Goethe Institut",
+    "logo": "partners/goethe-institut.svg",
+    "link": "https://www.goethe.de/"
+  },
+        {
+    "id": 2,
+    "title": "Goethe Institut im Exil",
+    "logo": "partners/goethe-institut-exil.png",
+    "link": "https://www.goethe.de/prj/gex/de"
+  },
+  {
+    "id": 4,
     "title": "Pen Armenia",
     "logo": "partners/pen-armenia.png",
     "link": "https://penarmenia.org/"
   },
   {
-    "id": 3,
+    "id": 5,
     "title": "Pen Georgia",
     "logo": "partners/pen-georgia.png",
     "link": "https://www.pencenter.ge/"
   },
     {
-    "id": 4,
+    "id": 6,
     "title": "Panda platforma",
     "logo": "partners/panda.svg",
     "link": "https://panda-platforma.berlin"

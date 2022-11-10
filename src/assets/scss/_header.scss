@@ -52,6 +52,11 @@
 /*-- header Logo --*/
 .header-logo {
   display: flex;
+  height: 175px;
+  width: 105px;
+  background-image: url(../images/logo-antibabylon.svg);
+  background-repeat: no-repeat;
+  background-size: auto;
 
   & a {
     display: inline-flex;

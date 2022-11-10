@@ -405,6 +405,84 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   background-repeat: no-repeat;
   background-position: center center;
 
+  &.armenia {
+    background-color: $armenia;
+
+    .header-logo {
+        background-image: url(../images/logo-armenia.svg);
+    }
+
+    .main-menu > ul > li > a:hover:after,
+    .main-menu > ul > li > a.active:after {
+      background-color: $armenia;
+    }
+
+    .footer-partners {
+      background-image: url(../images/bg/footer-bg-armenia.svg);
+    }
+  }
+
+  &.georgia {
+    background-color: $georgia;
+
+    .header-logo {
+        background-image: url(../images/logo-georgia.svg);
+    }
+
+    .main-menu > ul > li > a:hover:after,
+    .main-menu > ul > li > a.active:after {
+      background-color: $georgia;
+    }
+
+    .footer-partners {
+      background-image: url(../images/bg/footer-bg-georgia.svg);
+    }
+  }
+
+  &.moldova {
+    background-color: $moldova;
+
+    .header-logo {
+        background-image: url(../images/logo-moldova.svg);
+    }
+
+    .main-menu > ul > li > a:hover:after,
+    .main-menu > ul > li > a.active:after {
+      background-color: $moldova;
+    }
+
+    .footer-partners {
+      background-image: url(../images/bg/footer-bg-moldova.svg);
+    }
+
+  }
+
+  &.ukraine {
+    background-color: $ukraine;
+
+    .main-menu > ul > li > a:hover:after,
+    .main-menu > ul > li > a.active:after {
+      background-color: $ukraine;
+    }
+
+    .header-logo {
+        background-image: url(../images/logo-ukraine.svg);
+    }
+
+    .footer-partners {
+      background-image: url(../images/bg/footer-bg-ukraine.svg);
+    }
+  }
+
+  &.germany {
+    background-color: $germany;
+
+    .main-menu > ul > li > a:hover:after,
+    .main-menu > ul > li > a.active:after {
+      background-color: $germany;
+    }
+  }
+
   @media #{$tablet-device, $large-mobile, $small-mobile}{
     &.p-4 {
       padding: .75rem!important;

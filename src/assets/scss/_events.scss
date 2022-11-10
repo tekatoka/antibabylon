@@ -87,9 +87,9 @@ a {
 .events-list .event .event-details:hover {
     color: #333;
 
-    &.georgia {@include background-svg-odd($georgia); }
+    &.georgia {@include background-svg-odd($georgia); color: #fff}
     &.armenia {@include background-svg-even($armenia); }
     &.moldova {@include background-svg-odd($moldova); }
-    &.ukraine {@include background-svg-even($ukraine); }
+    &.ukraine {@include background-svg-even($ukraine); color: #fff}
     &.germany {@include background-svg-odd($germany); }
 } 

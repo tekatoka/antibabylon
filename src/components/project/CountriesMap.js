@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Row } from 'react-bootstrap';
+import { NavLink } from 'react-router-dom';
 import countries from '../../data/countries';
 //import ReactConnectElements from '../../hooks/ConnectElements';
 import Xarrow from 'react-xarrows';
@@ -33,14 +34,23 @@ const CountriesMap = ({ activeCountry }) => {
                 <Row className={'country-map mt-30 mbn-30'} style={{ position: "relative" }}>
                     {countries.map((country, idx) => (
                         <div key={idx} id={country.id} className={"country"}>
-                            <a href={`/events/${country.name.toLowerCase()}`} id={`${country.id}-link`} className={`text-nowrap ${country.name.toLowerCase() === activeCountry ? "active" : ""}`}>
+
+                            <NavLink
+                                className={`text-nowrap ${country.name.toLowerCase() === activeCountry ? "active" : ""}`}
+                                id={`${country.id}-link`}
+                                to={`/events/${country.name.toLowerCase()}`}>
                                 <img id={`${country.id}-icon`} src={require('../../assets/images/' + country.thumb)} alt={country.name} />
                                 <br />
                                 <span className='country-name'>{country.name}</span>
-                            </a>
+                            </NavLink>
+
+                            {/* <a href={`/events/${country.name.toLowerCase()}`} id={`${country.id}-link`} className={`text-nowrap ${country.name.toLowerCase() === activeCountry ? "active" : ""}`}>
+                                <img id={`${country.id}-icon`} src={require('../../assets/images/' + country.thumb)} alt={country.name} />
+                                <br />
+                                <span className='country-name'>{country.name}</span>
+                            </a> */}
                         </div>
                     ))}
-                    {/* <div className='d-large-only'> */}
                     <div>
                         <Xarrow {...arrowProps} start={'georgia-link'} end={'armenia-link'} />
                         <Xarrow {...arrowProps} start={'armenia-link'} end={'moldova-link'} />

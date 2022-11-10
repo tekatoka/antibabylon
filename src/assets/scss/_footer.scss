@@ -95,17 +95,21 @@
 }
 
 .footer-partners {
-    background-image: url(../images/bg/footer-bg.png);
+    background-image: url(../images/bg/footer-bg.svg);
     background-position: left;
     background-size: cover;
     background-repeat: no-repeat;
+    min-height: 200px;
+    margin-left: -2px!important;
+    margin-bottom: -2px!important;
 
     img {
         max-width: 95%;
     }
 
     @media #{$desktop-device, $tablet-device, $large-mobile, $small-mobile, $extra-small-mobile}{
-        min-height: 210px;
+        min-height: 215px;
+        min-width: 101%;
     }
 }
 
