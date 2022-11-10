@@ -18,7 +18,7 @@ const EventPage = () => {
         window.scrollTo(0, 0);
         const mainWrapper = document.getElementById("main-wrapper");
         mainWrapper.className = `main-wrapper p-4 ${countryName}`;
-    }, [, countryName, url])
+    }, [countryName, url])
 
     const event = eventsData.find(item => item.country.toLowerCase() === countryName.toLowerCase());
     const country = event ? event.country.toLowerCase() : "";
