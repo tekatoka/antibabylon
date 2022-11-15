@@ -1,8 +1,9 @@
 import React, { Fragment } from 'react';
 import { Link } from "react-router-dom";
-import socials from '../../data/social-networks'
+import socials from '../../data/social-networks';
+import GalleryGrid from '../../components/gallery';
 
-const BlogDetailsContent = ({ title, meta, excerpt, info, description, olderPost, newerPost }) => {
+const BlogDetailsContent = ({ title, meta, gallery, excerpt, info, description, olderPost, newerPost }) => {
     return (
         <Fragment>
             <div className="blog-content">
@@ -19,6 +20,12 @@ const BlogDetailsContent = ({ title, meta, excerpt, info, description, olderPost
                     <p dangerouslySetInnerHTML={{ __html: excerpt }} />
                     {info && <p className='info' dangerouslySetInnerHTML={{ __html: info }} />}
                     <p dangerouslySetInnerHTML={{ __html: description }} />
+
+                    {gallery &&
+                        <div className="blog-gallery mt-30 mb-30">
+                            <GalleryGrid images={gallery} />
+                        </div>
+                    }
                 </div>
 
             </div>

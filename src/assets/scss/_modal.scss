@@ -48,10 +48,27 @@
              right: 10px;
              width: 15px;
              height: 15px;
+             z-index: 1;
         }
 
         .main-image, .photo-credit {
           max-width: 250px;
+        }
+
+        &.modal-image {
+            height: auto;
+        }
+
+        .gallery-image {
+            position: relative;
+
+            .gallery-image-caption {
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                padding: 5px 10px;
+                background: rgba(255, 255, 255, .55);
+            }
         }
     }
 }

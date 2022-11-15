@@ -30,6 +30,7 @@ const TemplateBlogDetails = ({ sidebar, sidebarPosition, slug }) => {
                                             excerpt={post.excerpt}
                                             info={post.info}
                                             description={post.description}
+                                            gallery={post.gallery}
                                             olderPost={olderPost}
                                             newerPost={newerPost}
                                         />

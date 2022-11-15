@@ -24,19 +24,22 @@ export const AppContext = React.createContext();
 const App = () => {
        const [modalVisible, setModalVisible] = useState(false);
        const [modalContent, setModalContent] = useState(null);
+       const [modalStyle, setModalStyle] = useState("default");
 
-       const showModal = (children) => {
+       const showModal = (children, modalStyle) => {
               setModalContent(children);
               setModalVisible(true);
+              setModalStyle(modalStyle ? modalStyle : "default")
        }
 
        const hideModal = () => {
               setModalContent(null);
               setModalVisible(false);
+              setModalStyle("default");
        }
 
        return (
-              <AppContext.Provider value={{ modalVisible, modalContent, showModal, hideModal }}>
+              <AppContext.Provider value={{ modalVisible, modalContent, modalStyle, showModal, hideModal }}>
                      <Router>
                             <Switch>
                                    <Route path={`${process.env.PUBLIC_URL + "/about"}`}

@@ -5,13 +5,12 @@ import { Layout } from '../../../Layout';
 import eventsData from '../../../data/events';
 import Error404 from '../../../components/error';
 import CountriesMap from '../../../components/project/CountriesMap';
-import Map from '../../../components/map';
+// import Map from '../../../components/map';
+import GalleryGrid from '../../../components/gallery';
 
 const EventPage = () => {
 
     const { countryName } = useParams();
-    //const { pathname } = useLocation();
-
     const url = window.location.pathname.split('/').pop();
 
     useEffect(() => {
@@ -46,11 +45,17 @@ const EventPage = () => {
                                         <span className={`country-label ${country}`}>{event.country}</span>
                                     </div>
                                     <div className='event-site'>{event.time && event.time + " | "}{event.site}</div>
-                                    {event.address ? <><div className='event-address'>{event.address}</div>
-                                        <div className='mb-40 mt-40'>
-                                            <Map address={event.address} />
-                                        </div></> : <div>more info TBA</div>}
+                                    {<div className='event-address'>{event.address}</div>}
                                     <div className='event-description'>{event.description}</div>
+
+                                    {event.gallery &&
+                                        <div className="gallery mt-30 mb-30">
+                                            <GalleryGrid images={event.gallery} />
+                                        </div>
+                                    }
+                                    {/* <div className='mb-40 mt-40'>
+                                        <Map address={event.address} />
+                                    </div> */}
                                 </div>
                                 <CountriesMap activeCountry={country} />
                             </Col>
