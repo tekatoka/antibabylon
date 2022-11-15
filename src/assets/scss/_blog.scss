@@ -85,7 +85,13 @@
       clear: both;
       margin-bottom: 17px;
 
-      & p {
+      > p {
+        margin-bottom: 25px;
+
+        & .info {
+          font-weight: bold;
+          text-transform: uppercase;
+        }
       }
     }
 
@@ -221,7 +227,12 @@
       & p {
         line-height: 30px;
         letter-spacing: 0.75px;
-        margin-bottom: 12px;
+        margin-bottom: 25px;
+
+        &.info {
+          font-weight: 600;
+          text-transform: uppercase;
+        }
 
         &:last-child {
           margin-bottom: 0;

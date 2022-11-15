@@ -1,8 +1,8 @@
-import React, {Fragment} from 'react';
-import {Link} from "react-router-dom";
+import React, { Fragment } from 'react';
+import { Link } from "react-router-dom";
 import socials from '../../data/social-networks'
 
-const BlogDetailsContent = ({title, meta, description}) => {
+const BlogDetailsContent = ({ title, meta, excerpt, info, description, olderPost, newerPost }) => {
     return (
         <Fragment>
             <div className="blog-content">
@@ -11,19 +11,14 @@ const BlogDetailsContent = ({title, meta, description}) => {
 
                 <ul className="blog-meta">
                     <li>
-                        <Link to={`${process.env.PUBLIC_URL + '/blog-details'}`}>
-                            <i className="fa fa-user"/>{meta.author}
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to={`${process.env.PUBLIC_URL + '/blog-details'}`}>
-                            <i className="fa fa-comments"/>Comments ( {meta.comments} )
-                        </Link>
+                        <i className="fa fa-calendar" style={{ margin: "0 10px 0 0" }} />{meta.postDate}&nbsp;&nbsp;&nbsp;| <i className="fa fa-user" style={{ margin: "0 10px" }} />{meta.author}
                     </li>
                 </ul>
 
                 <div className="blog-desc">
-                    <span dangerouslySetInnerHTML={{__html: description}}/>
+                    <p dangerouslySetInnerHTML={{ __html: excerpt }} />
+                    {info && <p className='info' dangerouslySetInnerHTML={{ __html: info }} />}
+                    <p dangerouslySetInnerHTML={{ __html: description }} />
                 </div>
 
             </div>
@@ -33,24 +28,23 @@ const BlogDetailsContent = ({title, meta, description}) => {
                     <div
                         className="blog-social-share d-flex justify-content-center col-md-6 col-12 order-1 order-md-2 mb-xs-20">
                         {socials.map(social => (
-                            <a key={social.id} href={`https://${social.media}/${social.username}`}>
-                                <i className={`fa fa-${social.media}`}/>
+                            <a key={social.id} href={`${social.url}`} target="_blank" rel="noopener noreferrer">
+                                <i className={`fa fa-${social.media}`} />
                             </a>
                         ))}
                     </div>
 
                     <div className="d-flex justify-content-start col-md-3 col-6 order-2 order-md-1">
-                        <Link to={`${process.env.PUBLIC_URL + '/blog-details'}`} className="post-nav old-post">
-                            <i className="fa fa-long-arrow-left"/>Older
-                        </Link>
+                        {olderPost && <Link to={`${process.env.PUBLIC_URL + '/blog/' + olderPost.slug}`} className="post-nav old-post">
+                            <i className="fa fa-long-arrow-left" />Older
+                        </Link>}
                     </div>
 
                     <div className="d-flex justify-content-end col-md-3 col-6 order-3">
-                        <Link to={`${process.env.PUBLIC_URL + '/blog-details'}`} className="post-nav new-post">
-                            <i className="fa fa-long-arrow-right"/>new
-                        </Link>
+                        {newerPost && <Link to={`${process.env.PUBLIC_URL + '/blog/' + newerPost.slug}`} className="post-nav new-post">
+                            <i className="fa fa-long-arrow-right" />Next
+                        </Link>}
                     </div>
-
                 </div>
             </div>
         </Fragment>

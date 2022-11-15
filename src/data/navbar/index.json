@@ -36,8 +36,13 @@
     "link": "/events",
     "megaMenu": false
   },
-  {
+    {
     "id": 5,
+    "title": "Blog",
+    "link": "/blog"
+  },
+  {
+    "id": 6,
     "title": "About",
     "link": "/about"
   }

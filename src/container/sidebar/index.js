@@ -4,52 +4,19 @@ import banner from '../../assets/images/banner/banner-1.jpg'
 
 import posts from '../../data/blog';
 
-const SidebarWrap = () => {
+const SidebarBlog = () => {
 
     return (
         <Fragment>
-            <Sidebar>
-                <div className="sidebar-search">
-                    <form action="/" method="post">
-                        <input type="text" placeholder="Search" />
-                        <button><i className="fa fa-search" /></button>
-                    </form>
-                </div>
-            </Sidebar>
-
-            <Sidebar title={"ÜBER MICHABOUT ME"}>
-                <div className="sidebar-about">
-                    <p>There are many variations of passages of Lorem Ipsum available, alteration in some form, by
-                        injected humour lebmid</p>
-                </div>
-            </Sidebar>
-
-            <Sidebar title={"Kategorien"}>
-                <ul className="sidebar-list">
-                    <li><a href="/">Corporate</a></li>
-                    <li><a href="/">Graphic Design</a></li>
-                    <li><a href="/">Creative</a></li>
-                    <li><a href="/">Photoshop</a></li>
-                </ul>
-            </Sidebar>
-
-            <Sidebar title={"Newest post"}>
+            <Sidebar title={"Other posts"}>
                 <ul className="sidebar-post">
-                    {posts.slice(0, 3).map(post => (
+                    {posts.map(post => (
                         <li key={post.id}>
-                            <a href={process.env.PUBLIC_URL + "/blog-details"}>{post.title}</a>
+                            <a href={process.env.PUBLIC_URL + "/blog/" + post.slug}>{post.title}</a>
                             <span>{post.meta.postDate}</span>
                         </li>
                     ))}
                 </ul>
-            </Sidebar>
-
-            <Sidebar title={"Tags"}>
-                <div className="sidebar-tags">
-                    <a href="/">Corporate</a>
-                    <a href="/">Graphic Design</a>
-                    <a href="/">Photoshop</a>
-                </div>
             </Sidebar>
 
             <Sidebar>
@@ -61,4 +28,4 @@ const SidebarWrap = () => {
     );
 };
 
-export default SidebarWrap;
+export default SidebarBlog;

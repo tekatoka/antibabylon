@@ -1,54 +1,51 @@
 import React from 'react';
-import {Container, Row, Col} from 'react-bootstrap'
+import { Container, Row, Col } from 'react-bootstrap'
 import PageContainer from "../../container/CustomPage";
-import SidebarWrap from "../../container/sidebar";
+import SidebarBlog from "../../container/sidebar";
 import BlogDetailsPreviewImage from "./PreviewImage";
 import BlogDetailsContent from "./Content";
-import BlogDetailsCommentShow from "./CommentShow";
-import LeaveAComment from "./LeaveAComment";
-import blogDetailsData from '../../data/blog/details';
+import posts from '../../data/blog/';
+import Error404 from '../../components/error';
 
-const TemplateBlogDetails = ({sidebar, sidebarPosition}) => {
+const TemplateBlogDetails = ({ sidebar, sidebarPosition, slug }) => {
+    const post = posts.find(p => p.slug === slug);
+    const olderPost = post ? posts.find(p => p.id === post.id - 1) : null;
+    const newerPost = post ? posts.find(p => p.id === post.id + 1) : null;
     return (
-        <PageContainer classes={'bg-grey'}>
-            <Container>
-                <Row>
-                    <Col xl={!sidebar ? 12 : 9} lg={!sidebar ? 12 : 8}
-                         className={`mb-50 ${sidebarPosition === 'left' ? 'order-1 order-lg-2' : ''}`}
-                    >
-                        <div className='blog-item-details'>
-                            <BlogDetailsPreviewImage img={blogDetailsData.preview}/>
+        post ?
+            <PageContainer classes={'bg-grey'}>
+                <Container>
+                    <Row>
+                        <Col xl={!sidebar ? 12 : 9} lg={!sidebar ? 12 : 8}
+                            className={`mb-50 ${sidebarPosition === 'left' ? 'order-1 order-lg-2' : ''}`}
+                        >
+                            <div className='blog-item-details'>
+                                <BlogDetailsPreviewImage img={post.thumb} />
 
-                            <Row>
-                                <Col lg={!sidebar ? 9 : 12} className="m-auto">
-                                    <BlogDetailsContent
-                                        title={blogDetailsData.title}
-                                        meta={blogDetailsData.meta}
-                                        description={blogDetailsData.description}
-                                    />
-                                </Col>
-                            </Row>
-                        </div>
-
-                        <div className="comment-wrap">
-                            <h3>Comments</h3>
-
-                            <BlogDetailsCommentShow comments={blogDetailsData.comments}/>
-
-                            <h3>Leave A Comment</h3>
-
-                            <LeaveAComment/>
-                        </div>
-                    </Col>
-
-                    {sidebar && (
-                        <Col xl={3} lg={4} className={`${sidebarPosition === 'left' ? 'order-2 order-lg-1' : ''}`}>
-                            <SidebarWrap/>
+                                <Row>
+                                    <Col lg={!sidebar ? 9 : 12} className="m-auto">
+                                        <BlogDetailsContent
+                                            title={post.title}
+                                            meta={post.meta}
+                                            excerpt={post.excerpt}
+                                            info={post.info}
+                                            description={post.description}
+                                            olderPost={olderPost}
+                                            newerPost={newerPost}
+                                        />
+                                    </Col>
+                                </Row>
+                            </div>
                         </Col>
-                    )}
-                </Row>
-            </Container>
-        </PageContainer>
+
+                        {sidebar && (
+                            <Col xl={3} lg={4} className={`${sidebarPosition === 'left' ? 'order-2 order-lg-1' : ''}`}>
+                                <SidebarBlog />
+                            </Col>
+                        )}
+                    </Row>
+                </Container>
+            </PageContainer> : <Error404 />
     );
 };
 

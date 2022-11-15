@@ -13,7 +13,8 @@ import EventPage from './pages/events/event-page';
 import ErrorPage from "./pages/404Error";
 import ImpressumPage from "./pages/impressum";
 import PrivacyPage from "./pages/privacy";
-import BlogThreeColumnPage from "./pages/blog/ThreeColumn";
+import BlogPage from "./pages/blog";
+import BlogDetails from "./pages/blog/BlogDetails";
 import HomePage from "./pages/home/HomePage";
 
 import CookieConsentComponent from './components/CookieConsent';
@@ -40,8 +41,10 @@ const App = () => {
                             <Switch>
                                    <Route path={`${process.env.PUBLIC_URL + "/about"}`}
                                           component={AboutPage} />
+                                   <Route path={`${process.env.PUBLIC_URL + "/blog/:slug"}`}
+                                          component={BlogDetails} />
                                    <Route path={`${process.env.PUBLIC_URL + "/blog"}`}
-                                          component={BlogThreeColumnPage} />
+                                          component={BlogPage} />
                                    <Route path={`${process.env.PUBLIC_URL + "/poets"}`}
                                           component={MembersPage} />
                                    <Route path={`${process.env.PUBLIC_URL + "/jury"}`}

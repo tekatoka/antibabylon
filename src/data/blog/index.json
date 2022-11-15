@@ -1,101 +1,67 @@
 [
   {
     "id": 1,
-    "title": "9 RIDICULOUS RULES ABOUT DESIGN",
-    "excerpt": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
-    "thumb": "blog/blog-1.jpg",
+    "slug": "antibabylon-georgia",
+    "title": "AntiBabylon 2022 | Georgia",
+    "excerpt": "AntiBabylon 2022 - Georgian event: 15.11., 19:00, Goethe-Institut Georgien | Zandukeli Str. 16, 0108 Tbilisi",
+    "info": "Entrance is free",
+    "description": "Poets from five countries — Armenia, Georgia, Moldova, Ukraine and Germany — are taking part in the project. The aim of the antiBabylon 2022 project is to create a free multilingual poetic space - with a horizontal structure and an inherently international component. Essential is the comprehension of a unique linguistic identity which does not divide, but unites as well as an anti-imperialist state of mind. The project is organized by the Berlin-based international NGO PANDA platforma with the support of the German Foreign Office and takes place in cooperation with local partner organizations, such as Goethe Institut im Exil. Partner countries: Georgia, Armenia, Moldova, Ukraine and Germany This event is a part of the creative tour of the project team. During this event, the results of a 1 month multilingual poetry lab will be presented, with the selected participants and jury members from the five countries, this time with an emphasis on Georgian language. Prepare to dive into an evening full of spoken word and performance poetry flowing between languages, countries and stories.",
+    "thumb": "events/covers/georgia.jpg",
     "meta": {
-      "postDate": "Oct 18, 2019",
-      "comments": 4,
-      "author": "Admin"
+      "postDate": "Nov 15, 2022",
+      "author": "AntiBabylon"
     }
   },
-  {
+    {
     "id": 2,
-    "title": "10 BEST PRACTICES FOR DESIGN",
-    "excerpt": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
-    "thumb": "blog/blog-2.jpg",
+    "slug": "antibabylon-armenia",
+    "title": "AntiBabylon 2022 | Armenia",
+    "excerpt": "AntiBabylon 2022 - Armenian event: 18.11., 20:00, Cafesjian Center for the Arts | 10 Tamanyan St, Yerevan 0009",
+    "info": "Entrance is free",
+"description": "Poets from five countries — Armenia, Georgia, Moldova, Ukraine and Germany — are taking part in the project. The aim of the antiBabylon 2022 project is to create a free multilingual poetic space - with a horizontal structure and an inherently international component. Essential is the comprehension of a unique linguistic identity which does not divide, but unites as well as an anti-imperialist state of mind. The project is organized by the Berlin-based international NGO PANDA platforma with the support of the German Foreign Office and takes place in cooperation with local partner organizations, such as Goethe Institut im Exil. Partner countries: Georgia, Armenia, Moldova, Ukraine and Germany This event is a part of the creative tour of the project team. During this event, the results of a 1 month multilingual poetry lab will be presented, with the selected participants and jury members from the five countries, this time with an emphasis on Georgian language. Prepare to dive into an evening full of spoken word and performance poetry flowing between languages, countries and stories.",
+    "thumb": "events/covers/armenia.jpg",
     "meta": {
-      "postDate": "Oct 15, 2019",
-      "comments": 0,
-      "author": "Raju"
+      "postDate": "Nov 18, 2022",
+      "author": "AntiBabylon"
     }
   },
-  {
+    {
     "id": 3,
-    "title": "HOW I IMPROVE DESIGN ONE EASY",
-    "excerpt": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
-    "thumb": "blog/blog-3.jpg",
+    "slug": "antibabylon-moldova",
+    "title": "AntiBabylon 2022 | Moldova",
+    "excerpt": "AntiBabylon 2022 - Moldovan event: 21.11., 19:00, Bar Pro Sănătate | str. V. Alecsandri 90/1, Chișinău",
+    "info": "Entrance is free",
+"description": "Poets from five countries — Armenia, Georgia, Moldova, Ukraine and Germany — are taking part in the project. The aim of the antiBabylon 2022 project is to create a free multilingual poetic space - with a horizontal structure and an inherently international component. Essential is the comprehension of a unique linguistic identity which does not divide, but unites as well as an anti-imperialist state of mind. The project is organized by the Berlin-based international NGO PANDA platforma with the support of the German Foreign Office and takes place in cooperation with local partner organizations, such as Goethe Institut im Exil. Partner countries: Georgia, Armenia, Moldova, Ukraine and Germany This event is a part of the creative tour of the project team. During this event, the results of a 1 month multilingual poetry lab will be presented, with the selected participants and jury members from the five countries, this time with an emphasis on Georgian language. Prepare to dive into an evening full of spoken word and performance poetry flowing between languages, countries and stories.",
+    "thumb": "events/covers/moldova.jpg",
     "meta": {
-      "postDate": "Oct 9, 2019",
-      "comments": 12,
-      "author": "Author"
+      "postDate": "Nov 21, 2022",
+      "author": "AntiBabylon"
     }
   },
-  {
+    {
     "id": 4,
-    "title": "5 WAYS TO AVOID DESIGN BURNOUT",
-    "excerpt": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
-    "thumb": "blog/blog-4.jpg",
+    "slug": "antibabylon-ukraine",
+    "title": "AntiBabylon 2022 | Ukraine",
+    "excerpt": "AntiBabylon 2022 - український event: 24.11., 19:00, ACUD | Veteranenstraße 21, 10119 Berlin",
+    "info": "Entrance is free",
+    "description": "Poets from five countries — Armenia, Georgia, Moldova, Ukraine and Germany — are taking part in the project. The aim of the antiBabylon 2022 project is to create a free multilingual poetic space - with a horizontal structure and an inherently international component. Essential is the comprehension of a unique linguistic identity which does not divide, but unites as well as an anti-imperialist state of mind. The project is organized by the Berlin-based international NGO PANDA platforma with the support of the German Foreign Office and takes place in cooperation with local partner organizations, such as Goethe Institut im Exil. Partner countries: Georgia, Armenia, Moldova, Ukraine and Germany This event is a part of the creative tour of the project team. During this event, the results of a 1 month multilingual poetry lab will be presented, with the selected participants and jury members from the five countries, this time with an emphasis on Georgian language. Prepare to dive into an evening full of spoken word and performance poetry flowing between languages, countries and stories.",
+    "thumb": "events/covers/ukraine.jpg",
     "meta": {
-      "postDate": "Sep 29, 2019",
-      "comments": 6,
-      "author": "Admin"
+      "postDate": "Nov 24, 2022",
+      "author": "AntiBabylon"
     }
   },
-  {
+    {
     "id": 5,
-    "title": "EXPERIMENT WE CAN ALL LEARN FROM",
-    "excerpt": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
-    "thumb": "blog/blog-5.jpg",
+    "slug": "antibabylon-germany",
+    "title": "AntiBabylon 2022 | Germany",
+    "excerpt": "AntiBabylon 2022 - German event: 26./27.11., 20:00, PANDA platforma | Knaackstraße 97, 10435 Berlin",
+    "info": "Entrance is free",
+"description": "Poets from five countries — Armenia, Georgia, Moldova, Ukraine and Germany — are taking part in the project. The aim of the antiBabylon 2022 project is to create a free multilingual poetic space - with a horizontal structure and an inherently international component. Essential is the comprehension of a unique linguistic identity which does not divide, but unites as well as an anti-imperialist state of mind. The project is organized by the Berlin-based international NGO PANDA platforma with the support of the German Foreign Office and takes place in cooperation with local partner organizations, such as Goethe Institut im Exil. Partner countries: Georgia, Armenia, Moldova, Ukraine and Germany This event is a part of the creative tour of the project team. During this event, the results of a 1 month multilingual poetry lab will be presented, with the selected participants and jury members from the five countries, this time with an emphasis on Georgian language. Prepare to dive into an evening full of spoken word and performance poetry flowing between languages, countries and stories.",
+    "thumb": "events/covers/germany.jpg",
     "meta": {
-      "postDate": "Sep 23, 2019",
-      "comments": 16,
-      "author": "Raju"
-    }
-  },
-  {
-    "id": 6,
-    "title": "CHECK OUT THIS GENIUS DESIGN PLAN",
-    "excerpt": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
-    "thumb": "blog/blog-6.jpg",
-    "meta": {
-      "postDate": "Sep 18, 2019",
-      "comments": 8,
-      "author": "HasTech"
-    }
-  },
-  {
-    "id": 7,
-    "title": "Weekend trip",
-    "excerpt": "Treat yourself to a night re-living the golden age of the railway with a stay at The Old Railway Station in Petworth, West Sussex.",
-    "thumb": "blog/blog-7.jpg",
-    "meta": {
-      "postDate": "Sep 18, 2019",
-      "comments": 8,
-      "author": "Raju"
-    }
-  },
-  {
-    "id": 8,
-    "title": "Explore Vancouver Mountain",
-    "excerpt": "Treat yourself to a night re-living the golden age of the railway with a stay at The Old Railway Station in Petworth, West Sussex.",
-    "thumb": "blog/blog-8.jpg",
-    "meta": {
-      "postDate": "Sep 18, 2019",
-      "comments": 8,
-      "author": "Arif"
-    }
-  },
-  {
-    "id": 9,
-    "title": "Discovering Paris",
-    "excerpt": "If I have a chance to whisper the best advice to a baby and he’ll remember it for the rest of his life is this: ENJOY YOUR LIFE",
-    "thumb": "blog/blog-9.jpg",
-    "meta": {
-      "postDate": "Aug 28, 2019",
-      "comments": 18,
-      "author": "Uzzal"
+      "postDate": "Nov 26-27, 2022",
+      "author": "AntiBabylon"
     }
   }
 ]

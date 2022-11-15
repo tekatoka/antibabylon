@@ -1,9 +1,9 @@
 import React from 'react';
 
-const BlogDetailsPreviewImage = ({img}) => {
+const BlogDetailsPreviewImage = ({ img, title }) => {
     return (
         <div className="blog-image">
-            <img src={require('../../assets/images/blog/' + img)} alt="Blog thumb"/>
+            <img src={require('../../assets/images/' + img)} alt={title} title={title} />
         </div>
     );
 };
