@@ -7,8 +7,85 @@
     "time": "19:00",
     "site": "Goethe-Institut Georgien",
     "address": "Zandukeli Str. 16, 0108 Tbilisi",
-    "description": "",
-    "cover": "covers/georgia.jpg"
+    "description": "<p class='text-600'>PHOTOS BY Gia Gogatishvili</p>",
+    "cover": "covers/georgia.jpg",
+    "gallery": [
+      {
+          "src": "blog/antibabylon-georgia/georgia-1.jpg"
+      },
+      {
+          "src": "blog/antibabylon-georgia/georgia-2.jpg"
+      },
+      {
+          "src": "blog/antibabylon-georgia/georgia-3.jpg"
+      },
+      {
+          "src": "blog/antibabylon-georgia/georgia-4.jpg"
+      },
+      {
+          "src": "blog/antibabylon-georgia/georgia-5.jpg"
+      },
+      {
+          "src": "blog/antibabylon-georgia/georgia-6.jpg"
+      },
+      {
+          "src": "blog/antibabylon-georgia/georgia-7.jpg"
+      },
+      {
+          "src": "blog/antibabylon-georgia/georgia-8.jpg"
+      },
+      {
+          "src": "blog/antibabylon-georgia/georgia-9.jpg"
+      },
+      {
+          "src": "blog/antibabylon-georgia/georgia-10.jpg"
+      },
+      {
+          "src": "blog/antibabylon-georgia/georgia-11.jpg"
+      },
+      {
+          "src": "blog/antibabylon-georgia/georgia-12.jpg"
+      },
+      {
+          "src": "blog/antibabylon-georgia/georgia-13.jpg"
+      },
+      {
+          "src": "blog/antibabylon-georgia/georgia-14.jpg"
+      },
+      {
+          "src": "blog/antibabylon-georgia/georgia-15.jpg"
+      },
+      {
+          "src": "blog/antibabylon-georgia/georgia-16.jpg"
+      },
+      {
+          "src": "blog/antibabylon-georgia/georgia-17.jpg"
+      },
+      {
+          "src": "blog/antibabylon-georgia/georgia-18.jpg"
+      },
+      {
+          "src": "blog/antibabylon-georgia/georgia-19.jpg"
+      },
+      {
+          "src": "blog/antibabylon-georgia/georgia-20.jpg"
+      },
+      {
+          "src": "blog/antibabylon-georgia/georgia-21.jpg"
+      },
+      {
+          "src": "blog/antibabylon-georgia/georgia-22.jpg"
+      },
+      {
+          "src": "blog/antibabylon-georgia/georgia-23.jpg"
+      },
+      {
+          "src": "blog/antibabylon-georgia/georgia-24.jpg"
+      },
+      {
+          "src": "blog/antibabylon-georgia/georgia-25.jpg"
+      }
+    ]
   },
   {
     "id": 2,

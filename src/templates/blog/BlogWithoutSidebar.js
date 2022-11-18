@@ -5,11 +5,12 @@ import { Container, Row, Col } from 'react-bootstrap'
 import PageContainer from "../../container/CustomPage";
 
 const TemplateBlogWithoutSidebar = ({ blogColumnClass }) => {
+    const orderedPosts = posts.sort((a, b) => b.id - a.id);
     return (
         <PageContainer classes={'bg-grey'}>
             <Container>
                 <Row className="blog-content-wrap">
-                    {posts.map(blog => (
+                    {orderedPosts.map(blog => (
                         <Col key={blog.id} className={blogColumnClass}>
                             <Blog
                                 title={blog.title}

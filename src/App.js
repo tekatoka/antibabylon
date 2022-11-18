@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 /*
@@ -25,6 +25,19 @@ const App = () => {
        const [modalVisible, setModalVisible] = useState(false);
        const [modalContent, setModalContent] = useState(null);
        const [modalStyle, setModalStyle] = useState("default");
+
+       useEffect(() => {
+              function handleEscapeKey(event) {
+                     if (event.code === 'Escape') {
+                            setModalVisible(false)
+                            setModalContent(null)
+                            setModalStyle("default")
+                     }
+              }
+
+              document.addEventListener('keydown', handleEscapeKey)
+              return () => document.removeEventListener('keydown', handleEscapeKey)
+       }, [])
 
        const showModal = (children, modalStyle) => {
               setModalContent(children);

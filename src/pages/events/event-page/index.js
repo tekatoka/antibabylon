@@ -46,8 +46,10 @@ const EventPage = () => {
                                     </div>
                                     <div className='event-site'>{event.time && event.time + " | "}{event.site}</div>
                                     {<div className='event-address'>{event.address}</div>}
-                                    <div className='event-description'>{event.description}</div>
-
+                                    <div
+                                        className='event-description mt-20'
+                                        dangerouslySetInnerHTML={{ __html: event.description }}
+                                    />
                                     {event.gallery &&
                                         <div className="gallery mt-30 mb-30">
                                             <GalleryGrid images={event.gallery} />

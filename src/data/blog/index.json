@@ -63,5 +63,124 @@
       "postDate": "Nov 26-27, 2022",
       "author": "AntiBabylon"
     }
+  },
+  {
+    "id": 6,
+    "slug": "special-guests-2022",
+    "title": "AntiBabylon 2022 | Special Guests",
+    "excerpt": "Special guests at AntiBabylon 2022 events",
+    "description": "📍Georgia - ▪️Tamar Zhghenti. Photo: Mariam Palavandishvili. <br /><br />📍Armenia - ▪️ Anush Kocharyan. Photographer: Nazik Armenakyan. ▪️ Karen Antashyan. <br /><br />📍Moldova - ▪️Moni Stănilă. Photographer: Alexandru Vakulovski.",
+    "thumb": "blog/special-guests/special-guests.jpg",
+    "meta": {
+      "postDate": "Nov 17, 2022",
+      "author": "AntiBabylon"
+    },
+    "gallery": [
+      {
+          "src": "blog/special-guests/tamar-zhghenti.jpg",
+          "caption": "Tamar Zhghenti (Georgia)"
+      },
+      {
+          "src": "blog/special-guests/anush-kocharyan.jpg",
+          "caption": "Anush Kocharyan (Armenia)"
+      },
+      {
+          "src": "blog/special-guests/karen-antashyan.jpg",
+          "caption": "Karen Antashyan (Armenia)"
+      },
+            {
+          "src": "blog/special-guests/moni-stanila.jpg",
+          "caption": "Moni Stănilă (Moldova)"
+      }
+    ]
+  },
+    {
+    "id": 7,
+    "slug": "antibabylon-in-tbilisi-georgia",
+    "title": "AntiBabylon 2022 |  Tbilisi, 15.11.2022",
+    "excerpt": "Georgia, you are amazing!",
+    "description": "Thank you for wonderful emotions and thanks everyone, who became a part of AntiBabylon on our Georgian event. <br /><br /><p class='info'>PHOTOS BY Gia Gogatishvili</p>",
+    "thumb": "blog/antibabylon-georgia/georgia-main.jpg",
+    "meta": {
+      "postDate": "Nov 18, 2022",
+      "author": "AntiBabylon"
+    },
+    "gallery": [
+      {
+          "src": "blog/antibabylon-georgia/georgia-1.jpg"
+      },
+      {
+          "src": "blog/antibabylon-georgia/georgia-2.jpg"
+      },
+      {
+          "src": "blog/antibabylon-georgia/georgia-3.jpg"
+      },
+      {
+          "src": "blog/antibabylon-georgia/georgia-4.jpg"
+      },
+      {
+          "src": "blog/antibabylon-georgia/georgia-5.jpg"
+      },
+      {
+          "src": "blog/antibabylon-georgia/georgia-6.jpg"
+      },
+      {
+          "src": "blog/antibabylon-georgia/georgia-7.jpg"
+      },
+      {
+          "src": "blog/antibabylon-georgia/georgia-8.jpg"
+      },
+      {
+          "src": "blog/antibabylon-georgia/georgia-9.jpg"
+      },
+      {
+          "src": "blog/antibabylon-georgia/georgia-10.jpg"
+      },
+      {
+          "src": "blog/antibabylon-georgia/georgia-11.jpg"
+      },
+      {
+          "src": "blog/antibabylon-georgia/georgia-12.jpg"
+      },
+      {
+          "src": "blog/antibabylon-georgia/georgia-13.jpg"
+      },
+      {
+          "src": "blog/antibabylon-georgia/georgia-14.jpg"
+      },
+      {
+          "src": "blog/antibabylon-georgia/georgia-15.jpg"
+      },
+      {
+          "src": "blog/antibabylon-georgia/georgia-16.jpg"
+      },
+      {
+          "src": "blog/antibabylon-georgia/georgia-17.jpg"
+      },
+      {
+          "src": "blog/antibabylon-georgia/georgia-18.jpg"
+      },
+      {
+          "src": "blog/antibabylon-georgia/georgia-19.jpg"
+      },
+      {
+          "src": "blog/antibabylon-georgia/georgia-20.jpg"
+      },
+      {
+          "src": "blog/antibabylon-georgia/georgia-21.jpg"
+      },
+      {
+          "src": "blog/antibabylon-georgia/georgia-22.jpg"
+      },
+      {
+          "src": "blog/antibabylon-georgia/georgia-23.jpg"
+      },
+      {
+          "src": "blog/antibabylon-georgia/georgia-24.jpg"
+      },
+      {
+          "src": "blog/antibabylon-georgia/georgia-25.jpg"
+      }
+    ]
   }
 ]
