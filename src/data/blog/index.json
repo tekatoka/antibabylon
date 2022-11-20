@@ -179,5 +179,18 @@
           "src": "blog/antibabylon-georgia/georgia-25.jpg"
       }
     ]
+  },
+      {
+    "id": 8,
+    "slug": "berlin-ready-for-antibabylon",
+    "title": "AntiBabylon 2022 |  Berlin is ready!",
+    "excerpt": "Berlin is preparing for AntiBabylon...",
+    "description": "AntiBabylon 2022 in Berlin: <br /><br />📍24.11., 19:00 | ACUD, Veteranenstr. 21, 10119 Berlin<br/>Ukrainian event<br /><br/>📍26-27.11., 20:00 | PANDA platforma, Knaackstr. 97, 10435 Berlin<br />German event & Grand Finale!",
+    "thumb": "blog/antibabylon-berlin.png",
+    "meta": {
+      "postDate": "Nov 20, 2022",
+      "author": "AntiBabylon"
+    },
+    "gallery": []
   }
 ]
