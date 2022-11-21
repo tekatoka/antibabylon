@@ -1,14 +1,37 @@
 import React from 'react';
 import { Gallery } from "react-grid-gallery";
+import Slider from 'react-slick';
 import { AppContext } from '../../App';
 
-const GalleryImage = ({ image }) => {
-    return <div className="gallery-image">
-        <img src={image.src} alt={image.caption} title={image.caption} />
-        {image.caption && <div className={"gallery-image-caption"}>{image.caption}</div>}
-    </div>
-    //src={require('../../assets/images/' + person.photo)}
+const GalleryCarousel = ({idx, images}) => {
+    const sliderSettings = {
+        arrows: true,
+        autoplay: false,
+        autoplaySpeed: 5000,
+        dots: false,
+        pauseOnFocus: false,
+        pauseOnHover: false,
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        adaptiveHeight: true,
+        initialSlide: idx
+    };
+
+    return <Slider {...sliderSettings}>
+    {images.map((slide, index) => {
+        return <img key={index} src={slide.src} alt={slide.caption} title={slide.caption} />
+    })}
+    </Slider>
+
 }
+
+// const GalleryImage = ({ image }) => {
+//     return <div className="gallery-image">
+//         <img src={image.src} alt={image.caption} title={image.caption} />
+//         {image.caption && <div className={"gallery-image-caption"}>{image.caption}</div>}
+//     </div>
+// }
 
 const GalleryGrid = ({ images }) => {
     const context = React.useContext(AppContext);
@@ -26,7 +49,10 @@ const GalleryGrid = ({ images }) => {
     }
 
     return (
-        <Gallery images={getImages()} enableImageSelection={false} rowHeight={200} tileViewportStyle={{ width: "200px", overflow: "hidden" }} onClick={(index, image) => context.showModal(<GalleryImage image={image} />, "image")} />
+        <Gallery images={getImages()} enableImageSelection={false} rowHeight={200} tileViewportStyle={{ width: "200px", overflow: "hidden" }} 
+        onClick={(index, image) => context.showModal(<GalleryCarousel idx={index} images={getImages()} />, "image")} />
+
+        //<GalleryImage image={image} />, "image"
     );
 };
 

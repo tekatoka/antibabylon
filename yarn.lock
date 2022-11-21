@@ -9539,6 +9539,11 @@
   dependencies:
     "fscreen" "^1.0.2"
 
+"react-grid-gallery@^1.0.0":
+  "integrity" "sha512-S1gr6WXBlPFVrE0x2BHuu7jhyaB61mabcMQyx+8KCgAyKzGza0WF67AfAnS9Q00aurFEq4IP8eqb2Bk5F4RAmQ=="
+  "resolved" "https://registry.npmjs.org/react-grid-gallery/-/react-grid-gallery-1.0.0.tgz"
+  "version" "1.0.0"
+
 "react-images@^1.2.0-beta.7":
   "integrity" "sha512-/ewkPwkwJDqTmc0HMPccFPE5H4A6JVRCfMahBc2j9DTBPmdANSXAglTlYLgZC8Q7iZQjGFado3OxixSrog/02w=="
   "resolved" "https://registry.npmjs.org/react-images/-/react-images-1.2.0-beta.7.tgz"
@@ -9586,6 +9591,11 @@
     "prop-types" "^15.7.2"
     "uncontrollable" "^7.2.1"
     "warning" "^4.0.3"
+
+"react-photo-album@^1.16.1":
+  "integrity" "sha512-RNzqxSpAT7Vg5pOKlAETBCc5mfPwcgGl0DqwW5Z2FH79CDNIJBA/WNqInLVDZ1p4MqOciPrAS8z480tLUDsiYg=="
+  "resolved" "https://registry.npmjs.org/react-photo-album/-/react-photo-album-1.16.1.tgz"
+  "version" "1.16.1"
 
 "react-photo-gallery@^8.0.0":
   "integrity" "sha512-Y9458yygEB9cIZAWlBWuenlR+ghin1RopmmU3Vice8BeJl0Se7hzfxGDq8W1armB/ic/kphGg+G1jq5fOEd0sw=="
@@ -9776,7 +9786,7 @@
     "lodash" "^4.17.21"
     "prop-types" "^15.7.2"
 
-"react@*", "react@^0.14.0 || ^15.0.0 || ^16.0.0 || ^17.0.0", "react@^0.14.0 || ^15.0.1 || ^16.0.0 || ^17.0.0 || ^18.0.0", "react@^0.14.9 || ^15.3.0 || ^16.0.0", "react@^15.3.0 || ^16.0.0 || ^17.0.0 || ^18.0.0", "react@^16.0.0", "react@^16.13.1 || ^17.0.0 || ^18.0.0", "react@^16.14.0", "react@^16.2.0 || ^17.0.0", "react@^16.8.0", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^16.9.0 || ^17.0.0 || ^18.0.0", "react@^17.0.1", "react@>= 16.8.0", "react@>=0.14.0", "react@>=15", "react@>=15.0.0", "react@>=16.3.0", "react@>=16.3.2", "react@>=16.6.0", "react@>=16.8.0", "react@0.14 || 15 || 16 || 17 || 18", "react@0.14.x || ^15.0.0 || ^16.0.0", "react@15.x.x || 16.x.x || 17.x.x || 18.x.x":
+"react@*", "react@^0.14.0 || ^15.0.0 || ^16.0.0 || ^17.0.0", "react@^0.14.0 || ^15.0.1 || ^16.0.0 || ^17.0.0 || ^18.0.0", "react@^0.14.9 || ^15.3.0 || ^16.0.0", "react@^15.3.0 || ^16.0.0 || ^17.0.0 || ^18.0.0", "react@^16.0.0", "react@^16.13.1 || ^17.0.0 || ^18.0.0", "react@^16.14.0", "react@^16.2.0 || ^17.0.0", "react@^16.8.0", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^16.9.0 || ^17.0.0 || ^18.0.0", "react@^17.0.1", "react@>= 16.8.0", "react@>=0.14.0", "react@>=15", "react@>=15.0.0", "react@>=16.14.0", "react@>=16.3.0", "react@>=16.3.2", "react@>=16.6.0", "react@>=16.8.0", "react@0.14 || 15 || 16 || 17 || 18", "react@0.14.x || ^15.0.0 || ^16.0.0", "react@15.x.x || 16.x.x || 17.x.x || 18.x.x":
   "integrity" "sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA=="
   "resolved" "https://registry.npmjs.org/react/-/react-17.0.2.tgz"
   "version" "17.0.2"

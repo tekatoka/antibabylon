@@ -39,7 +39,7 @@
   }
 }
 
-.slick-slide {
+.main-wrapper .slick-slide {
   img {
     @media #{$tablet-device, $large-mobile, $small-mobile} {
     height: 225px;

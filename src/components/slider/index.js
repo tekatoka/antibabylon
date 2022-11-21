@@ -8,6 +8,7 @@ import Slide2 from "../../../src/assets/images/hero/slider-2.jpg";
 import Slide3 from "../../../src/assets/images/hero/slider-3.jpg";
 import Slide4 from "../../../src/assets/images/hero/slider-4.jpg";
 import eventsData from "../../../src/data/events";
+import { sliderSettings } from './sliderSettings';
 
 import PageSubTitle from "../../../src/assets/images/titles/subtitle.png";
 
@@ -25,47 +26,6 @@ let MainSlider = (props, ref) => {
         }
     }));
 
-    const carouselSettings = {
-        arrows: false,
-        autoplay: true,
-        autoplaySpeed: 5000,
-        dots: true,
-        pauseOnFocus: false,
-        pauseOnHover: false,
-        infinite: true,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        responsive: [
-            {
-                breakpoint: 1199,
-                settings: {
-                    slidesToShow: 1,
-                }
-            },
-            {
-                breakpoint: 991,
-                settings: {
-                    slidesToShow: 1,
-                    autoplay: true,
-                }
-            },
-            {
-                breakpoint: 767,
-                settings: {
-                    slidesToShow: 1,
-                    autoplay: true,
-                }
-            },
-            {
-                breakpoint: 479,
-                settings: {
-                    slidesToShow: 1,
-                    autoplay: true,
-                }
-            }
-        ]
-    };
-
     return (
         <div className="content-body section">
             <div className="section-wrap section" style={{ overflow: "visible" }}>
@@ -78,7 +38,7 @@ let MainSlider = (props, ref) => {
                                 <img src={PageSubTitle} alt={"free multilingual poetic space"} title={"free multilingual poetic space"} />
                                 <div className='main-info'>Oct. - Nov. 2022 | {eventsData.map((event, idx) => { return `${event.country}${idx < eventsData.length - 1 ? ", " : ""}` })}</div>
                             </div>
-                            <Slider {...carouselSettings}>
+                            <Slider {...sliderSettings}>
                                 {Slides.map((slide, idx) => {
                                     return <img key={idx} src={slide} alt={"AntiBabylon 2022"} title={"AntiBabylon 2022"} />
                                 })}

@@ -96,7 +96,84 @@
     "site": "Cafesjian Center for the Arts",
     "address": "10 Tamanyan St, Yerevan 0009",
     "description": "",
-        "cover": "covers/armenia.jpg"
+    "cover": "covers/armenia.jpg",
+    "gallery": [
+      {
+        "src": "blog/antibabylon-armenia/armenia-1.jpg"
+    },
+    {
+      "src": "blog/antibabylon-armenia/armenia-2.jpg"
+  },
+  {
+    "src": "blog/antibabylon-armenia/armenia-3.jpg"
+},
+{
+  "src": "blog/antibabylon-armenia/armenia-4.jpg"
+},
+{
+  "src": "blog/antibabylon-armenia/armenia-5.jpg"
+},
+{
+  "src": "blog/antibabylon-armenia/armenia-6.jpg"
+},
+{
+  "src": "blog/antibabylon-armenia/armenia-7.jpg"
+},
+{
+  "src": "blog/antibabylon-armenia/armenia-8.jpg"
+},
+{
+  "src": "blog/antibabylon-armenia/armenia-9.jpg"
+},
+{
+  "src": "blog/antibabylon-armenia/armenia-10.jpg"
+},
+{
+  "src": "blog/antibabylon-armenia/armenia-11.jpg"
+},
+{
+  "src": "blog/antibabylon-armenia/armenia-12.jpg"
+},
+{
+  "src": "blog/antibabylon-armenia/armenia-13.jpg"
+},
+{
+  "src": "blog/antibabylon-armenia/armenia-14.jpg"
+},
+{
+  "src": "blog/antibabylon-armenia/armenia-15.jpg"
+},
+{
+  "src": "blog/antibabylon-armenia/armenia-16.jpg"
+},
+{
+  "src": "blog/antibabylon-armenia/armenia-17.jpg"
+},
+{
+  "src": "blog/antibabylon-armenia/armenia-18.jpg"
+},
+{
+  "src": "blog/antibabylon-armenia/armenia-19.jpg"
+},
+{
+  "src": "blog/antibabylon-armenia/armenia-20.jpg"
+},
+{
+  "src": "blog/antibabylon-armenia/armenia-21.jpg"
+},
+{
+  "src": "blog/antibabylon-armenia/armenia-22.jpg"
+},
+{
+  "src": "blog/antibabylon-armenia/armenia-23.jpg"
+},
+{
+  "src": "blog/antibabylon-armenia/armenia-24.jpg"
+},
+{
+  "src": "blog/antibabylon-armenia/armenia-25.jpg"
+}
+    ]
   },
   {
     "id": 3,

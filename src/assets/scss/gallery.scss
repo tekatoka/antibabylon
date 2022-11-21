@@ -1,0 +1,51 @@
+.gallery{
+  img {
+    //max-height: 200px;
+    min-width: 100%;
+    object-fit: cover;
+    -o-object-fit: cover;
+  }
+}
+
+.ReactGridGallery > div {
+  @media #{$small-mobile,$extra-small-mobile} {
+    display: block!important;
+
+    .ReactGridGallery_tile {
+      height: 300px;
+    }
+
+    .ReactGridGallery_tile-viewport {
+        width: 100%!important;
+
+        
+    img {
+      height: 300px!important;
+    }
+    }
+  }
+}
+
+.react-modal {
+
+  .slick-prev {
+    left: -35px;
+}
+
+.slick-next {
+  right: -35px;
+}
+
+.slick-prev::before, .slick-next::before {
+  font: normal normal normal 14px/1 FontAwesome;
+  color: $grey;
+  font-size: 24px;
+}
+.slick-prev::before {
+  content: "\f053";
+}
+
+.slick-next::before {
+  content: "\f054";
+}
+}
