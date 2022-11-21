@@ -8,6 +8,7 @@ const GalleryCarousel = ({idx, images}) => {
         arrows: true,
         autoplay: false,
         autoplaySpeed: 5000,
+        accessibility: true,
         dots: false,
         pauseOnFocus: false,
         pauseOnHover: false,

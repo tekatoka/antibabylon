@@ -17,13 +17,17 @@
             $tablet-device,$large-mobile
         }
         {
-             width: 75%;
+             width: 90%;
+            //  max-height:95%;
+            //  overflow: hidden;
         }
          @media #{
             $small-mobile,$extra-small-mobile
         }
         {
-             width: 90%;
+             width: 80%;
+            //  max-height:95%;
+            //  overflow: hidden;
         }
          &.pulse-enter-active, &.pulse-enter-done, &.pulse-exit-active {
              //display: table!important;
@@ -57,6 +61,7 @@
 
         &.modal-image {
             height: auto;
+            padding: 3px;
         }
 
         .gallery-image {
