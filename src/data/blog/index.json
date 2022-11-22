@@ -69,7 +69,7 @@
     "slug": "special-guests-2022",
     "title": "AntiBabylon 2022 | Special Guests",
     "excerpt": "Special guests at AntiBabylon 2022 events",
-    "description": "📍Georgia - ▪️Tamar Zhghenti. Photo: Mariam Palavandishvili. <br /><br />📍Armenia - ▪️ Anush Kocharyan. Photographer: Nazik Armenakyan. ▪️ Karen Antashyan. <br /><br />📍Moldova - ▪️Moni Stănilă. Photographer: Alexandru Vakulovski.",
+    "description": "📍Georgia - Tamar Zhghenti (photo: Mariam Palavandishvili) <br /><br />📍Armenia - Anush Kocharyan (photo: Nazik Armenakyan), Karen Antashyan. <br /><br />📍Moldova - Moni Stănilă (photo: Alexandru Vakulovski)",
     "thumb": "blog/special-guests/special-guests.jpg",
     "meta": {
       "postDate": "Nov 17, 2022",
@@ -192,5 +192,120 @@
       "author": "AntiBabylon"
     },
     "gallery": []
+  },
+        {
+    "id": 9,
+    "slug": "antibabylon-in-yerevan-armenia",
+    "title": "AntiBabylon 2022 |  Yerevan, 18.11.2022",
+    "excerpt": "Wonderful evening in Yerevan!",
+    "description": "Thanks everyone who shared it with us and became a part of AntiBabylon. <br /><br /><p class='info'>PHOTOS BY Narek Dallakyan</p>",    
+    "thumb": "blog/antibabylon-armenia/armenia-main.png",
+    "meta": {
+      "postDate": "Nov 21, 2022",
+      "author": "AntiBabylon"
+    },
+        "gallery": [
+      {
+        "src": "blog/antibabylon-armenia/armenia-1.jpg"
+    },
+    {
+      "src": "blog/antibabylon-armenia/armenia-2.jpg"
+  },
+  {
+    "src": "blog/antibabylon-armenia/armenia-3.jpg"
+},
+{
+  "src": "blog/antibabylon-armenia/armenia-4.jpg"
+},
+{
+  "src": "blog/antibabylon-armenia/armenia-5.jpg"
+},
+{
+  "src": "blog/antibabylon-armenia/armenia-6.jpg"
+},
+{
+  "src": "blog/antibabylon-armenia/armenia-7.jpg"
+},
+{
+  "src": "blog/antibabylon-armenia/armenia-8.jpg"
+},
+{
+  "src": "blog/antibabylon-armenia/armenia-9.jpg"
+},
+{
+  "src": "blog/antibabylon-armenia/armenia-10.jpg"
+},
+{
+  "src": "blog/antibabylon-armenia/armenia-11.jpg"
+},
+{
+  "src": "blog/antibabylon-armenia/armenia-12.jpg"
+},
+{
+  "src": "blog/antibabylon-armenia/armenia-13.jpg"
+},
+{
+  "src": "blog/antibabylon-armenia/armenia-14.jpg"
+},
+{
+  "src": "blog/antibabylon-armenia/armenia-15.jpg"
+},
+{
+  "src": "blog/antibabylon-armenia/armenia-16.jpg"
+},
+{
+  "src": "blog/antibabylon-armenia/armenia-17.jpg"
+},
+{
+  "src": "blog/antibabylon-armenia/armenia-18.jpg"
+},
+{
+  "src": "blog/antibabylon-armenia/armenia-19.jpg"
+},
+{
+  "src": "blog/antibabylon-armenia/armenia-20.jpg"
+},
+{
+  "src": "blog/antibabylon-armenia/armenia-21.jpg"
+},
+{
+  "src": "blog/antibabylon-armenia/armenia-22.jpg"
+},
+{
+  "src": "blog/antibabylon-armenia/armenia-23.jpg"
+},
+{
+  "src": "blog/antibabylon-armenia/armenia-24.jpg"
+},
+{
+  "src": "blog/antibabylon-armenia/armenia-25.jpg"
+}
+    ]
+  },
+  {
+    "id": 10,
+    "slug": "special-guests-ukraine",
+    "title": "AntiBabylon 2022 | Special Guests: Ukraine",
+    "excerpt": "Special guests at the AntiBabylon 2022 Ukrainian event",
+    "description": "<ul><li>- Sophia Lenartovych</li><li>- Diana Kondratovetz</li><li>- Zhora Yevich</li></ul><br /><div class='text-600'>📍24.11, 19:00</div>ACUD | Veteranenstraße 21, 10119 Berlin<br /><br />Entrance is free / Вхід вільний!",
+    "thumb": "blog/special-guests/special-guests-ukraine.png",
+    "meta": {
+      "postDate": "Nov 22, 2022",
+      "author": "AntiBabylon"
+    },
+    "gallery": [
+      {
+          "src": "blog/special-guests/sophia-lenartovych.jpg",
+          "caption": "Sophia Lenartovych (Ukraine)"
+      },
+      {
+          "src": "blog/special-guests/diana-kondratovetz.jpg",
+          "caption": "Diana Kondratovetz (Ukraine)"
+      },
+      {
+          "src": "blog/special-guests/zhora-yevych.jpg",
+          "caption": "Zhora Yevich (Ukraine)"
+      }
+    ]
   }
 ]

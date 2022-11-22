@@ -22,7 +22,7 @@ const BlogDetailsContent = ({ title, meta, gallery, excerpt, info, description, 
                     <p dangerouslySetInnerHTML={{ __html: description }} />
 
                     {gallery &&
-                        <div className="blog-gallery mt-30 mb-30">
+                        <div className="gallery mt-30 mb-30">
                             <GalleryGrid images={gallery} />
                         </div>
                     }

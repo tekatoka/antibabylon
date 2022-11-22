@@ -41,7 +41,7 @@ const TemplateBlogDetails = ({ sidebar, sidebarPosition, slug }) => {
 
                         {sidebar && (
                             <Col xl={3} lg={4} className={`${sidebarPosition === 'left' ? 'order-2 order-lg-1' : ''}`}>
-                                <SidebarBlog />
+                                <SidebarBlog currentPostId={post.id} />
                             </Col>
                         )}
                     </Row>
