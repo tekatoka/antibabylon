@@ -28,6 +28,11 @@
 
 .react-modal {
 
+.slick-list {
+    max-height: 99vh;
+    overflow: hidden; 
+}
+
   .slick-prev {
     left: -35px;
 }
@@ -41,11 +46,11 @@
   color: $grey;
   font-size: 24px;
 }
-.slick-prev::before {
-  content: "\f053";
-}
+// .slick-prev::before {
+//   content: "\f053";
+// }
 
-.slick-next::before {
-  content: "\f054";
-}
+// .slick-next::before {
+//   content: "\f054";
+// }
 }

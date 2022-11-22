@@ -27,13 +27,6 @@ const GalleryCarousel = ({idx, images}) => {
 
 }
 
-// const GalleryImage = ({ image }) => {
-//     return <div className="gallery-image">
-//         <img src={image.src} alt={image.caption} title={image.caption} />
-//         {image.caption && <div className={"gallery-image-caption"}>{image.caption}</div>}
-//     </div>
-// }
-
 const GalleryGrid = ({ images }) => {
     const context = React.useContext(AppContext);
 
