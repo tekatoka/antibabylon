@@ -385,5 +385,121 @@
         "caption": "Zhora Yevich (Ukraine)"
       }
     ]
+  },
+    {
+    "id": 12,
+    "slug": "antibabylon-in-chisinau-moldova",
+    "title": "AntiBabylon 2022 | Chișinău, Moldova",
+    "excerpt": "Great evening in Chișinău!",
+    "description": "<p class='info'>Photos by Svetlana Vakulovski</p>",
+    "thumb": "blog/antibabylon-moldova/moldova-main.jpg",
+    "meta": {
+      "postDate": "Nov 23, 2022",
+      "author": "AntiBabylon"
+    },
+    "gallery": [
+      {
+        "src": "blog/antibabylon-moldova/moldova-1.jpg"
+      },
+      {
+        "src": "blog/antibabylon-moldova/moldova-2.jpg"
+      },
+      {
+        "src": "blog/antibabylon-moldova/moldova-3.jpg"
+      },
+      {
+        "src": "blog/antibabylon-moldova/moldova-4.jpg"
+      },
+      {
+        "src": "blog/antibabylon-moldova/moldova-5.jpg"
+      },
+      {
+        "src": "blog/antibabylon-moldova/moldova-6.jpg"
+      },
+      {
+        "src": "blog/antibabylon-moldova/moldova-7.jpg"
+      },
+      {
+        "src": "blog/antibabylon-moldova/moldova-8.jpg"
+      },
+      {
+        "src": "blog/antibabylon-moldova/moldova-9.jpg"
+      },
+      {
+        "src": "blog/antibabylon-moldova/moldova-10.jpg"
+      },
+      {
+        "src": "blog/antibabylon-moldova/moldova-11.jpg"
+      },
+      {
+        "src": "blog/antibabylon-moldova/moldova-12.jpg"
+      },
+      {
+        "src": "blog/antibabylon-moldova/moldova-13.jpg"
+      },
+      {
+        "src": "blog/antibabylon-moldova/moldova-14.jpg"
+      },
+      {
+        "src": "blog/antibabylon-moldova/moldova-15.jpg"
+      },
+      {
+        "src": "blog/antibabylon-moldova/moldova-16.jpg"
+      },
+      {
+        "src": "blog/antibabylon-moldova/moldova-17.jpg"
+      },
+      {
+        "src": "blog/antibabylon-moldova/moldova-18.jpg"
+      },
+      {
+        "src": "blog/antibabylon-moldova/moldova-19.jpg"
+      },
+      {
+        "src": "blog/antibabylon-moldova/moldova-20.jpg"
+      },
+      {
+        "src": "blog/antibabylon-moldova/moldova-21.jpg"
+      },
+      {
+        "src": "blog/antibabylon-moldova/moldova-22.jpg"
+      },
+      {
+        "src": "blog/antibabylon-moldova/moldova-23.jpg"
+      },
+      {
+        "src": "blog/antibabylon-moldova/moldova-24.jpg"
+      },
+      {
+        "src": "blog/antibabylon-moldova/moldova-25.jpg"
+      },
+      {
+        "src": "blog/antibabylon-moldova/moldova-26.jpg"
+      },
+      {
+        "src": "blog/antibabylon-moldova/moldova-27.jpg"
+      },
+      {
+        "src": "blog/antibabylon-moldova/moldova-28.jpg"
+      },
+      {
+        "src": "blog/antibabylon-moldova/moldova-29.jpg"
+      },
+      {
+        "src": "blog/antibabylon-moldova/moldova-30.jpg"
+      }
+    ]
+  },
+      {
+    "id": 13,
+    "slug": "antibabylon-ua-livestream",
+    "title": "AntiBabylon 2022 | UKRAINE",
+    "excerpt": "Livestream for those who cannot attend the event in person",
+    "description": "The Ukrainian AntiBabylon 2022 event had to take place in Kyiw, Ukraine, which is obviously and unfortunately not possible this year due to the brutal Russian war and constant terrorist attacks on this country. Thanks to ACUD MACHT NEU in Berlin for welcoming our free multilingual poetic space this time, with the kind support of Goethe Institut im Exil.<p class='info'>Livestream link: </p><a href='https://panda-platforma.berlin/antibabylon-ua' target='_blank'>https://panda-platforma.berlin/antibabylon-ua</a>",
+    "thumb": "events/covers/ukraine.jpg",
+    "meta": {
+      "postDate": "Nov 24, 2022",
+      "author": "AntiBabylon"
+    }
   }
 ]
