@@ -493,7 +493,7 @@
       {
     "id": 13,
     "slug": "antibabylon-ua-livestream",
-    "title": "AntiBabylon 2022 | UKRAINE",
+    "title": "AntiBabylon 2022 | Ukraine - Livestream",
     "excerpt": "Livestream for those who cannot attend the event in person",
     "description": "The Ukrainian AntiBabylon 2022 event had to take place in Kyiw, Ukraine, which is obviously and unfortunately not possible this year due to the brutal Russian war and constant terrorist attacks on this country. Thanks to ACUD MACHT NEU in Berlin for welcoming our free multilingual poetic space this time, with the kind support of Goethe Institut im Exil.<br /><br /><p class='info'>Livestream link:</p><a href='https://panda-platforma.berlin/antibabylon-ua' target='_blank'>https://panda-platforma.berlin/antibabylon-ua</a>",
     "thumb": "events/covers/ukraine.jpg",
@@ -501,5 +501,113 @@
       "postDate": "Nov 24, 2022",
       "author": "AntiBabylon"
     }
+  },
+        {
+    "id": 14,
+    "slug": "antibabylon-ukraine",
+    "title": "AntiBabylon 2022 | UKRAINE, 24.11.2022",
+    "excerpt": "Ukrainian event in ACUD, Berlin",
+    "description": "...Якщо ти не схибив<br />Поезія твого народу зрозуміла іншим<br />Без перекладу<br /><i>(S. Zhadan)</i><br /><br />AntiBabylon 2022 | Ukraine<br />24.11., ACUD MACHT NEU<br /><br />Video: <a href='https://panda-platforma.berlin/antibabylon-ua' target='_blank'>https://panda-platforma.berlin/antibabylon-ua</a><br /><br /><p class='info'>PHOTOS BY Roman Ekimov</p>",
+    "thumb": "blog/antibabylon-ukraine/ukraine-main.jpg",
+    "meta": {
+      "postDate": "Nov 25, 2022",
+      "author": "AntiBabylon"
+    },
+     "gallery": [
+      {
+        "src": "blog/antibabylon-ukraine/ukraine-1.jpg"
+      },
+      {
+        "src": "blog/antibabylon-ukraine/ukraine-2.jpg"
+      },
+      {
+        "src": "blog/antibabylon-ukraine/ukraine-3.jpg"
+      },
+      {
+        "src": "blog/antibabylon-ukraine/ukraine-4.jpg"
+      },
+      {
+        "src": "blog/antibabylon-ukraine/ukraine-5.jpg"
+      },
+      {
+        "src": "blog/antibabylon-ukraine/ukraine-6.jpg"
+      },
+      {
+        "src": "blog/antibabylon-ukraine/ukraine-7.jpg"
+      },
+      {
+        "src": "blog/antibabylon-ukraine/ukraine-8.jpg"
+      },
+      {
+        "src": "blog/antibabylon-ukraine/ukraine-9.jpg"
+      },
+      {
+        "src": "blog/antibabylon-ukraine/ukraine-10.jpg"
+      },
+      {
+        "src": "blog/antibabylon-ukraine/ukraine-11.jpg"
+      },
+      {
+        "src": "blog/antibabylon-ukraine/ukraine-12.jpg"
+      },
+      {
+        "src": "blog/antibabylon-ukraine/ukraine-13.jpg"
+      },
+      {
+        "src": "blog/antibabylon-ukraine/ukraine-14.jpg"
+      },
+      {
+        "src": "blog/antibabylon-ukraine/ukraine-15.jpg"
+      },
+      {
+        "src": "blog/antibabylon-ukraine/ukraine-17.jpg"
+      },
+      {
+        "src": "blog/antibabylon-ukraine/ukraine-18.jpg"
+      },
+      {
+        "src": "blog/antibabylon-ukraine/ukraine-19.jpg"
+      },
+      {
+        "src": "blog/antibabylon-ukraine/ukraine-20.jpg"
+      },
+      {
+        "src": "blog/antibabylon-ukraine/ukraine-21.jpg"
+      },
+      {
+        "src": "blog/antibabylon-ukraine/ukraine-22.jpg"
+      },
+      {
+        "src": "blog/antibabylon-ukraine/ukraine-23.jpg"
+      },
+      {
+        "src": "blog/antibabylon-ukraine/ukraine-24.jpg"
+      },
+      {
+        "src": "blog/antibabylon-ukraine/ukraine-25.jpg"
+      },
+      {
+        "src": "blog/antibabylon-ukraine/ukraine-26.jpg"
+      },
+      {
+        "src": "blog/antibabylon-ukraine/ukraine-27.jpg"
+      },
+      {
+        "src": "blog/antibabylon-ukraine/ukraine-28.jpg"
+      },
+      {
+        "src": "blog/antibabylon-ukraine/ukraine-29.jpg"
+      },
+      {
+        "src": "blog/antibabylon-ukraine/ukraine-30.jpg"
+      },
+      {
+        "src": "blog/antibabylon-ukraine/ukraine-31.jpg"
+      }
+   ]
   }
+
+
+
+         
 ]

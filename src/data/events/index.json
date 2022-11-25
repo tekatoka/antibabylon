@@ -184,7 +184,99 @@
     "site": "Bar Pro Sănătate",
     "address": "str. V. Alecsandri 90/1, Chișinău",
     "description": "",
-    "cover": "covers/moldova.jpg"
+    "cover": "covers/moldova.jpg",
+    "gallery": [
+      {
+        "src": "blog/antibabylon-moldova/moldova-1.jpg"
+      },
+      {
+        "src": "blog/antibabylon-moldova/moldova-2.jpg"
+      },
+      {
+        "src": "blog/antibabylon-moldova/moldova-3.jpg"
+      },
+      {
+        "src": "blog/antibabylon-moldova/moldova-4.jpg"
+      },
+      {
+        "src": "blog/antibabylon-moldova/moldova-5.jpg"
+      },
+      {
+        "src": "blog/antibabylon-moldova/moldova-6.jpg"
+      },
+      {
+        "src": "blog/antibabylon-moldova/moldova-7.jpg"
+      },
+      {
+        "src": "blog/antibabylon-moldova/moldova-8.jpg"
+      },
+      {
+        "src": "blog/antibabylon-moldova/moldova-9.jpg"
+      },
+      {
+        "src": "blog/antibabylon-moldova/moldova-10.jpg"
+      },
+      {
+        "src": "blog/antibabylon-moldova/moldova-11.jpg"
+      },
+      {
+        "src": "blog/antibabylon-moldova/moldova-12.jpg"
+      },
+      {
+        "src": "blog/antibabylon-moldova/moldova-13.jpg"
+      },
+      {
+        "src": "blog/antibabylon-moldova/moldova-14.jpg"
+      },
+      {
+        "src": "blog/antibabylon-moldova/moldova-15.jpg"
+      },
+      {
+        "src": "blog/antibabylon-moldova/moldova-16.jpg"
+      },
+      {
+        "src": "blog/antibabylon-moldova/moldova-17.jpg"
+      },
+      {
+        "src": "blog/antibabylon-moldova/moldova-18.jpg"
+      },
+      {
+        "src": "blog/antibabylon-moldova/moldova-19.jpg"
+      },
+      {
+        "src": "blog/antibabylon-moldova/moldova-20.jpg"
+      },
+      {
+        "src": "blog/antibabylon-moldova/moldova-21.jpg"
+      },
+      {
+        "src": "blog/antibabylon-moldova/moldova-22.jpg"
+      },
+      {
+        "src": "blog/antibabylon-moldova/moldova-23.jpg"
+      },
+      {
+        "src": "blog/antibabylon-moldova/moldova-24.jpg"
+      },
+      {
+        "src": "blog/antibabylon-moldova/moldova-25.jpg"
+      },
+      {
+        "src": "blog/antibabylon-moldova/moldova-26.jpg"
+      },
+      {
+        "src": "blog/antibabylon-moldova/moldova-27.jpg"
+      },
+      {
+        "src": "blog/antibabylon-moldova/moldova-28.jpg"
+      },
+      {
+        "src": "blog/antibabylon-moldova/moldova-29.jpg"
+      },
+      {
+        "src": "blog/antibabylon-moldova/moldova-30.jpg"
+      }
+    ]
   },
   {
     "id": 4,
@@ -195,7 +287,99 @@
     "site": "ACUD",
     "address": "Veteranenstraße 21, 10119 Berlin",
     "description": "",
-    "cover": "covers/ukraine.jpg"
+    "cover": "covers/ukraine.jpg",
+        "gallery": [
+      {
+        "src": "blog/antibabylon-ukraine/ukraine-1.jpg"
+      },
+      {
+        "src": "blog/antibabylon-ukraine/ukraine-2.jpg"
+      },
+      {
+        "src": "blog/antibabylon-ukraine/ukraine-3.jpg"
+      },
+      {
+        "src": "blog/antibabylon-ukraine/ukraine-4.jpg"
+      },
+      {
+        "src": "blog/antibabylon-ukraine/ukraine-5.jpg"
+      },
+      {
+        "src": "blog/antibabylon-ukraine/ukraine-6.jpg"
+      },
+      {
+        "src": "blog/antibabylon-ukraine/ukraine-7.jpg"
+      },
+      {
+        "src": "blog/antibabylon-ukraine/ukraine-8.jpg"
+      },
+      {
+        "src": "blog/antibabylon-ukraine/ukraine-9.jpg"
+      },
+      {
+        "src": "blog/antibabylon-ukraine/ukraine-10.jpg"
+      },
+      {
+        "src": "blog/antibabylon-ukraine/ukraine-11.jpg"
+      },
+      {
+        "src": "blog/antibabylon-ukraine/ukraine-12.jpg"
+      },
+      {
+        "src": "blog/antibabylon-ukraine/ukraine-13.jpg"
+      },
+      {
+        "src": "blog/antibabylon-ukraine/ukraine-14.jpg"
+      },
+      {
+        "src": "blog/antibabylon-ukraine/ukraine-15.jpg"
+      },
+      {
+        "src": "blog/antibabylon-ukraine/ukraine-17.jpg"
+      },
+      {
+        "src": "blog/antibabylon-ukraine/ukraine-18.jpg"
+      },
+      {
+        "src": "blog/antibabylon-ukraine/ukraine-19.jpg"
+      },
+      {
+        "src": "blog/antibabylon-ukraine/ukraine-20.jpg"
+      },
+      {
+        "src": "blog/antibabylon-ukraine/ukraine-21.jpg"
+      },
+      {
+        "src": "blog/antibabylon-ukraine/ukraine-22.jpg"
+      },
+      {
+        "src": "blog/antibabylon-ukraine/ukraine-23.jpg"
+      },
+      {
+        "src": "blog/antibabylon-ukraine/ukraine-24.jpg"
+      },
+      {
+        "src": "blog/antibabylon-ukraine/ukraine-25.jpg"
+      },
+      {
+        "src": "blog/antibabylon-ukraine/ukraine-26.jpg"
+      },
+      {
+        "src": "blog/antibabylon-ukraine/ukraine-27.jpg"
+      },
+      {
+        "src": "blog/antibabylon-ukraine/ukraine-28.jpg"
+      },
+      {
+        "src": "blog/antibabylon-ukraine/ukraine-29.jpg"
+      },
+      {
+        "src": "blog/antibabylon-ukraine/ukraine-30.jpg"
+      },
+      {
+        "src": "blog/antibabylon-ukraine/ukraine-31.jpg"
+      }
+   ]
   },
   {
     "id": 5,
