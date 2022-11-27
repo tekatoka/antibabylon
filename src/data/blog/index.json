@@ -97,7 +97,7 @@
   {
     "id": 7,
     "slug": "antibabylon-in-tbilisi-georgia",
-    "title": "AntiBabylon 2022 | Tbilisi, 15.11.2022",
+    "title": "AntiBabylon 2022 | Tbilisi, Georgia, 15.11.2022",
     "excerpt": "Georgia, you are amazing!",
     "description": "Thank you for wonderful emotions and thanks everyone, who became a part of AntiBabylon on our Georgian event. <br /><br /><p class='info'>PHOTOS BY Gia Gogatishvili</p>",
     "thumb": "blog/antibabylon-georgia/georgia-main.jpg",
@@ -270,7 +270,7 @@
   {
     "id": 10,
     "slug": "antibabylon-in-yerevan-armenia",
-    "title": "AntiBabylon 2022 | Yerevan, 18.11.2022",
+    "title": "AntiBabylon 2022 | Yerevan, Armenia, 18.11.2022",
     "excerpt": "Wonderful evening in Yerevan!",
     "description": "Thanks everyone who shared it with us and became a part of AntiBabylon. <br /><br /><p class='info'>PHOTOS BY Narek Dallakyan</p>",
     "thumb": "blog/antibabylon-armenia/armenia-main.png",
@@ -389,7 +389,7 @@
     {
     "id": 12,
     "slug": "antibabylon-in-chisinau-moldova",
-    "title": "AntiBabylon 2022 | Chișinău, Moldova",
+    "title": "AntiBabylon 2022 | Chișinău, Moldova, 21.11.2022",
     "excerpt": "Great evening in Chișinău!",
     "description": "<p class='info'>Photos by Svetlana Vakulovski</p>",
     "thumb": "blog/antibabylon-moldova/moldova-main.jpg",
@@ -605,9 +605,159 @@
         "src": "blog/antibabylon-ukraine/ukraine-31.jpg"
       }
    ]
-  }
-
-
-
-         
+  },
+  {
+    "id": 15,
+    "slug": "antibabylon-germany",
+    "title": "AntiBabylon 2022 | Berlin, Germany, 26.11.2022",
+    "excerpt": "German event @ PANDA platforma, Berlin",
+    "description": "Poetry texts in Georgian, Armenian, Romanian, Ukrainian and German, this time with emphasis on German language<br /><br /><p class='info'>PHOTOS BY Roman Ekimov</p>",
+    "thumb": "blog/antibabylon-germany/germany-main.jpg",
+    "meta": {
+      "postDate": "Nov 26, 2022",
+      "author": "AntiBabylon"
+    },
+    "gallery": [
+      {
+        "src": "blog/antibabylon-germany/germany-1.jpg"
+      },
+            {
+        "src": "blog/antibabylon-germany/germany-2.jpg"
+      },
+            {
+        "src": "blog/antibabylon-germany/germany-3.jpg"
+      },
+            {
+        "src": "blog/antibabylon-germany/germany-4.jpg"
+      },
+            {
+        "src": "blog/antibabylon-germany/germany-5.jpg"
+      },
+            {
+        "src": "blog/antibabylon-germany/germany-6.jpg"
+      },
+            {
+        "src": "blog/antibabylon-germany/germany-7.jpg"
+      },
+            {
+        "src": "blog/antibabylon-germany/germany-8.jpg"
+      },
+            {
+        "src": "blog/antibabylon-germany/germany-9.jpg"
+      },
+            {
+        "src": "blog/antibabylon-germany/germany-10.jpg"
+      },
+            {
+        "src": "blog/antibabylon-germany/germany-11.jpg"
+      },
+            {
+        "src": "blog/antibabylon-germany/germany-12.jpg"
+      },
+            {
+        "src": "blog/antibabylon-germany/germany-13.jpg"
+      },
+            {
+        "src": "blog/antibabylon-germany/germany-14.jpg"
+      },
+            {
+        "src": "blog/antibabylon-germany/germany-15.jpg"
+      },
+            {
+        "src": "blog/antibabylon-germany/germany-16.jpg"
+      },
+            {
+        "src": "blog/antibabylon-germany/germany-17.jpg"
+      },
+            {
+        "src": "blog/antibabylon-germany/germany-18.jpg"
+      },
+            {
+        "src": "blog/antibabylon-germany/germany-19.jpg"
+      },
+            {
+        "src": "blog/antibabylon-germany/germany-20.jpg"
+      },
+            {
+        "src": "blog/antibabylon-germany/germany-21.jpg"
+      },
+            {
+        "src": "blog/antibabylon-germany/germany-22.jpg"
+      },
+            {
+        "src": "blog/antibabylon-germany/germany-23.jpg"
+      },
+            {
+        "src": "blog/antibabylon-germany/germany-24.jpg"
+      },
+            {
+        "src": "blog/antibabylon-germany/germany-25.jpg"
+      },
+            {
+        "src": "blog/antibabylon-germany/germany-26.jpg"
+      },
+            {
+        "src": "blog/antibabylon-germany/germany-27.jpg"
+      },
+            {
+        "src": "blog/antibabylon-germany/germany-28.jpg"
+      },
+            {
+        "src": "blog/antibabylon-germany/germany-29.jpg"
+      },
+            {
+        "src": "blog/antibabylon-germany/germany-30.jpg"
+      },
+            {
+        "src": "blog/antibabylon-germany/germany-31.jpg"
+      },
+            {
+        "src": "blog/antibabylon-germany/germany-32.jpg"
+      },
+            {
+        "src": "blog/antibabylon-germany/germany-33.jpg"
+      },
+            {
+        "src": "blog/antibabylon-germany/germany-34.jpg"
+      },
+            {
+        "src": "blog/antibabylon-germany/germany-35.jpg"
+      },
+            {
+        "src": "blog/antibabylon-germany/germany-36.jpg"
+      },
+            {
+        "src": "blog/antibabylon-germany/germany-37.jpg"
+      },
+            {
+        "src": "blog/antibabylon-germany/germany-38.jpg"
+      },
+            {
+        "src": "blog/antibabylon-germany/germany-39.jpg"
+      },
+            {
+        "src": "blog/antibabylon-germany/germany-40.jpg"
+      }
+    ]
+  },
+    {
+    "id": 16,
+    "slug": "antibabylon-special-guests-final-event",
+    "title": "AntiBabylon 2022 | Special Guests BERLIN",
+    "excerpt": "Special guests at the final AntiBabylon event",
+    "description": "- Deenara Rasuleva with her multilingual poems<br />- Alexandr Delphinov with a poem auf Deutsch<br />",
+    "thumb": "blog/special-guests/special-guests-berlin.png",
+    "meta": {
+      "postDate": "Nov 27, 2022",
+      "author": "AntiBabylon"
+    },
+    "gallery": [
+      {
+        "src": "blog/special-guests/d-rasuleva.png"
+      },
+      {
+        "src": "blog/special-guests/a-delphinov.png"
+      }
+    ]
+  }       
 ]
