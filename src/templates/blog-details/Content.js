@@ -4,6 +4,7 @@ import socials from '../../data/social-networks';
 import GalleryGrid from '../../components/gallery';
 
 const BlogDetailsContent = ({ title, meta, gallery, excerpt, info, description, olderPost, newerPost }) => {
+
     return (
         <Fragment>
             <div className="blog-content">

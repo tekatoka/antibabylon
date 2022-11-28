@@ -70,7 +70,7 @@
     "title": "AntiBabylon 2022 | Special Guests",
     "excerpt": "Special guests at AntiBabylon 2022 events",
     "description": "📍Georgia - Tamar Zhghenti (photo: Mariam Palavandishvili) <br /><br />📍Armenia - Anush Kocharyan (photo: Nazik Armenakyan), Karen Antashyan. <br /><br />📍Moldova - Moni Stănilă (photo: Alexandru Vakulovski)",
-    "thumb": "blog/special-guests/special-guests.jpg",
+    "thumb": "blog/covers/special-guests-georgia-armenia.jpg",
     "meta": {
       "postDate": "Nov 17, 2022",
       "author": "AntiBabylon"
@@ -100,7 +100,7 @@
     "title": "AntiBabylon 2022 | Tbilisi, Georgia, 15.11.2022",
     "excerpt": "Georgia, you are amazing!",
     "description": "Thank you for wonderful emotions and thanks everyone, who became a part of AntiBabylon on our Georgian event. <br /><br /><p class='info'>PHOTOS BY Gia Gogatishvili</p>",
-    "thumb": "blog/antibabylon-georgia/georgia-main.jpg",
+    "thumb": "blog/covers/event-georgia-main.jpg",
     "meta": {
       "postDate": "Nov 18, 2022",
       "author": "AntiBabylon"
@@ -186,7 +186,7 @@
     "title": "AntiBabylon 2022 | Discover Armenia with AntiBabylon project!",
     "excerpt": "People, art and views of Yerevan through the eyes of Svetlana Müller",
     "description": "One more amazing adventure on the road of our free multilingual poetic space!<br /><br /><p class='info'>PHOTOS BY Svetlana Müller</p>",
-    "thumb": "blog/antibabylon-armenia/discover-armenia/discover-armenia.png",
+    "thumb": "blog/covers/discover-armenia.png",
     "meta": {
       "postDate": "Nov 19, 2022",
       "author": "AntiBabylon"
@@ -260,7 +260,7 @@
     "title": "AntiBabylon 2022 | Berlin is ready!",
     "excerpt": "Berlin is preparing for AntiBabylon...",
     "description": "AntiBabylon 2022 in Berlin: <br /><br />📍24.11., 19:00 | ACUD, Veteranenstr. 21, 10119 Berlin<br/>Ukrainian event<br /><br/>📍26-27.11., 20:00 | PANDA platforma, Knaackstr. 97, 10435 Berlin<br />German event & Grand Finale!",
-    "thumb": "blog/antibabylon-berlin.png",
+    "thumb": "blog/covers/antibabylon-berlin.png",
     "meta": {
       "postDate": "Nov 20, 2022",
       "author": "AntiBabylon"
@@ -273,7 +273,7 @@
     "title": "AntiBabylon 2022 | Yerevan, Armenia, 18.11.2022",
     "excerpt": "Wonderful evening in Yerevan!",
     "description": "Thanks everyone who shared it with us and became a part of AntiBabylon. <br /><br /><p class='info'>PHOTOS BY Narek Dallakyan</p>",
-    "thumb": "blog/antibabylon-armenia/armenia-main.png",
+    "thumb": "blog/covers/event-armenia-main.png",
     "meta": {
       "postDate": "Nov 21, 2022",
       "author": "AntiBabylon"
@@ -362,7 +362,7 @@
     "title": "AntiBabylon 2022 | Special Guests: Ukraine",
     "excerpt": "Special guests at the AntiBabylon 2022 Ukrainian event",
     "description": "<ul><li>- Mary Leleka</li><li>- Sophia Lenartovych</li><li>- Diana Kondratovetz</li><li>- Zhora Yevich</li></ul><br /><div class='text-600'>📍24.11, 19:00</div>ACUD | Veteranenstraße 21, 10119 Berlin<br /><br />Entrance is free / Вхід вільний!",
-    "thumb": "blog/special-guests/special-guests-ukraine.png",
+    "thumb": "blog/covers/special-guests-ukraine.png",
     "meta": {
       "postDate": "Nov 22, 2022",
       "author": "AntiBabylon"
@@ -392,7 +392,7 @@
     "title": "AntiBabylon 2022 | Chișinău, Moldova, 21.11.2022",
     "excerpt": "Great evening in Chișinău!",
     "description": "<p class='info'>Photos by Svetlana Vakulovski</p>",
-    "thumb": "blog/antibabylon-moldova/moldova-main.jpg",
+    "thumb": "blog/covers/event-moldova-main.jpg",
     "meta": {
       "postDate": "Nov 23, 2022",
       "author": "AntiBabylon"
@@ -504,11 +504,11 @@
   },
         {
     "id": 14,
-    "slug": "antibabylon-ukraine",
+    "slug": "antibabylon-ukraine-in-berlin",
     "title": "AntiBabylon 2022 | UKRAINE, 24.11.2022",
     "excerpt": "Ukrainian event in ACUD, Berlin",
     "description": "...Якщо ти не схибив<br />Поезія твого народу зрозуміла іншим<br />Без перекладу<br /><i>(S. Zhadan)</i><br /><br />AntiBabylon 2022 | Ukraine<br />24.11., ACUD MACHT NEU<br /><br />Video: <a href='https://panda-platforma.berlin/antibabylon-ua' target='_blank'>https://panda-platforma.berlin/antibabylon-ua</a><br /><br /><p class='info'>PHOTOS BY Roman Ekimov</p>",
-    "thumb": "blog/antibabylon-ukraine/ukraine-main.jpg",
+    "thumb": "blog/covers/event-ukraine-main.jpg",
     "meta": {
       "postDate": "Nov 25, 2022",
       "author": "AntiBabylon"
@@ -608,11 +608,11 @@
   },
   {
     "id": 15,
-    "slug": "antibabylon-germany",
+    "slug": "antibabylon-berlin-day-1",
     "title": "AntiBabylon 2022 | Berlin, Germany, 26.11.2022",
     "excerpt": "German event @ PANDA platforma, Berlin",
     "description": "Poetry texts in Georgian, Armenian, Romanian, Ukrainian and German, this time with emphasis on German language<br /><br /><p class='info'>PHOTOS BY Roman Ekimov</p>",
-    "thumb": "blog/antibabylon-germany/germany-main.jpg",
+    "thumb": "blog/covers/event-germany-main.jpg",
     "meta": {
       "postDate": "Nov 26, 2022",
       "author": "AntiBabylon"
@@ -746,7 +746,7 @@
     "title": "AntiBabylon 2022 | Special Guests BERLIN",
     "excerpt": "Special guests at the final AntiBabylon event",
     "description": "- Deenara Rasuleva with her multilingual poems<br />- Alexandr Delphinov with a poem auf Deutsch<br />",
-    "thumb": "blog/special-guests/special-guests-berlin.png",
+    "thumb": "blog/covers/special-guests-berlin.png",
     "meta": {
       "postDate": "Nov 27, 2022",
       "author": "AntiBabylon"
@@ -759,5 +759,109 @@
         "src": "blog/special-guests/a-delphinov.png"
       }
     ]
-  }       
+  },
+ {
+    "id": 17,
+    "slug": "antibabylon-final-event-2022",
+    "title": "AntiBabylon 2022 | Final event BERLIN",
+    "excerpt": "Final evening of AntiBabylon 2022",
+    "description": "Last day of AntiBabylon 2022!<br /><br />Young poets from Georgia, Armenia, Moldova, Ukraine and Germany are reading each other's poems in their mother tongues:<br /><ul><li>- Tatev Chakhian reads Mariia Chuprynenko</li><li>- Andro Dadiani reads Dumitru Fanfarov</li><li>- Mariia Chuprynenko reads Josefine Berkholz</li><li>- Josefine Berkholz and Dumitru Fanfarov read Andro Dadiani</li><li>- all together reading “Migrant point” by Tatev Chakhian</li></ul><br /><br />➕ special guests from Berlin:<br /><br />* Deenara Rasuleva with her Tatarian & multilingual poems<br />* Alexandr Delphinov with a poem auf Deutsch",
+    "thumb": "blog/covers/event-final-main.png",
+    "meta": {
+      "postDate": "Nov 28, 2022",
+      "author": "AntiBabylon"
+    },
+    "gallery": [
+      {
+        "src": "blog/antibabylon-final/ab-berlin-1.jpg"
+      },
+      {
+        "src": "blog/antibabylon-final/ab-berlin-2.jpg"
+      },
+      {
+        "src": "blog/antibabylon-final/ab-berlin-3.jpg"
+      },
+      {
+        "src": "blog/antibabylon-final/ab-berlin-4.jpg"
+      },
+      {
+        "src": "blog/antibabylon-final/ab-berlin-5.jpg"
+      },
+      {
+        "src": "blog/antibabylon-final/ab-berlin-6.jpg"
+      },
+      {
+        "src": "blog/antibabylon-final/ab-berlin-7.jpg"
+      },
+      {
+        "src": "blog/antibabylon-final/ab-berlin-8.jpg"
+      },
+      {
+        "src": "blog/antibabylon-final/ab-berlin-9.jpg"
+      },
+      {
+        "src": "blog/antibabylon-final/ab-berlin-10.jpg"
+      },
+      {
+        "src": "blog/antibabylon-final/ab-berlin-11.jpg"
+      },
+      {
+        "src": "blog/antibabylon-final/ab-berlin-12.jpg"
+      },
+      {
+        "src": "blog/antibabylon-final/ab-berlin-13.jpg"
+      },
+      {
+        "src": "blog/antibabylon-final/ab-berlin-14.jpg"
+      },
+      {
+        "src": "blog/antibabylon-final/ab-berlin-15.jpg"
+      },
+      {
+        "src": "blog/antibabylon-final/ab-berlin-16.jpg"
+      },
+      {
+        "src": "blog/antibabylon-final/ab-berlin-17.jpg"
+      },
+      {
+        "src": "blog/antibabylon-final/ab-berlin-18.jpg"
+      },
+      {
+        "src": "blog/antibabylon-final/ab-berlin-19.jpg"
+      },
+      {
+        "src": "blog/antibabylon-final/ab-berlin-20.jpg"
+      },
+      {
+        "src": "blog/antibabylon-final/ab-berlin-21.jpg"
+      },
+      {
+        "src": "blog/antibabylon-final/ab-berlin-22.jpg"
+      },
+      {
+        "src": "blog/antibabylon-final/ab-berlin-23.jpg"
+      },
+      {
+        "src": "blog/antibabylon-final/ab-berlin-24.jpg"
+      },
+      {
+        "src": "blog/antibabylon-final/ab-berlin-25.jpg"
+      },
+      {
+        "src": "blog/antibabylon-final/ab-berlin-26.jpg"
+      },
+      {
+        "src": "blog/antibabylon-final/ab-berlin-27.jpg"
+      },
+      {
+        "src": "blog/antibabylon-final/ab-berlin-29.jpg"
+      },
+      {
+        "src": "blog/antibabylon-final/ab-berlin-30.jpg"
+      },
+      {
+        "src": "blog/antibabylon-final/ab-berlin-2.jpg"
+      }
+    ]
+  }    
 ]
