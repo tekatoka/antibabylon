@@ -3,13 +3,13 @@ import { Container, Row, Col } from 'react-bootstrap';
 import { AppContext } from '../../App';
 import { Layout } from '../../Layout';
 import juryData from '../../data/jury';
-import PersonDetails from '../../components/person';
+import JuryDetails from '../../components/person/juryDetails';
 
 const JuryPage = () => {
 
     const context = React.useContext(AppContext);
-    const view = (person, type, fullBio) => {
-        return <PersonDetails person={person} type={type} fullBio={fullBio} onClick={() => context.showModal(view(person, "jury", true))} />
+    const view = (person, fullBio) => {
+        return <JuryDetails person={person} fullBio={fullBio} onClick={() => context.showModal(view(person, true))} />
     }
 
     return (
@@ -18,7 +18,7 @@ const JuryPage = () => {
                 <Row>
                     {juryData.map((juryMember, idx) => {
                         return <Col className="container-person" md={15} xs={6} key={idx}>
-                            {view(juryMember, "jury")}
+                            {view(juryMember)}
                         </Col>
                     })}
                 </Row>

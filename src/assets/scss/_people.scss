@@ -54,13 +54,52 @@
   font-family: "Dharma Punk 2";
 }
 
-.poet .person-title {
+.poet {
+
+.person-title {
   font-size: 3.25rem;
   line-height: 2.5rem;
+  width: fit-content;
+}
+ .photo-credit {
+  margin-right: 10px;
 }
 
-.poet .photo-credit {
-  margin-right: 10px;
+.poem-title {
+  width: fit-content;
+    font-size: 2.75rem;
+    line-height: 4rem;
+    text-transform: uppercase;
+
+    &.georgia {
+    color: $georgia;
+  }
+    &.armenia {
+    color: $armenia;
+  }
+    &.moldova {
+    color: $moldova;
+  }
+    &.ukraine {
+    color: $ukraine;
+  }
+  &.germany {
+    color: $black;
+  }
+}
+
+.poem-subtitle {
+  font-size: 1.75rem;
+  color: $heading-color;
+}
+
+
+.poem-author {
+  font-size: .75rem;
+  margin-left: 2px;
+  font-style: italic;
+}
+
 }
 
 .jury {

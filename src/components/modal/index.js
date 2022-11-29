@@ -27,7 +27,6 @@ const ModalWindow = () => {
                     </Scrollbar>
                 </div>
             }
-
         </Modal>
     );
 };

@@ -29,9 +29,7 @@
             //  max-height:95%;
             //  overflow: hidden;
         }
-         &.pulse-enter-active, &.pulse-enter-done, &.pulse-exit-active {
-             //display: table!important;
-        }
+         
          .inner-wrapper {
              height: 100%;
              //display: table-cell;
@@ -41,8 +39,10 @@
 
             > div {
               height: 100%;
-              overflow-y: scroll;
-              padding: 25px;
+
+              &:not(.slick-slider) {
+                overflow-y: scroll;
+              }
             }
         }
          .react-modal-body-close {

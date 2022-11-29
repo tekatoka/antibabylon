@@ -3,7 +3,7 @@ import { Gallery } from "react-grid-gallery";
 import Slider from 'react-slick';
 import { AppContext } from '../../App';
 
-const GalleryCarousel = ({idx, images}) => {
+const GalleryCarousel = ({ idx, images }) => {
     const sliderSettings = {
         arrows: true,
         autoplay: false,
@@ -18,11 +18,10 @@ const GalleryCarousel = ({idx, images}) => {
         adaptiveHeight: true,
         initialSlide: idx
     };
-
     return <Slider {...sliderSettings}>
-    {images.map((slide, index) => {
-        return <img key={index} src={slide.src} alt={slide.caption} title={slide.caption} />
-    })}
+        {images.map((slide, index) => {
+            return <img key={index} src={slide.src} alt={slide.caption} title={slide.caption} />
+        })}
     </Slider>
 
 }
@@ -43,8 +42,8 @@ const GalleryGrid = ({ images }) => {
     }
 
     return (
-        <Gallery images={getImages()} enableImageSelection={false} rowHeight={200} tileViewportStyle={{ width: "200px", overflow: "hidden" }} 
-        onClick={(index, image) => context.showModal(<GalleryCarousel idx={index} images={getImages()} />, "image")} />
+        <Gallery images={getImages()} enableImageSelection={false} rowHeight={200} tileViewportStyle={{ width: "200px", overflow: "hidden" }}
+            onClick={(index, image) => context.showModal(<GalleryCarousel idx={index} images={getImages()} />, "image")} />
 
         //<GalleryImage image={image} />, "image"
     );

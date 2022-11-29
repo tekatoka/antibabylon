@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 * */
 import AboutPage from "./pages/about";
 import TeamPage from "./pages/team";
-import MembersPage from "./pages/members";
+import PoetsPage from "./pages/poets";
 import JuryPage from "./pages/jury";
 import EventsPage from "./pages/events";
 import EventPage from './pages/events/event-page';
@@ -62,7 +62,7 @@ const App = () => {
                                    <Route path={`${process.env.PUBLIC_URL + "/blog"}`}
                                           component={BlogPage} />
                                    <Route path={`${process.env.PUBLIC_URL + "/poets"}`}
-                                          component={MembersPage} />
+                                          component={PoetsPage} />
                                    <Route path={`${process.env.PUBLIC_URL + "/jury"}`}
                                           component={JuryPage} />
                                    <Route path={`${process.env.PUBLIC_URL + "/team"}`}

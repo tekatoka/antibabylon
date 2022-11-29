@@ -178,6 +178,10 @@ img {
     }
 }
 
+.relative {
+  position: relative;
+}
+
 .two-columns {
   column-count: 2;
   column-gap: 45px;
@@ -772,5 +776,55 @@ Section Padding
 
   @media #{$large-mobile} {
     padding: 50px 0;
+  }
+}
+
+.anchor-links {
+position: sticky;
+float: right;
+    top: 0px;
+    right: 25px;
+    writing-mode: vertical-rl;
+    transform: rotate(0deg);
+    background: #fff;
+    z-index: 100001;
+
+    > span {
+      cursor: pointer;
+      padding: 10px;
+      color: $heading-color;
+      background-color: $lightgrey;
+      border-top-left-radius: 6px;
+      border-bottom-left-radius: 6px;
+      margin: 2px;
+      opacity: .75;
+       transition: all .2s ease-in-out;
+
+      &.active {
+        background-color: $primary;
+      }
+
+      &:hover {
+        opacity: 1;
+        padding-left: 20px;
+      }
+    }
+}
+
+.scroll-to-top {
+  position: absolute;
+  right: 35px;
+  bottom: 25px;
+  cursor: pointer;
+  color: $heading-color;
+  font-size: 24px;
+  transition: top ease 5s;
+  i {
+    position: relative;
+    top:0
+  }
+  i:hover {
+    top: -10px;
+    transform: scale(1.25); 
   }
 }

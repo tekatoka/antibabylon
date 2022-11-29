@@ -3,13 +3,13 @@ import { Container, Row, Col } from 'react-bootstrap';
 import { AppContext } from '../../App';
 import { Layout } from '../../Layout';
 import poetsData from '../../data/poets';
-import PersonDetails from '../../components/person';
+import PoetDetails from '../../components/person/poetDetails';
 
-const MembersPage = () => {
+const PoetsPage = () => {
     const context = React.useContext(AppContext);
 
-    const view = (person, type, fullBio) => {
-        return <PersonDetails person={person} type={type} fullBio={fullBio} onClick={() => context.showModal(view(person, "poet", true))} />
+    const view = (person, fullBio) => {
+        return <PoetDetails person={person} fullBio={fullBio} onClick={() => context.showModal(view(person, true))} />
     }
 
     return (
@@ -18,7 +18,7 @@ const MembersPage = () => {
                 <Row>
                     {poetsData.map((poet, idx) => {
                         return <Col className="container-person" md={4} key={idx}>
-                            {view(poet, "poet")}
+                            {view(poet)}
                         </Col>
                     })}
                 </Row>
@@ -27,4 +27,4 @@ const MembersPage = () => {
     );
 };
 
-export default MembersPage;
+export default PoetsPage;

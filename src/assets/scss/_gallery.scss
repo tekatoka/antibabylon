@@ -28,9 +28,15 @@
 
 .react-modal {
 
-.slick-list {
-    max-height: 99vh;
-    overflow: hidden; 
+  .slick-list {
+    max-height: 100%!important;
+    overflow: hidden;
+  }
+
+  .modal-image {.slick-list {
+      max-height: 99vh;
+      overflow: hidden; 
+  }
 }
 
   .slick-prev {
