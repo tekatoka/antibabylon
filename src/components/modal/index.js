@@ -21,7 +21,7 @@ const ModalWindow = () => {
         >
             {context.modalStyle !== "default" ?
                 <div>{context.modalContent}</div> :
-                <div class='inner-wrapper'>
+                <div className='inner-wrapper'>
                     <Scrollbar options={{ suppressScrollX: true }}>
                         {context.modalContent}
                     </Scrollbar>

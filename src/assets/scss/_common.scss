@@ -789,6 +789,10 @@ float: right;
     background: #fff;
     z-index: 100001;
 
+    @media #{$large-mobile, $small-mobile, $extra-small-mobile}{ 
+      right: 15px;
+    }
+
     > span {
       cursor: pointer;
       padding: 10px;
