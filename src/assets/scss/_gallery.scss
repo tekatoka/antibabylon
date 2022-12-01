@@ -33,7 +33,8 @@
     overflow: hidden;
   }
 
-  .modal-image {.slick-list {
+  .modal-image {
+    .slick-list {
       max-height: 99vh;
       overflow: hidden; 
   }
@@ -41,10 +42,12 @@
 
   .slick-prev {
     left: -35px;
+    height: 55px;
 }
 
 .slick-next {
   right: -35px;
+  height: 55px;
 }
 
 .slick-prev::before, .slick-next::before {
@@ -52,11 +55,4 @@
   color: $grey;
   font-size: 24px;
 }
-// .slick-prev::before {
-//   content: "\f053";
-// }
-
-// .slick-next::before {
-//   content: "\f054";
-// }
 }

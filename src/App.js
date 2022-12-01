@@ -21,17 +21,22 @@ import CookieConsentComponent from './components/CookieConsent';
 
 export const AppContext = React.createContext();
 
+export const modalStyles = {
+       default: "default",
+       image: "image"
+}
+
 const App = () => {
        const [modalVisible, setModalVisible] = useState(false);
        const [modalContent, setModalContent] = useState(null);
-       const [modalStyle, setModalStyle] = useState("default");
+       const [modalStyle, setModalStyle] = useState(modalStyles.default);
 
        useEffect(() => {
               function handleEscapeKey(event) {
                      if (event.code === 'Escape') {
                             setModalVisible(false)
                             setModalContent(null)
-                            setModalStyle("default")
+                            setModalStyle(modalStyles.default)
                      }
               }
 
@@ -42,13 +47,13 @@ const App = () => {
        const showModal = (children, modalStyle) => {
               setModalContent(children);
               setModalVisible(true);
-              setModalStyle(modalStyle ? modalStyle : "default")
+              setModalStyle(modalStyle ? modalStyle : modalStyles.default)
        }
 
        const hideModal = () => {
               setModalContent(null);
               setModalVisible(false);
-              setModalStyle("default");
+              setModalStyle(modalStyles.default);
        }
 
        return (

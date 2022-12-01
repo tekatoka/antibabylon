@@ -28,11 +28,6 @@ const ContentImpressum = ({ type }) => {
                                             <div>{impressumData.role}</div>
                                             <div>{impressumData.name}</div>
                                         </div>
-                                        {/* <div className='mt-25'>
-                                            <strong>Steuernummer</strong>: {impressumData.taxId}
-                                            <br />
-                                            {impressumData.taxOffice}
-                                        </div> */}
                                     </>
                                 }
                             </div>

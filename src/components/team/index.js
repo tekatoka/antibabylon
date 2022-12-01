@@ -1,6 +1,6 @@
 import React from 'react';
 
-const TeamMember = ({ name, role, profilePhoto, socials, photoCredit }) => {
+const TeamMember = ({ name, role, profilePhoto, photoCredit }) => {
     const photo = profilePhoto !== "" ? profilePhoto : "team-1.jpg"
     return (
         <div className="team-member mb-50">

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Gallery } from "react-grid-gallery";
 import Slider from 'react-slick';
-import { AppContext } from '../../App';
+import { AppContext, modalStyles } from '../../App';
 
 const GalleryCarousel = ({ idx, images }) => {
     const sliderSettings = {
@@ -43,9 +43,7 @@ const GalleryGrid = ({ images }) => {
 
     return (
         <Gallery images={getImages()} enableImageSelection={false} rowHeight={200} tileViewportStyle={{ width: "200px", overflow: "hidden" }}
-            onClick={(index, image) => context.showModal(<GalleryCarousel idx={index} images={getImages()} />, "image")} />
-
-        //<GalleryImage image={image} />, "image"
+            onClick={(index) => context.showModal(<GalleryCarousel idx={index} images={getImages()} />, modalStyles.image)} />
     );
 };
 

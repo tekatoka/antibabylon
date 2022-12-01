@@ -2,22 +2,9 @@ import React from 'react';
 import { Container, Row } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import countries from '../../data/countries';
-//import ReactConnectElements from '../../hooks/ConnectElements';
 import Xarrow from 'react-xarrows';
 
 const CountriesMap = ({ activeCountry }) => {
-
-    // const [orientation, setOrientation] = useState(window.screen.orientation.type);
-    //const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-
-    // useEffect(() => {
-    //     window.addEventListener('resize', changeWindowWidth);
-    //     window.screen.orientation.onchange = function (e) { setOrientation(window.screen.orientation.type); }
-    // }, [])
-
-    // const changeWindowWidth = () => {
-    //     setWindowWidth(window.innerWidth)
-    // }
 
     const arrowProps = {
         strokeWidth: 1,
@@ -43,12 +30,6 @@ const CountriesMap = ({ activeCountry }) => {
                                 <br />
                                 <span className='country-name'>{country.name}</span>
                             </NavLink>
-
-                            {/* <a href={`/events/${country.name.toLowerCase()}`} id={`${country.id}-link`} className={`text-nowrap ${country.name.toLowerCase() === activeCountry ? "active" : ""}`}>
-                                <img id={`${country.id}-icon`} src={require('../../assets/images/' + country.thumb)} alt={country.name} />
-                                <br />
-                                <span className='country-name'>{country.name}</span>
-                            </a> */}
                         </div>
                     ))}
                     <div>
@@ -57,13 +38,6 @@ const CountriesMap = ({ activeCountry }) => {
                         <Xarrow {...arrowProps} start={'moldova-link'} end={'ukraine-link'} />
                         <Xarrow {...arrowProps} start={'ukraine-link'} end={'germany-link'} />
                     </div>
-                    {/* <ReactConnectElements
-                        selector=".country-map"
-                        strokeWidth={1}
-                        elements={[{ from: '#georgia', to: '#armenia' }, { from: '#armenia', to: '#moldova' }, { from: '#moldova', to: '#ukraine' }, { from: '#ukraine', to: '#germany' }]}
-                    // orientationType={orientation}
-                    //windowWidth={windowWidth}
-                    /> */}
                 </Row>
             </Container>
         </div>
