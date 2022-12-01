@@ -26,7 +26,7 @@ const PoetDetails = ({ person, fullBio, onClick }) => {
                     {fullBio &&
                         <>
                             <section ref={poemRef}><Poem poem={poem} author={`by ${person.name}`} titleColor={person.country.toLowerCase()} /></section>
-                            <section ref={translationRef}><Poem poem={poem} author={poem.translationBy && poem.translationBy} titleColor={person.country.toLowerCase()} /></section>
+                            <section ref={translationRef}><Poem poem={poem} translation={true} author={poem.translationBy && poem.translationBy} titleColor={person.country.toLowerCase()} /></section>
                         </>
                     }
 
