@@ -863,5 +863,17 @@
         "src": "blog/antibabylon-final/ab-berlin-2.jpg"
       }
     ]
+  },
+  {
+    "id": 18,
+    "slug": "antibabylon-movie",
+    "title": "AntiBabylon 2022: MOVIE",
+    "excerpt": "Our movie about AntiBabylon 2022",
+    "description": "<div class='video-container mb-40 mb-xs-30'><iframe width='560' height='315' src='https://www.youtube.com/embed/caNfGoq6GJs' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe></div>",
+    "thumb": "blog/covers/antibabylon-movie.png",
+    "meta": {
+      "postDate": "Dec 31, 2022",
+      "author": "AntiBabylon"
+    }
   }    
 ]

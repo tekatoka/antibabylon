@@ -12,6 +12,7 @@
     "font-awesome": "^4.7.0",
     "imagesloaded": "^4.1.4",
     "masonry-layout": "^4.2.2",
+    "or": "^0.2.0",
     "perfect-scrollbar-react": "^1.0.1",
     "prop-types": "^15.7.2",
     "react": "^17.0.1",

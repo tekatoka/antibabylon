@@ -34,6 +34,11 @@ const ProjectMission = () => {
                             (Georgia, Armenia, Moldova, Ukraine, and Germany) and invites poetesses and poets interested in performance poetry, spoken word poetry and developing their communication skills in an international poetry environment.
                         </Col>
                     </Row>
+                    <Row className='mt-40'>
+                    <Col md={12} className={'video-container mb-40 mb-xs-30'}>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/caNfGoq6GJs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </Col>
+                    </Row>
                 </Container>
             </div>
         </div>
